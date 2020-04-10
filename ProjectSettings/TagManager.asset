@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pen
+  - Grass
+  - Cow
+  - Trap
   layers:
   - Default
   - TransparentFX

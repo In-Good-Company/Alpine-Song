@@ -12,16 +12,29 @@ public class PlayerMove : MonoBehaviour
 
     private NavMeshAgent PlayerNav;
     public bool markerPlaced;
+    public bool destinationReached;
 
     void Start()
     {
         PlayerNav = GetComponent<NavMeshAgent>();
-        
+        destinationReached = true;
     }
 
-    // Update is called once per frame
+    private void OnTriggerEnter(Collider col)
+    {
+        if(col.gameObject.tag == "navPoint")
+        {
+            destinationReached = true;
+        }
+    }
+    
     void Update()
     {
+        if (destinationReached == false)
+        {
+            //Add sound data here
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             Ray clickRay = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -41,6 +54,7 @@ public class PlayerMove : MonoBehaviour
                 navMarker = Instantiate(navMarkerPrefab) as GameObject;
                 navMarker.transform.position = navPoint;
                 markerPlaced = true;
+                destinationReached = false;
 
                 
             }

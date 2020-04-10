@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 6364817035538628326}
   - component: {fileID: -2010022352326760803}
   - component: {fileID: 4237569092275204758}
+  - component: {fileID: 8494176670039111021}
   m_Layer: 0
   m_Name: navPoint
-  m_TagString: Untagged
+  m_TagString: navPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4753,3 +4754,17 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!136 &8494176670039111021
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6364817035538628322}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.6726765
+  m_Height: 1.345353
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}

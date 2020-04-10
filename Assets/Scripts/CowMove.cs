@@ -8,9 +8,19 @@ public class CowMove : MonoBehaviour
 {
     public NavMeshAgent cowNav;
     public GameObject target;
+    public GameObject playerTarget;
     public Button callBtn;
     public bool isInRange;
     public bool cowFollow;
+    public bool isGrass;
+    public bool targetNull;
+    private bool cowWander;
+
+
+    public Vector3 wanderTarget;
+    private GameObject wanderNav;
+    private GameObject wanderNavPrefab;
+    public int AI_Case;
 
 
     private void Start()
@@ -19,15 +29,18 @@ public class CowMove : MonoBehaviour
         call.onClick.AddListener(cowCalled);
         isInRange = false;
         cowFollow = false;
+        AI_Case = 1;
+       
     }
 
     private void cowCalled()
     {
-        print("called");
-        if(isInRange == true)
+        
+        if(isInRange == true && AI_Case != 3)
         {
-            print("following");
             cowFollow = true;
+            target = playerTarget;
+            AI_Case = 2;
         }
     }
 
@@ -35,33 +48,93 @@ public class CowMove : MonoBehaviour
 
     private void OnTriggerEnter(Collider col)
     {
-        Debug.Log("I collided");
-        if (col.gameObject.name == "cowCallCol")
+        
+        if (col.gameObject.name == "cowCallCol" )
         {
-            print("found you");
+            
             isInRange = true;
+            playerTarget = col.gameObject;
+            
+            
+        }
+        if (col.gameObject.tag == "Grass")
+        {
+
             target = col.gameObject;
-            Debug.Log("Target Aquired");
+            AI_Case = col.GetComponent<grassEating>().AI_CowTarget;
+            
+
+        }
+        if (col.gameObject.tag == "Trap")
+        {
+
+            target = col.gameObject;
+            AI_Case = col.GetComponent<trapSpring>().AI_CowTarget;
+
         }
 
+    }
+
+    private void OnTriggerExit(Collider col)
+    {
+        if (col.gameObject.name == "cowCallCol")
+        {
+
+            isInRange = false;
+
+
+        }
     }
 
     private void OnTriggerStay(Collider col)
     {
         if (col.gameObject.name == ("Pen"))
         {
-            print("Im in!");
-            target = null;
+
+            AI_Case = 5;
             
         }
     }
 
-
+ 
     void Update()
     {
-        if (target != null && cowFollow == true)
+
+        
+        switch (AI_Case)
         {
-            cowNav.SetDestination(target.transform.position);
+            case 1:
+
+                wanderTarget = GetComponent<AI_Cow_wanderTimer>().wanderPoint;
+                cowNav.SetDestination(wanderTarget);
+                print("wander");
+                break;
+
+            case 2:
+
+                cowNav.SetDestination(target.transform.position);
+                print("Follow Player");
+                break;
+
+            case 3:
+
+                cowNav.SetDestination(target.transform.TransformPoint(0, 0, 0));
+                AI_Case = target.GetComponent<grassEating>().AI_CowTarget;
+                print("Grass!");
+                break;
+
+            case 4:
+                AI_Case = target.GetComponent<trapSpring>().AI_CowTarget;
+                cowNav.SetDestination(target.transform.TransformPoint(0, 0, 0));
+                
+                break;
+
+            case 5:
+                cowNav.SetDestination(transform.position);
+                break;
         }
+
+        wanderTarget = GetComponent<AI_Cow_wanderTimer>().wanderPoint;
+      
     }
 }
