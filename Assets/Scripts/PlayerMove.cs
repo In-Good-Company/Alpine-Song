@@ -13,27 +13,29 @@ public class PlayerMove : MonoBehaviour
     private NavMeshAgent PlayerNav;
     public bool markerPlaced;
     public bool destinationReached;
+    public float distanceCheck;
 
     void Start()
     {
         PlayerNav = GetComponent<NavMeshAgent>();
-        destinationReached = true;
+        destinationReached = false;
     }
 
-    private void OnTriggerEnter(Collider col)
+   private void walkDistanceCheck()
     {
-        if(col.gameObject.tag == "navPoint")
+        
+   distanceCheck = Vector3.Distance(transform.position, navMarker.transform.position);
+        if(distanceCheck < 1)
         {
             destinationReached = true;
         }
+        
+         
     }
     
     void Update()
     {
-        if (destinationReached == false)
-        {
-            //Add sound data here
-        }
+        
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -58,6 +60,13 @@ public class PlayerMove : MonoBehaviour
 
                 
             }
+        
         }
+
+    if (destinationReached == false)
+    {
+        walkDistanceCheck();
+    }
+    
     }
 }
