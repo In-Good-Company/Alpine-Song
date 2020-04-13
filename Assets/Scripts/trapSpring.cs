@@ -14,6 +14,7 @@ public class trapSpring : MonoBehaviour
     {
         if (col.gameObject.tag == ("Cow"))
         {
+            //trap enter sound
             print("trapped!");
             AI_CowTarget = 4;
         }
@@ -22,6 +23,7 @@ public class trapSpring : MonoBehaviour
     {
         if (col.gameObject.tag == ("Cow"))
         {
+            //trap exit sound
             gameObject.SetActive(false);
         }
     }

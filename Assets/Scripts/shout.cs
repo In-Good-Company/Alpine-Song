@@ -14,6 +14,7 @@ public class shout : MonoBehaviour
 
     private void Shout()
     {
+        // shout sound here
         particle.Play();
     }
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

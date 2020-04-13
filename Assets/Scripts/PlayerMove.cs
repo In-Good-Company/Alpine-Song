@@ -13,7 +13,7 @@ public class PlayerMove : MonoBehaviour
     private NavMeshAgent PlayerNav;
     public bool markerPlaced;
     public bool destinationReached;
-    public float distanceCheck;
+    public float distanceCheck; 
 
     void Start()
     {
@@ -23,7 +23,7 @@ public class PlayerMove : MonoBehaviour
 
    private void walkDistanceCheck()
     {
-        
+        // walking sound here
    distanceCheck = Vector3.Distance(transform.position, navMarker.transform.position);
         if(distanceCheck < 1)
         {
@@ -63,9 +63,10 @@ public class PlayerMove : MonoBehaviour
         
         }
 
-    if (destinationReached == false)
+    if (destinationReached == false && navMarker != null)
     {
         walkDistanceCheck();
+            // if that fail, put here
     }
     
     }

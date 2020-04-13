@@ -40,6 +40,7 @@ public class grassEating : MonoBehaviour
         else if (cowEating == true && grassEaten >= 0)
         {
             grassEaten -= Time.deltaTime;
+            //grass munching sounds
         }
     }
 }
