@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D2E1C6E7-0D4C-4D55-990C-3D89D737D0D6}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Music" ID="{D2E1C6E7-0D4C-4D55-990C-3D89D737D0D6}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="COW GAME" ID="{22ABA727-DB9A-4DCC-9B8A-A24B08E194E1}" ShortID="26888649">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="100000"/>
+						<Property Name="Tempo" Type="Real64" Value="93"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="COW GAME" ID="{521E218E-02F1-471C-9737-D07304F983B2}" ShortID="410335346">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="COW GAME" ID="{2B474E23-292B-4AEC-A88C-6C02FEA03B88}">
+									<Language>SFX</Language>
+									<AudioFile>COW GAME.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="575839514"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{71FEA9D2-CDE7-4F42-83EB-8F942195BE65}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{61EEC2C7-86DD-43EF-A051-D2A7C5D47E2E}">
+									<ClipList>
+										<MusicClip Name="COW GAME" ID="{C10AF4BA-56B4-4DB4-8748-3A80A15E1CE4}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="100000"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="COW GAME" ID="{2B474E23-292B-4AEC-A88C-6C02FEA03B88}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{EAA391FD-48BA-4E25-9BBD-C12A7D32DA73}"/>
+						<MusicCue Name="Exit Cue" ID="{1C14E454-DF3A-41AD-B397-5AFDE8E2CBA3}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="100000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

@@ -11,10 +11,131 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="247557814" Language="SFX">
+			<ObjectPath>\SoundBanks\Foley\Foley</ObjectPath>
+			<ShortName>Foley</ShortName>
+			<Path>Foley.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Foley\Footsteps" DurationType="OneShot" DurationMin="0.513158" DurationMax="0.805179">
+					<IncludedMemoryFiles>
+						<File Id="358298820" Language="SFX">
+							<ShortName>MG 1_Cow Steps_Weeds A8_Batch B.wav</ShortName>
+							<Path>SFX\MG 1_Cow Steps_Weeds A8_Batch B_10C4C929.wem</Path>
+						</File>
+						<File Id="513554068" Language="SFX">
+							<ShortName>MG 1_Cow Steps_Weeds A5_Batch B.wav</ShortName>
+							<Path>SFX\MG 1_Cow Steps_Weeds A5_Batch B_10C4C929.wem</Path>
+						</File>
+						<File Id="532426207" Language="SFX">
+							<ShortName>MG 1_Cow Steps_Weeds A4_Batch B.wav</ShortName>
+							<Path>SFX\MG 1_Cow Steps_Weeds A4_Batch B_10C4C929.wem</Path>
+						</File>
+						<File Id="547876992" Language="SFX">
+							<ShortName>MG 1_Cow Steps_Weeds A3_Batch B.wav</ShortName>
+							<Path>SFX\MG 1_Cow Steps_Weeds A3_Batch B_10C4C929.wem</Path>
+						</File>
+						<File Id="673747760" Language="SFX">
+							<ShortName>MG 1_Cow Steps_Weeds A6_Batch B.wav</ShortName>
+							<Path>SFX\MG 1_Cow Steps_Weeds A6_Batch B_10C4C929.wem</Path>
+						</File>
+						<File Id="909855718" Language="SFX">
+							<ShortName>MG 1_Cow Steps_Weeds A7_Batch B.wav</ShortName>
+							<Path>SFX\MG 1_Cow Steps_Weeds A7_Batch B_10C4C929.wem</Path>
+						</File>
+						<File Id="961401895" Language="SFX">
+							<ShortName>MG 1_Cow Steps_Weeds A1_Batch B.wav</ShortName>
+							<Path>SFX\MG 1_Cow Steps_Weeds A1_Batch B_10C4C929.wem</Path>
+						</File>
+						<File Id="1015683516" Language="SFX">
+							<ShortName>MG 1_Cow Steps_Weeds A2_Batch B.wav</ShortName>
+							<Path>SFX\MG 1_Cow Steps_Weeds A2_Batch B_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="905868302" Language="SFX">
+			<ObjectPath>\SoundBanks\UI_Sounds\UI_Sounds</ObjectPath>
+			<ShortName>UI_Sounds</ShortName>
+			<Path>UI_Sounds.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2661066193" Name="Button_A" ObjectPath="\Events\UI Sounds\Button_A" DurationType="OneShot" DurationMin="0.076167" DurationMax="0.076167">
+					<IncludedMemoryFiles>
+						<File Id="856906414" Language="SFX">
+							<ShortName>MG 1_UI Sounds_Start Menu 1_Button A1_Batch A.wav</ShortName>
+							<Path>SFX\MG 1_UI Sounds_Start Menu 1_Button A1_Batch A_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2661066194" Name="Button_B" ObjectPath="\Events\UI Sounds\Button_B" DurationType="OneShot" DurationMin="0.062958" DurationMax="0.062958">
+					<IncludedMemoryFiles>
+						<File Id="447925123" Language="SFX">
+							<ShortName>MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A.wav</ShortName>
+							<Path>SFX\MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2661066195" Name="Button_C" ObjectPath="\Events\UI Sounds\Button_C" DurationType="OneShot" DurationMin="0.062500" DurationMax="0.062500">
+					<IncludedMemoryFiles>
+						<File Id="524332966" Language="SFX">
+							<ShortName>MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A.wav</ShortName>
+							<Path>SFX\MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3713975176" Name="Location_Movement" ObjectPath="\Events\UI Sounds\Location_Movement" DurationType="OneShot" DurationMin="1.227603" DurationMax="1.377938">
+					<IncludedMemoryFiles>
+						<File Id="255828569" Language="SFX">
+							<ShortName>MG_Location Movement Selection_B6_Batch A.wav</ShortName>
+							<Path>SFX\MG_Location Movement Selection_B6_Batch A_10C4C929.wem</Path>
+						</File>
+						<File Id="569726428" Language="SFX">
+							<ShortName>MG_Location Movement Selection_B5_Batch A.wav</ShortName>
+							<Path>SFX\MG_Location Movement Selection_B5_Batch A_10C4C929.wem</Path>
+						</File>
+						<File Id="589330426" Language="SFX">
+							<ShortName>MG_Location Movement Selection_B2_Batch A.wav</ShortName>
+							<Path>SFX\MG_Location Movement Selection_B2_Batch A_10C4C929.wem</Path>
+						</File>
+						<File Id="741162847" Language="SFX">
+							<ShortName>MG_Location Movement Selection_B1_Batch A.wav</ShortName>
+							<Path>SFX\MG_Location Movement Selection_B1_Batch A_10C4C929.wem</Path>
+						</File>
+						<File Id="877110061" Language="SFX">
+							<ShortName>MG_Location Movement Selection_B4_Batch A.wav</ShortName>
+							<Path>SFX\MG_Location Movement Selection_B4_Batch A_10C4C929.wem</Path>
+						</File>
+						<File Id="942290856" Language="SFX">
+							<ShortName>MG_Location Movement Selection_B7_Batch A.wav</ShortName>
+							<Path>SFX\MG_Location Movement Selection_B7_Batch A_10C4C929.wem</Path>
+						</File>
+						<File Id="973536593" Language="SFX">
+							<ShortName>MG_Location Movement Selection_B3_Batch A.wav</ShortName>
+							<Path>SFX\MG_Location Movement Selection_B3_Batch A_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Music\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Music\Music" DurationType="OneShot" DurationMin="100.000000" DurationMax="100.000000">
+					<IncludedMemoryFiles>
+						<File Id="575839514" Language="SFX">
+							<ShortName>COW GAME.wav</ShortName>
+							<Path>SFX\COW GAME_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

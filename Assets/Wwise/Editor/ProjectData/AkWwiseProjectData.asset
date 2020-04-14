@@ -18,6 +18,7 @@ MonoBehaviour:
     guid: e7db493ea7e9a74490b38c2c8fc17490
     GuidInternal: 
     m_lastTime: -8586161025330764405
+    m_lastTime: -8586147932872446765
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -42,6 +43,53 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8586161025330247998
     List: []
+    m_lastTime: -8586147932872476746
+    List: []
+  - PhysicalPath: SoundBanks\Foley.wwu
+    ParentPath: Foley
+    guid: 1ba9fbbb3a21624f8cc01e0f5bb95f75
+    GuidInternal: 
+    m_lastTime: -8586147834231448299
+    List:
+    - name: Foley
+      guid: 0f01ab370aff224aa188fb1e1ce1d515
+      id: 247557814
+      PathAndIcons:
+      - ElementName: Foley
+        ObjectType: 12
+      - ElementName: Foley
+        ObjectType: 7
+      Path: Foley\Foley
+  - PhysicalPath: SoundBanks\Music.wwu
+    ParentPath: Music
+    guid: 81638f3fd8b44343823be5f37dd006d1
+    GuidInternal: 
+    m_lastTime: -8586147834231428311
+    List:
+    - name: Music
+      guid: a40c7cda75515447b308296d4dbd428e
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      Path: Music\Music
+  - PhysicalPath: SoundBanks\UI_Sounds.wwu
+    ParentPath: UI_Sounds
+    guid: e77a915bc50fe24fab7a976e403c7b7f
+    GuidInternal: 
+    m_lastTime: -8586147834231478280
+    List:
+    - name: UI_Sounds
+      guid: 3f57784819ef554ca9cfb7bb7d9f7bc8
+      id: 905868302
+      PathAndIcons:
+      - ElementName: UI_Sounds
+        ObjectType: 12
+      - ElementName: UI_Sounds
+        ObjectType: 7
+      Path: UI_Sounds\UI_Sounds
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPath: Default Work Unit
@@ -49,12 +97,105 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8586161025330335880
     List: []
+    m_lastTime: -8586147932872576692
+    List: []
+  - PhysicalPath: Events\Foley.wwu
+    ParentPath: Foley
+    guid: 9397757bca6ac54ea4500a4f46d93bf9
+    GuidInternal: 
+    m_lastTime: -8586147834231378338
+    List:
+    - name: Footsteps
+      guid: 82878303e18a304caa48566da342435e
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Foley
+        ObjectType: 12
+      - ElementName: Footsteps
+        ObjectType: 3
+      Path: Foley\Footsteps
+      maxAttenuation: 0
+      maxDuration: 0.805179
+      minDuration: 0.513158
+  - PhysicalPath: Events\Music.wwu
+    ParentPath: Music
+    guid: 1550aabf5f43714187f2c7ef404ce504
+    GuidInternal: 
+    m_lastTime: -8586147835655455745
+    List:
+    - name: Music
+      guid: 6255d9fd35b39147aabcc939d25e73b9
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 3
+      Path: Music\Music
+      maxAttenuation: 0
+      maxDuration: 100
+      minDuration: 100
+  - PhysicalPath: Events\UI Sounds.wwu
+    ParentPath: UI Sounds
+    guid: aa87b07c32b6ba48825e6205d6279808
+    GuidInternal: 
+    m_lastTime: -8586147835655485727
+    List:
+    - name: Button_A
+      guid: cee38777fbab9445a7cbbb78cda7acd0
+      id: 2661066193
+      PathAndIcons:
+      - ElementName: UI Sounds
+        ObjectType: 12
+      - ElementName: Button_A
+        ObjectType: 3
+      Path: UI Sounds\Button_A
+      maxAttenuation: 0
+      maxDuration: 0.076167
+      minDuration: 0.076167
+    - name: Button_B
+      guid: baf1dc366baecc43b1b46d134138bfde
+      id: 2661066194
+      PathAndIcons:
+      - ElementName: UI Sounds
+        ObjectType: 12
+      - ElementName: Button_B
+        ObjectType: 3
+      Path: UI Sounds\Button_B
+      maxAttenuation: 0
+      maxDuration: 0.062958
+      minDuration: 0.062958
+    - name: Button_C
+      guid: d55872e2deb3944684e9ded34a35cb56
+      id: 2661066195
+      PathAndIcons:
+      - ElementName: UI Sounds
+        ObjectType: 12
+      - ElementName: Button_C
+        ObjectType: 3
+      Path: UI Sounds\Button_C
+      maxAttenuation: 0
+      maxDuration: 0.0625
+      minDuration: 0.0625
+    - name: Location_Movement
+      guid: 68e0856bdefe0744bea1bb17776ac805
+      id: 3713975176
+      PathAndIcons:
+      - ElementName: UI Sounds
+        ObjectType: 12
+      - ElementName: Location_Movement
+        ObjectType: 3
+      Path: UI Sounds\Location_Movement
+      maxAttenuation: 0
+      maxDuration: 1.377938
+      minDuration: 1.227603
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 96e246a659b2694fa99967670493c22a
     GuidInternal: 
     m_lastTime: -8586161025330208017
+    m_lastTime: -8586147932872566656
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -62,6 +203,7 @@ MonoBehaviour:
     guid: 331057dbf15c41448808833a9afb854f
     GuidInternal: 
     m_lastTime: -8586161025330078051
+    m_lastTime: -8586147932872456759
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -69,6 +211,7 @@ MonoBehaviour:
     guid: 2ba3760bcbc1c94993fb668886875917
     GuidInternal: 
     m_lastTime: -8586161025330158114
+    m_lastTime: -8586147932872456759
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -78,5 +221,12 @@ MonoBehaviour:
     m_lastTime: -8586161025330425849
     List: []
   ExpandedItems: []
+    m_lastTime: -8586147932872446765
+    List: []
+  ExpandedItems:
+  - /Goat Game_WwiseProject
+  - /Goat Game_WwiseProject/Events
+  - /Goat Game_WwiseProject/SoundBanks
+>>>>>>> origin/Audio
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

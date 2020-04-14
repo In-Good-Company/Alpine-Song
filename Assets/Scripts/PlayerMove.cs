@@ -29,8 +29,8 @@ public class PlayerMove : MonoBehaviour
         {
             destinationReached = true;
         }
-        
-         
+        AkSoundEngine.PostEvent("Footsteps", gameObject);
+
     }
     
     void Update()
@@ -58,7 +58,7 @@ public class PlayerMove : MonoBehaviour
                 markerPlaced = true;
                 destinationReached = false;
 
-                
+                AkSoundEngine.PostEvent("Location_Movement", gameObject);
             }
         
         }
