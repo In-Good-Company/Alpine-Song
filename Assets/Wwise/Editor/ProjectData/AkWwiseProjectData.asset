@@ -213,5 +213,12 @@ MonoBehaviour:
     m_lastTime: -8586161025330425849
     List: []
   ExpandedItems: []
+    
+    m_lastTime: -8586147932872446765
+    List: []
+  ExpandedItems:
+  - /Goat Game_WwiseProject
+  - /Goat Game_WwiseProject/Events
+  - /Goat Game_WwiseProject/SoundBanks
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
