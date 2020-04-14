@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Music\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	575839514	COW GAME	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Mac\SFX\COW GAME_D79FB2B7.wem		\Interactive Music Hierarchy\Music\COW GAME\COW GAME		17640064
+

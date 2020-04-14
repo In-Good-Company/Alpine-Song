@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7CB087AA-B632-48BA-825E-6205D6279808}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="UI Sounds" ID="{7CB087AA-B632-48BA-825E-6205D6279808}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Button_A" ID="{7787E3CE-ABFB-4594-A7CB-BB78CDA7ACD0}">
+					<ChildrenList>
+						<Action Name="" ID="{75C158F2-700C-416E-A55D-084C12294D57}" ShortID="373566831">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MG 1_UI Sounds_Start Menu 1_Button A1_Batch A" ID="{3EAFD036-9745-4480-BFBE-4C11D3EEC79E}" WorkUnitID="{C63FC727-FB62-4F3B-851B-E2585FAAB087}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Button_B" ID="{36DCF1BA-AE6B-43CC-B1B4-6D134138BFDE}">
+					<ChildrenList>
+						<Action Name="" ID="{04D22D72-FD93-4490-8B4D-985696FC435C}" ShortID="309924153">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A" ID="{EFB63A72-9EBE-4755-AC14-1F8B4E74C4F7}" WorkUnitID="{C63FC727-FB62-4F3B-851B-E2585FAAB087}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Button_C" ID="{E27258D5-B3DE-4694-84E9-DED34A35CB56}">
+					<ChildrenList>
+						<Action Name="" ID="{AA8B3024-7375-4EE0-A75E-20A6F947F2AD}" ShortID="682121268">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A" ID="{4A566421-C30F-4BAC-9BC8-A90D23A646AD}" WorkUnitID="{C63FC727-FB62-4F3B-851B-E2585FAAB087}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Location_Movement" ID="{6B85E068-FEDE-4407-BEA1-BB17776AC805}">
+					<ChildrenList>
+						<Action Name="" ID="{950B47F3-4E6D-4569-8519-872D09D177AD}" ShortID="1002939694">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LM_Container" ID="{D020DBDF-2665-496F-8CD6-0A11A06C78C5}" WorkUnitID="{C63FC727-FB62-4F3B-851B-E2585FAAB087}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

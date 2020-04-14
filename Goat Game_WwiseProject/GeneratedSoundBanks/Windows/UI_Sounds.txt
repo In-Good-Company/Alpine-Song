@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2661066193	Button_A			\UI Sounds\Button_A	
+	2661066194	Button_B			\UI Sounds\Button_B	
+	2661066195	Button_C			\UI Sounds\Button_C	
+	3713975176	Location_Movement			\UI Sounds\Location_Movement	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	255828569	MG_Location Movement Selection_B6_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Location Movement Selection_B6_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\UI Sounds\Location_Movement\LM_Container\MG_Location Movement Selection_B6_Batch A		264628
+	447925123	MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\UI Sounds\Buttons\MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A		12152
+	524332966	MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\UI Sounds\Buttons\MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A		12064
+	569726428	MG_Location Movement Selection_B5_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Location Movement Selection_B5_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\UI Sounds\Location_Movement\LM_Container\MG_Location Movement Selection_B5_Batch A		264628
+	589330426	MG_Location Movement Selection_B2_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Location Movement Selection_B2_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\UI Sounds\Location_Movement\LM_Container\MG_Location Movement Selection_B2_Batch A		264628
+	741162847	MG_Location Movement Selection_B1_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Location Movement Selection_B1_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\UI Sounds\Location_Movement\LM_Container\MG_Location Movement Selection_B1_Batch A		264628
+	856906414	MG 1_UI Sounds_Start Menu 1_Button A1_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG 1_UI Sounds_Start Menu 1_Button A1_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\UI Sounds\Buttons\MG 1_UI Sounds_Start Menu 1_Button A1_Batch A		14688
+	877110061	MG_Location Movement Selection_B4_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Location Movement Selection_B4_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\UI Sounds\Location_Movement\LM_Container\MG_Location Movement Selection_B4_Batch A		264628
+	942290856	MG_Location Movement Selection_B7_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Location Movement Selection_B7_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\UI Sounds\Location_Movement\LM_Container\MG_Location Movement Selection_B7_Batch A		264628
+	973536593	MG_Location Movement Selection_B3_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Location Movement Selection_B3_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\UI Sounds\Location_Movement\LM_Container\MG_Location Movement Selection_B3_Batch A		264628
+
