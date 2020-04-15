@@ -216,6 +216,7 @@ MonoBehaviour:
   ExpandedItems:
   - /Goat Game_WwiseProject
   - /Goat Game_WwiseProject/Events
+  - /Goat Game_WwiseProject/Events/Foley
   - /Goat Game_WwiseProject/SoundBanks
 
   autoPopulateEnabled: 1
