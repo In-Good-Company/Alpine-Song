@@ -1228,7 +1228,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 5.02e-43, y: 7.0567e-41, z: 5.02e-43, w: 0.00030184863}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -16737,94 +16737,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1944180612}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1823964312 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4427651561178187416, guid: 94a3aaaa92147b54ca489ca8172f9b16,
-    type: 3}
-  m_PrefabInstance: {fileID: 4427651561370609499}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1823964313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823964312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05a096406cd20e14aba253610697f0fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: ae8d9d44
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 9c2d5606a2dadb54a8b654f9edb156f5,
-      type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
---- !u!114 &1823964314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823964312}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e971b51b36e5eed418e0e708ec027fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 1
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
---- !u!114 &1823964315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823964312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05a096406cd20e14aba253610697f0fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: ae8d9d44
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 415f45bab32dede4f8574fedc39e66e5,
-      type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
 --- !u!4 &1828584706 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3125222648305436405, guid: 417fbeadb3d0c6045aa52f796410cf8e,
@@ -19035,6 +18947,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535620127, guid: 94a3aaaa92147b54ca489ca8172f9b16, type: 3}
+      propertyPath: particle
+      value: 
+      objectReference: {fileID: 1535620126}
+    - target: {fileID: 1535620127, guid: 94a3aaaa92147b54ca489ca8172f9b16, type: 3}
+      propertyPath: callBtn
+      value: 
+      objectReference: {fileID: 161669920}
     - target: {fileID: 4427651560099767803, guid: 94a3aaaa92147b54ca489ca8172f9b16,
         type: 3}
       propertyPath: m_Name
@@ -19161,9 +19085,12 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 40
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4427651560099767801, guid: 94a3aaaa92147b54ca489ca8172f9b16, type: 3}
-    - {fileID: 4427651561617657108, guid: 94a3aaaa92147b54ca489ca8172f9b16, type: 3}
+    - target: {fileID: 4658378477647214550, guid: 94a3aaaa92147b54ca489ca8172f9b16,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94a3aaaa92147b54ca489ca8172f9b16, type: 3}
 --- !u!1 &4427651561370609500 stripped
 GameObject:

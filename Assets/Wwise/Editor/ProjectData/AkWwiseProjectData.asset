@@ -210,14 +210,18 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7a971405cbcccd448b946585543098bf
     GuidInternal: 
-  
     m_lastTime: -8586147932872446765
     List: []
   ExpandedItems:
   - /Goat Game_WwiseProject
+  - /Goat Game_WwiseProject/Auxiliary Busses
+  - /Goat Game_WwiseProject/Auxiliary Busses/Default Work Unit
   - /Goat Game_WwiseProject/Events
   - /Goat Game_WwiseProject/Events/Foley
+  - /Goat Game_WwiseProject/Events/Music
+  - /Goat Game_WwiseProject/Events/UI Sounds
   - /Goat Game_WwiseProject/SoundBanks
-
+  - /Goat Game_WwiseProject/SoundBanks/Foley
+  - /Goat Game_WwiseProject/SoundBanks/UI_Sounds
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
