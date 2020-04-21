@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E16B53D8-DEFF-4838-A50E-759EB89952EF}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Animals" ID="{E16B53D8-DEFF-4838-A50E-759EB89952EF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Cows" ID="{37BAB1DD-62CF-49C2-B0F8-C6E6AD7A62B1}">
+					<ChildrenList>
+						<Action Name="" ID="{90B4CAA1-7C5B-46E8-858C-22B936607D5C}" ShortID="541089496">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Moos" ID="{9EEF15A4-7CED-417E-B79B-EF1B953B1B1A}" WorkUnitID="{91138DD8-16D2-4723-B86C-BE2B8694F70A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
