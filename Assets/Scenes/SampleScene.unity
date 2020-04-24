@@ -9263,8 +9263,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 673f1fd10caaa954b9389d1f41482457,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
@@ -15966,6 +15965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1559596192}
   - component: {fileID: 1559596191}
+  - component: {fileID: 1559596193}
   m_Layer: 0
   m_Name: Water4AdvancedReflectionSceneCamera
   m_TagString: Untagged
@@ -16023,13 +16023,22 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559596190}
-  m_LocalRotation: {x: -0.34350303, y: 0, z: 0, w: 0.9391516}
-  m_LocalPosition: {x: 154.94, y: -22.09, z: 35.75}
+  m_LocalRotation: {x: 0.30347005, y: -0.6594809, z: -0.33051187, w: -0.60311925}
+  m_LocalPosition: {x: 44.068222, y: -100.09314, z: 93.47447}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!45 &1559596193
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559596190}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
 --- !u!1001 &1566575715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20763,6 +20772,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4427651561617657099, guid: 94a3aaaa92147b54ca489ca8172f9b16,
+        type: 3}
+      propertyPath: m_RenderingPath
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4427651561617657109, guid: 94a3aaaa92147b54ca489ca8172f9b16,
         type: 3}

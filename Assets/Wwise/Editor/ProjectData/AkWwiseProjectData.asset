@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Animals
     guid: ebb7f41f8b6b6343a9d86992b5eb9228
     GuidInternal: 
-    m_lastTime: -8586141757867033547
+    m_lastTime: -8586138983169227868
     List:
     - name: Cows
       guid: a0cdd2978e24f648933040878e421cbc
@@ -76,7 +76,7 @@ MonoBehaviour:
     ParentPath: Music
     guid: 81638f3fd8b44343823be5f37dd006d1
     GuidInternal: 
-    m_lastTime: -8586147305014308972
+    m_lastTime: -8586138938502430447
     List:
     - name: Music
       guid: a40c7cda75515447b308296d4dbd428e
@@ -107,7 +107,7 @@ MonoBehaviour:
     ParentPath: Animals
     guid: d8536be1ffde3848a50e759eb89952ef
     GuidInternal: 
-    m_lastTime: -8586141757867083550
+    m_lastTime: -8586138983174759204
     List:
     - name: Cows
       guid: ddb1ba37cf62c249b0f8c6e6ad7a62b1
@@ -118,7 +118,7 @@ MonoBehaviour:
       - ElementName: Cows
         ObjectType: 3
       Path: Animals\Cows
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 3.86428
       minDuration: 1.557718
   - PhysicalPath: Events\Default Work Unit.wwu
@@ -149,20 +149,32 @@ MonoBehaviour:
     ParentPath: Music
     guid: 1550aabf5f43714187f2c7ef404ce504
     GuidInternal: 
-    m_lastTime: -8586147305022337177
+    m_lastTime: -8586138938513137390
     List:
-    - name: Music
-      guid: 6255d9fd35b39147aabcc939d25e73b9
-      id: 3991942870
+    - name: L1_Energized_Explore_Music
+      guid: e11ae39f67e4414ba44a0dc17365f37a
+      id: 2914591108
       PathAndIcons:
       - ElementName: Music
         ObjectType: 12
-      - ElementName: Music
+      - ElementName: L1_Energized_Explore_Music
         ObjectType: 3
-      Path: Music\Music
+      Path: Music\L1_Energized_Explore_Music
       maxAttenuation: 0
-      maxDuration: 100
-      minDuration: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: L1_Explore_Music
+      guid: c5c25a7dc598de4daa7c4631e0168a15
+      id: 1746458944
+      PathAndIcons:
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: L1_Explore_Music
+        ObjectType: 3
+      Path: Music\L1_Explore_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\UI Sounds.wwu
     ParentPath: UI Sounds
     guid: aa87b07c32b6ba48825e6205d6279808
@@ -247,9 +259,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Goat Game_WwiseProject
-  - /Goat Game_WwiseProject/Auxiliary Busses
-  - /Goat Game_WwiseProject/Auxiliary Busses/Default Work Unit
-  - /Goat Game_WwiseProject/SoundBanks
-  - /Goat Game_WwiseProject/SoundBanks/Animals
+  - /Goat Game_WwiseProject/Events
+  - /Goat Game_WwiseProject/Events/Animals
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
