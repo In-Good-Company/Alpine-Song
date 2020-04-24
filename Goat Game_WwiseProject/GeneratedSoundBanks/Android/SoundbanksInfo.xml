@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -121,6 +121,29 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3838159985" Language="SFX">
+			<ObjectPath>\SoundBanks\Animals\Cows</ObjectPath>
+			<ShortName>Cows</ShortName>
+			<Path>Cows.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3838159985" Name="Cows" ObjectPath="\Events\Animals\Cows" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.557718" DurationMax="3.864280">
+					<IncludedMemoryFiles>
+						<File Id="174442643" Language="SFX">
+							<ShortName>58277__benboncan__cow_Batch A.wav</ShortName>
+							<Path>SFX\58277__benboncan__cow_Batch A_10C4C929.wem</Path>
+						</File>
+						<File Id="743381272" Language="SFX">
+							<ShortName>377603__yudena__cow-bymondfisch89_Batch A.wav</ShortName>
+							<Path>SFX\377603__yudena__cow-bymondfisch89_Batch A_10C4C929.wem</Path>
+						</File>
+						<File Id="799053858" Language="SFX">
+							<ShortName>233128__jarredgibb__cow-moo-3-96khz_Batch A.wav</ShortName>
+							<Path>SFX\233128__jarredgibb__cow-moo-3-96khz_Batch A_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="3991942870" Language="SFX">
 			<ObjectPath>\SoundBanks\Music\Music</ObjectPath>

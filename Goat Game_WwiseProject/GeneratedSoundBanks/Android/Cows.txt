@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3838159985	Cows			\Animals\Cows	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	174442643	58277__benboncan__cow_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\SFX\58277__benboncan__cow_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\58277__benboncan__cow_Batch A		625148
+	743381272	377603__yudena__cow-bymondfisch89_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\SFX\377603__yudena__cow-bymondfisch89_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\377603__yudena__cow-bymondfisch89_Batch A		163450
+	799053858	233128__jarredgibb__cow-moo-3-96khz_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\SFX\233128__jarredgibb__cow-moo-3-96khz_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\233128__jarredgibb__cow-moo-3-96khz_Batch A		200798
+

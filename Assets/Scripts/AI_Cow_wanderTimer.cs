@@ -53,6 +53,7 @@ public class AI_Cow_wanderTimer : MonoBehaviour
         if (Timer <= 0.0)
         {
             wanderSwitch = Random.Range(0, 100);
+            AkSoundEngine.PostEvent("Cows", gameObject);
         }
         cowWander();
        

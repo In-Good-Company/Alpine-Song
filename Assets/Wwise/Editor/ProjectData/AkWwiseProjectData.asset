@@ -17,14 +17,14 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e7db493ea7e9a74490b38c2c8fc17490
     GuidInternal: 
-    m_lastTime: -8586161025330764405
+    m_lastTime: -8586147932872446765
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 150f00690388734485dd67c1cc5aca40
     GuidInternal: 
-    m_lastTime: -8586161025330556158
+    m_lastTime: -8586147932872516725
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -36,11 +36,26 @@ MonoBehaviour:
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus
   BankWwu:
+  - PhysicalPath: SoundBanks\Animals.wwu
+    ParentPath: Animals
+    guid: ebb7f41f8b6b6343a9d86992b5eb9228
+    GuidInternal: 
+    m_lastTime: -8586141757867033547
+    List:
+    - name: Cows
+      guid: a0cdd2978e24f648933040878e421cbc
+      id: 3838159985
+      PathAndIcons:
+      - ElementName: Animals
+        ObjectType: 12
+      - ElementName: Cows
+        ObjectType: 7
+      Path: Animals\Cows
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: ffa6dda2fd59b346bc97499adcd88882
     GuidInternal: 
-    m_lastTime: -8586161025330247998
+    m_lastTime: -8586147932872476746
     List: []
   - PhysicalPath: SoundBanks\Foley.wwu
     ParentPath: Foley
@@ -88,11 +103,29 @@ MonoBehaviour:
         ObjectType: 7
       Path: UI_Sounds\UI_Sounds
   EventWwu:
+  - PhysicalPath: Events\Animals.wwu
+    ParentPath: Animals
+    guid: d8536be1ffde3848a50e759eb89952ef
+    GuidInternal: 
+    m_lastTime: -8586141757867083550
+    List:
+    - name: Cows
+      guid: ddb1ba37cf62c249b0f8c6e6ad7a62b1
+      id: 3838159985
+      PathAndIcons:
+      - ElementName: Animals
+        ObjectType: 12
+      - ElementName: Cows
+        ObjectType: 3
+      Path: Animals\Cows
+      maxAttenuation: 0
+      maxDuration: 3.86428
+      minDuration: 1.557718
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: a8c2675ede4bea4b867d634ce68e641b
     GuidInternal: 
-    m_lastTime: -8586161025330335880
+    m_lastTime: -8586147932872576692
     List: []
   - PhysicalPath: Events\Foley.wwu
     ParentPath: Foley
@@ -189,21 +222,21 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 96e246a659b2694fa99967670493c22a
     GuidInternal: 
-    m_lastTime: -8586161025330208017
+    m_lastTime: -8586147932872566656
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 331057dbf15c41448808833a9afb854f
     GuidInternal: 
-    m_lastTime: -8586161025330078051
+    m_lastTime: -8586147932872456759
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 2ba3760bcbc1c94993fb668886875917
     GuidInternal: 
-    m_lastTime: -8586161025330158114
+    m_lastTime: -8586147932872456759
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -216,12 +249,7 @@ MonoBehaviour:
   - /Goat Game_WwiseProject
   - /Goat Game_WwiseProject/Auxiliary Busses
   - /Goat Game_WwiseProject/Auxiliary Busses/Default Work Unit
-  - /Goat Game_WwiseProject/Events
-  - /Goat Game_WwiseProject/Events/Foley
-  - /Goat Game_WwiseProject/Events/Music
-  - /Goat Game_WwiseProject/Events/UI Sounds
   - /Goat Game_WwiseProject/SoundBanks
-  - /Goat Game_WwiseProject/SoundBanks/Foley
-  - /Goat Game_WwiseProject/SoundBanks/UI_Sounds
+  - /Goat Game_WwiseProject/SoundBanks/Animals
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
