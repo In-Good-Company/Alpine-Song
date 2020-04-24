@@ -5,7 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Music" ID="{DA7C0CA4-5175-4754-B308-296D4DBD428E}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Music" ID="{FDD95562-B335-4791-AABC-C939D25E73B9}" WorkUnitID="{BFAA5015-435F-4171-87F2-C7EF404CE504}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="L1_Energized_Explore_Music" ID="{9FE31AE1-E467-4B41-A44A-0DC17365F37A}" WorkUnitID="{BFAA5015-435F-4171-87F2-C7EF404CE504}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="L1_Explore_Music" ID="{7D5AC2C5-98C5-4DDE-AA7C-4631E0168A15}" WorkUnitID="{BFAA5015-435F-4171-87F2-C7EF404CE504}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

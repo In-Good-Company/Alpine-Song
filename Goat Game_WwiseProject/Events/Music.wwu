@@ -3,12 +3,23 @@
 	<Events>
 		<WorkUnit Name="Music" ID="{BFAA5015-435F-4171-87F2-C7EF404CE504}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Music" ID="{FDD95562-B335-4791-AABC-C939D25E73B9}">
+				<Event Name="L1_Explore_Music" ID="{7D5AC2C5-98C5-4DDE-AA7C-4631E0168A15}">
 					<ChildrenList>
-						<Action Name="" ID="{9881C831-2C82-4386-9DF6-686B6DB459B2}" ShortID="139847848">
+						<Action Name="" ID="{2B199C88-72D9-44BC-AA16-45DA8BD634D9}" ShortID="815909957">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="COW GAME" ID="{22ABA727-DB9A-4DCC-9B8A-A24B08E194E1}" WorkUnitID="{D2E1C6E7-0D4C-4D55-990C-3D89D737D0D6}"/>
+									<ObjectRef Name="Explore_Playlist" ID="{88D33677-0788-413E-B34D-7111BAEFE382}" WorkUnitID="{D2E1C6E7-0D4C-4D55-990C-3D89D737D0D6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="L1_Energized_Explore_Music" ID="{9FE31AE1-E467-4B41-A44A-0DC17365F37A}">
+					<ChildrenList>
+						<Action Name="" ID="{13B22CA3-AE00-42A5-8E00-8887A91D0A04}" ShortID="117877651">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Energized_Explore_Playlist" ID="{F0903CA3-AE5E-495B-8213-0FC2459A37CE}" WorkUnitID="{D2E1C6E7-0D4C-4D55-990C-3D89D737D0D6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
