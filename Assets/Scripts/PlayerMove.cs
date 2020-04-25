@@ -29,7 +29,8 @@ public class PlayerMove : MonoBehaviour
         {
             destinationReached = true;
         }
-        AkSoundEngine.PostEvent("Footsteps", gameObject);
+        //This is currently commented out as the sound is being played in the TerrainMaterialManager as well.
+        //AkSoundEngine.PostEvent("Footsteps", gameObject);
 
     }
     

@@ -18,6 +18,7 @@ public class TerrainMaterialManager : MonoBehaviour
     {
         GetTerrain();
         playerMove = GetComponent<PlayerMove>();
+        playerPos = this.transform;
     }
 
     void GetTerrain()
@@ -60,7 +61,7 @@ public class TerrainMaterialManager : MonoBehaviour
 
     private void PlayFootStepSound(int _terrainIDX)
     {
-        if (playerMove.destinationReached == false)
+        if (playerMove.destinationReached == false && playerMove.markerPlaced == true)
         {
             switch (_terrainIDX)
             {
