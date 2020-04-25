@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88e2e305b68dfd41bce5842e36cebca, type: 3}
+  m_Name: 41008415-2249-4D6F-A642-C627DDEEE938
+  m_EditorClassIdentifier: 
+  objectName: Ambience
+  id: 85412153
+  guid: 41008415-2249-4D6F-A642-C627DDEEE938

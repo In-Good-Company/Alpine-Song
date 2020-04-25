@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A552F496-C9F5-44C5-8224-7802EE5E613F}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Ambience" ID="{A552F496-C9F5-44C5-8224-7802EE5E613F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Ambience_L1" ID="{C3A8C2BE-D0D2-4463-892D-D6E21715DA19}">
+					<ChildrenList>
+						<Action Name="" ID="{B544A9BE-25F0-4AC2-AF92-233C255A94AA}" ShortID="1064661463">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MG 1_Ambience_A1_Batch A" ID="{796B0B4A-2C10-4A75-9558-EE1E39F5D85E}" WorkUnitID="{C75EF1C3-9814-47AB-AF23-D85732F18E48}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

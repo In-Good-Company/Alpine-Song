@@ -11,6 +11,21 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="85412153" Language="SFX">
+			<ObjectPath>\SoundBanks\Ambience\Ambience</ObjectPath>
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="127942577" Name="Ambience_L1" ObjectPath="\Events\Ambience\Ambience_L1" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="333718177" Language="SFX">
+							<ShortName>MG 1_Ambience_A1_Batch A.wav</ShortName>
+							<Path>SFX\MG 1_Ambience_A1_Batch A_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
 		<SoundBank Id="247557814" Language="SFX">
 			<ObjectPath>\SoundBanks\Foley\Foley</ObjectPath>
 			<ShortName>Foley</ShortName>
