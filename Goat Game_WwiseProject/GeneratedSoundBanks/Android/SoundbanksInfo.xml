@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="85412153" Language="SFX">
+			<ObjectPath>\SoundBanks\Ambience\Ambience</ObjectPath>
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2103627867" Name="Ambience_Default" ObjectPath="\Events\Ambience\Ambience_Default" DurationType="OneShot" DurationMin="84.351997" DurationMax="84.351997">
+					<IncludedMemoryFiles>
+						<File Id="695196921" Language="SFX">
+							<ShortName>MG 1_Ambience_A1_Batch A.wav</ShortName>
+							<Path>SFX\MG 1_Ambience_A1_Batch A_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
 		<SoundBank Id="247557814" Language="SFX">
 			<ObjectPath>\SoundBanks\Foley\Foley</ObjectPath>
 			<ShortName>Foley</ShortName>
@@ -121,6 +136,45 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2654748154" Language="SFX">
+			<ObjectPath>\SoundBanks\Environmental\Water</ObjectPath>
+			<ShortName>Water</ShortName>
+			<Path>Water.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2612567516" Name="Lakes_A1" ObjectPath="\Events\Environmental\Lakes_A1" MaxAttenuation="30.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="286666360" Language="SFX">
+							<ShortName>MG_Environmental_Lake_A1_Batch A.wav</ShortName>
+							<Path>SFX\MG_Environmental_Lake_A1_Batch A_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2612567519" Name="Lakes_A2" ObjectPath="\Events\Environmental\Lakes_A2" MaxAttenuation="30.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="617521418" Language="SFX">
+							<ShortName>MG_Environmental_Lake_A2_Batch A.wav</ShortName>
+							<Path>SFX\MG_Environmental_Lake_A2_Batch A_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2612567518" Name="Lakes_A3" ObjectPath="\Events\Environmental\Lakes_A3" MaxAttenuation="30.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="48984938" Language="SFX">
+							<ShortName>MG_Environmental_Lake_A3_Batch A.wav</ShortName>
+							<Path>SFX\MG_Environmental_Lake_A3_Batch A_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2612567513" Name="Lakes_A4" ObjectPath="\Events\Environmental\Lakes_A4" MaxAttenuation="30.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="930849585" Language="SFX">
+							<ShortName>MG_Environmental_Lake_A4_Batch A.wav</ShortName>
+							<Path>SFX\MG_Environmental_Lake_A4_Batch A_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="3838159985" Language="SFX">
 			<ObjectPath>\SoundBanks\Animals\Cows</ObjectPath>

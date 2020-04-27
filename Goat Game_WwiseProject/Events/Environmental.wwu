@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{12E821CE-55FB-4A3A-A950-D1CE641EF7B9}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Environmental" ID="{12E821CE-55FB-4A3A-A950-D1CE641EF7B9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Lakes_A1" ID="{485FE0DC-C4F0-4FAF-85A9-B84290F48D7C}">
+					<ChildrenList>
+						<Action Name="" ID="{B0950CCB-7B36-4C8E-9032-16FD49236575}" ShortID="49257835">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MG_Environmental_Lake_A1_Batch A" ID="{82A973B6-1D2C-4DD2-B32D-FC06E44C09E3}" WorkUnitID="{F0A21867-4CF7-4079-8403-1E1ED4C370DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Lakes_A2" ID="{A569C683-7279-4037-A8A7-5EAAF7E308F0}">
+					<ChildrenList>
+						<Action Name="" ID="{E379CC9B-CCE0-4A32-863A-87EE508164F0}" ShortID="486739293">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MG_Environmental_Lake_A2_Batch A" ID="{24C7FDF0-A92D-45AB-B70A-9303DD2CD179}" WorkUnitID="{F0A21867-4CF7-4079-8403-1E1ED4C370DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Lakes_A3" ID="{8D0D505D-E614-4D05-B383-9E08143D4DA7}">
+					<ChildrenList>
+						<Action Name="" ID="{CABB6F33-1761-4C6F-A29C-2CE090C87C42}" ShortID="289461071">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MG_Environmental_Lake_A3_Batch A" ID="{88692EA4-2F9C-4F4E-B8B4-AD483E9F5FE6}" WorkUnitID="{F0A21867-4CF7-4079-8403-1E1ED4C370DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Lakes_A4" ID="{3529A645-CB4C-4EFA-886F-6F67066601EA}">
+					<ChildrenList>
+						<Action Name="" ID="{754D60A9-BE67-4459-AE02-B64384EE18FC}" ShortID="195652614">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MG_Environmental_Lake_A4_Batch A" ID="{B942472A-E8E8-4445-BE49-1B694335F5CC}" WorkUnitID="{F0A21867-4CF7-4079-8403-1E1ED4C370DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

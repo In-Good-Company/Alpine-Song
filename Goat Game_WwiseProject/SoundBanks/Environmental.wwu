@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D83E498C-5776-4963-AE70-3914F58961D0}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Environmental" ID="{D83E498C-5776-4963-AE70-3914F58961D0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Water" ID="{69E9297E-416A-4817-AA18-54EA33A7B063}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Lakes_A2" ID="{A569C683-7279-4037-A8A7-5EAAF7E308F0}" WorkUnitID="{12E821CE-55FB-4A3A-A950-D1CE641EF7B9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Lakes_A3" ID="{8D0D505D-E614-4D05-B383-9E08143D4DA7}" WorkUnitID="{12E821CE-55FB-4A3A-A950-D1CE641EF7B9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Lakes_A4" ID="{3529A645-CB4C-4EFA-886F-6F67066601EA}" WorkUnitID="{12E821CE-55FB-4A3A-A950-D1CE641EF7B9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Lakes_A1" ID="{485FE0DC-C4F0-4FAF-85A9-B84290F48D7C}" WorkUnitID="{12E821CE-55FB-4A3A-A950-D1CE641EF7B9}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2103627867	Ambience_Default			\Ambience\Ambience_Default	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	695196921	MG 1_Ambience_A1_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG 1_Ambience_A1_Batch A_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\Ambience\MG 1_Ambience_A1_Batch A		16195648
+

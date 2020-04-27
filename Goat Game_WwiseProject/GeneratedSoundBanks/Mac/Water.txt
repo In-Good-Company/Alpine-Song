@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2612567513	Lakes_A4			\Environmental\Lakes_A4	
+	2612567516	Lakes_A1			\Environmental\Lakes_A1	
+	2612567518	Lakes_A3			\Environmental\Lakes_A3	
+	2612567519	Lakes_A2			\Environmental\Lakes_A2	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	48984938	MG_Environmental_Lake_A3_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Mac\SFX\MG_Environmental_Lake_A3_Batch A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Environmental\Water\MG_Environmental_Lake_A3_Batch A		22740032
+	286666360	MG_Environmental_Lake_A1_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Mac\SFX\MG_Environmental_Lake_A1_Batch A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Environmental\Water\MG_Environmental_Lake_A1_Batch A		22734912
+	617521418	MG_Environmental_Lake_A2_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Mac\SFX\MG_Environmental_Lake_A2_Batch A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Environmental\Water\MG_Environmental_Lake_A2_Batch A		22741056
+	930849585	MG_Environmental_Lake_A4_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Mac\SFX\MG_Environmental_Lake_A4_Batch A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Environmental\Water\MG_Environmental_Lake_A4_Batch A		22741056
+
