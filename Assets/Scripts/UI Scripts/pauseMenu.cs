@@ -7,21 +7,24 @@ public class pauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
-  //  public Button menuBtn;
 
-    public void Resume()
+    public void pauseGame()
     {
-        pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
-    //    GameIsPaused = false;
-
-    }
-
-    public void Pause()
-    {
-        pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
-     //   GameIsPaused = true;
+        Time.fixedDeltaTime = 0f;
+        GameIsPaused = true;
+        AudioListener.pause = false;
+        Debug.Log("Time Stop");
     }
 
+    public void resumeGame()
+    {
+
+                Time.timeScale = 1f;
+                Time.fixedDeltaTime = 1f;
+                GameIsPaused = false;
+                AudioListener.pause = true;
+            Debug.Log("Resume");
+        
+    }
 }
