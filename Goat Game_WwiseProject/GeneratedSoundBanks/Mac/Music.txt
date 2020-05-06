@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3991942870	Music			\Music\Music	
+	1746458944	L1_Explore_Music			\Music\L1_Explore_Music	
+	2914591108	L1_Energized_Explore_Music			\Music\L1_Energized_Explore_Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	575839514	COW GAME	C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Mac\SFX\COW GAME_D79FB2B7.wem		\Interactive Music Hierarchy\Music\COW GAME\COW GAME		17640064
+	343779368	Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M	C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Mac\SFX\Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore_Playlist\Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M\Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M		4065948
+	825303904	Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M	C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Mac\SFX\Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Energized_Explore_Playlist\Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M\Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M		15607804
 

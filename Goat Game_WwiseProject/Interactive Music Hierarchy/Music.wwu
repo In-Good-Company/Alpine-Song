@@ -3,11 +3,7 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Music" ID="{D2E1C6E7-0D4C-4D55-990C-3D89D737D0D6}" PersistMode="Standalone">
 			<ChildrenList>
-				<MusicSegment Name="COW GAME" ID="{22ABA727-DB9A-4DCC-9B8A-A24B08E194E1}" ShortID="26888649">
-					<PropertyList>
-						<Property Name="EndPosition" Type="Real64" Value="100000"/>
-						<Property Name="Tempo" Type="Real64" Value="93"/>
-					</PropertyList>
+				<MusicPlaylistContainer Name="Explore_Playlist" ID="{88D33677-0788-413E-B34D-7111BAEFE382}" ShortID="438309658">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -17,55 +13,334 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicTrack Name="COW GAME" ID="{521E218E-02F1-471C-9737-D07304F983B2}" ShortID="410335346">
+						<MusicSegment Name="Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M" ID="{7B3A1487-DBEF-422E-B0B7-7AB4B95633C4}" ShortID="525918340">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="21176.4791666667"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="COW GAME" ID="{2B474E23-292B-4AEC-A88C-6C02FEA03B88}">
-									<Language>SFX</Language>
-									<AudioFile>COW GAME.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="575839514"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<TransitionList>
-								<MusicTransition Name="Root" ID="{71FEA9D2-CDE7-4F42-83EB-8F942195BE65}">
+								<MusicTrack Name="Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M" ID="{D2994A82-B867-4177-AF76-9C29C4D25AF7}" ShortID="708641462">
 									<PropertyList>
-										<Property Name="IsFolder" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M" ID="{09BE5101-A82F-4D09-983A-8CFED0626FDD}">
+											<Language>SFX</Language>
+											<AudioFile>Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="343779368"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5898270F-291F-4DD6-8D8B-A93B520FD7E6}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{F6AA20F6-E9D2-47CD-83DF-9437F69AE369}">
+											<ClipList>
+												<MusicClip Name="Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M" ID="{DBD5812E-3990-496E-8D7A-01FDA5CCBE3B}">
+													<PropertyList>
+														<Property Name="BeginTrimOffset" Type="Real64" Value="2041.10642570281"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="19581.8647715863"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M" ID="{09BE5101-A82F-4D09-983A-8CFED0626FDD}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{A4BD6C89-6844-4E00-BC12-11D7374C62DB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2.04111</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>19.58186</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{9F9F3704-AD58-4DDD-B704-D749EF97052D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2.04111</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>19.58186</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{526A9714-FB51-45EC-A4E1-BC5D47D6E1D8}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2.04111</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>19.58186</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+												<MusicClip Name="Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M" ID="{E9834828-B7AB-48A1-99E1-17741554B456}">
+													<PropertyList>
+														<Property Name="BeginTrimOffset" Type="Real64" Value="2041.10642570281"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="19666.9108726573"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M" ID="{09BE5101-A82F-4D09-983A-8CFED0626FDD}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{2EB1C64C-0BD8-4513-AF47-FEA3D6DE4D8C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2.04111</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>19.66691</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{CF2F06ED-F497-496B-9BCD-EDB5E9E79580}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2.04111</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>19.66691</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{E60F770C-E803-48CF-9051-4CB73A8CF062}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>2.04111</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>19.66691</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{51C8C604-A654-4642-A017-2351E6ADA93B}">
+									<PropertyList>
+										<Property Name="TimeMs" Type="Real64" Value="2041.10642570281"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="Exit Cue" ID="{D8D36EA4-321C-4A41-AA44-466F83CF6A29}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="19496.8186705154"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{A32F93C9-FE30-4F49-A385-77FC045598FA}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{700EE636-9E12-40A0-8B81-C563EB39BA0E}">
 									<TransitionInfo/>
 								</MusicTransition>
-							</TransitionList>
-							<SequenceList>
-								<MusicTrackSequence Name="" ID="{61EEC2C7-86DD-43EF-A051-D2A7C5D47E2E}">
-									<ClipList>
-										<MusicClip Name="COW GAME" ID="{C10AF4BA-56B4-4DB4-8748-3A80A15E1CE4}">
-											<PropertyList>
-												<Property Name="EndTrimOffset" Type="Real64" Value="100000"/>
-												<Property Name="FadeInMode" Type="int16" Value="0"/>
-												<Property Name="FadeOutMode" Type="int16" Value="0"/>
-											</PropertyList>
-											<AudioSourceRef Name="COW GAME" ID="{2B474E23-292B-4AEC-A88C-6C02FEA03B88}"/>
-										</MusicClip>
-									</ClipList>
-								</MusicTrackSequence>
-							</SequenceList>
-						</MusicTrack>
-					</ChildrenList>
-					<CueList>
-						<MusicCue Name="Entry Cue" ID="{EAA391FD-48BA-4E25-9BBD-C12A7D32DA73}"/>
-						<MusicCue Name="Exit Cue" ID="{1C14E454-DF3A-41AD-B397-5AFDE8E2CBA3}">
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{D931C4BE-6471-4505-84E1-7C39FC61B7E5}" ShortID="891770813">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{C1F63B71-734E-4042-86FD-9EFE513A3EB8}" ShortID="885139457">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M" ID="{7B3A1487-DBEF-422E-B0B7-7AB4B95633C4}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Energized_Explore_Playlist" ID="{F0903CA3-AE5E-495B-8213-0FC2459A37CE}" ShortID="936998457">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M" ID="{C300674E-CB77-46D5-B2CA-972C1CD6164E}" ShortID="199437183">
 							<PropertyList>
-								<Property Name="CueType" Type="int16" Value="1"/>
-								<Property Name="TimeMs" Type="Real64" Value="100000"/>
+								<Property Name="EndPosition" Type="Real64" Value="81290.3229166667"/>
 							</PropertyList>
-						</MusicCue>
-					</CueList>
-				</MusicSegment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M" ID="{33687F79-C820-4DDD-AC18-60F8CC024167}" ShortID="720969009">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M" ID="{0BB4AF2B-1E86-4C9E-98FD-5D61A2BB775B}">
+											<Language>SFX</Language>
+											<AudioFile>Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="825303904"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{ED313C47-5507-4BC3-BF55-773A71679556}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{5CEBED7E-E4CB-420C-B36F-66B43480A10E}">
+											<ClipList>
+												<MusicClip Name="Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M" ID="{8BD0E0B4-A921-4545-8D0D-C37A035B8173}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="81290.3229166667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M" ID="{0BB4AF2B-1E86-4C9E-98FD-5D61A2BB775B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{14F13A48-C0D4-454A-80F4-31803CA0FAE3}"/>
+								<MusicCue Name="Exit Cue" ID="{1035286B-3D8A-496A-86D7-1EC677E86F14}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="81290.3229166667"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{B7085B9B-970C-49F0-AF14-3ACB95988C42}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{3D8FC5B8-C1A8-4156-A9FC-D777AEB08AAE}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{B39A4694-977F-41EE-B992-75CEBF4AC675}" ShortID="280176744">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{213C2A9E-56E7-4599-9C7A-A59F1D29FE39}" ShortID="384826068">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M" ID="{C300674E-CB77-46D5-B2CA-972C1CD6164E}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

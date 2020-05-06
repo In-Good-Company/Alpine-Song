@@ -4,6 +4,18 @@
 		<WorkUnit Name="Foley" ID="{3F2AD430-19C5-4182-A93E-6AB017184746}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="Footsteps" ID="{F0F74843-7F0C-4BE5-90B9-5CE6513CFE6D}" ShortID="273615271">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>

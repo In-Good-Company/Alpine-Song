@@ -105,12 +105,8 @@ public class CowMove : MonoBehaviour
             
         }
     }
-
- 
-    void Update()
+    private void SwitchCases(int Cases)
     {
-
-        
         switch (AI_Case)
         {
             case 1:
@@ -136,13 +132,20 @@ public class CowMove : MonoBehaviour
             case 4:
                 AI_Case = target.GetComponent<trapSpring>().AI_CowTarget;
                 cowNav.SetDestination(target.transform.TransformPoint(0, 0, 0));
-                
+
                 break;
 
             case 5:
                 cowNav.SetDestination(transform.position);
                 break;
         }
+    }
+ 
+    void Update()
+    {
+
+        SwitchCases(AI_Case);
+        
 
         wanderTarget = GetComponent<AI_Cow_wanderTimer>().wanderPoint;
       

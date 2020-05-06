@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1FF4B7EB-6B8B-4363-A9D8-6992B5EB9228}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Animals" ID="{1FF4B7EB-6B8B-4363-A9D8-6992B5EB9228}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Cows" ID="{97D2CDA0-248E-48F6-9330-40878E421CBC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Cows" ID="{37BAB1DD-62CF-49C2-B0F8-C6E6AD7A62B1}" WorkUnitID="{E16B53D8-DEFF-4838-A50E-759EB89952EF}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

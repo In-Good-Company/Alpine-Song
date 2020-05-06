@@ -122,16 +122,47 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+		<SoundBank Id="3838159985" Language="SFX">
+			<ObjectPath>\SoundBanks\Animals\Cows</ObjectPath>
+			<ShortName>Cows</ShortName>
+			<Path>Cows.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3838159985" Name="Cows" ObjectPath="\Events\Animals\Cows" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.557718" DurationMax="3.864280">
+					<IncludedMemoryFiles>
+						<File Id="174442643" Language="SFX">
+							<ShortName>58277__benboncan__cow_Batch A.wav</ShortName>
+							<Path>SFX\58277__benboncan__cow_Batch A_10C4C929.wem</Path>
+						</File>
+						<File Id="743381272" Language="SFX">
+							<ShortName>377603__yudena__cow-bymondfisch89_Batch A.wav</ShortName>
+							<Path>SFX\377603__yudena__cow-bymondfisch89_Batch A_10C4C929.wem</Path>
+						</File>
+						<File Id="799053858" Language="SFX">
+							<ShortName>233128__jarredgibb__cow-moo-3-96khz_Batch A.wav</ShortName>
+							<Path>SFX\233128__jarredgibb__cow-moo-3-96khz_Batch A_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
 		<SoundBank Id="3991942870" Language="SFX">
 			<ObjectPath>\SoundBanks\Music\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Music\Music" DurationType="OneShot" DurationMin="100.000000" DurationMax="100.000000">
+				<Event Id="2914591108" Name="L1_Energized_Explore_Music" ObjectPath="\Events\Music\L1_Energized_Explore_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="575839514" Language="SFX">
-							<ShortName>COW GAME.wav</ShortName>
-							<Path>SFX\COW GAME_D79FB2B7.wem</Path>
+						<File Id="825303904" Language="SFX">
+							<ShortName>Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M.wav</ShortName>
+							<Path>SFX\Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1746458944" Name="L1_Explore_Music" ObjectPath="\Events\Music\L1_Explore_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="343779368" Language="SFX">
+							<ShortName>Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M.wav</ShortName>
+							<Path>SFX\Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
