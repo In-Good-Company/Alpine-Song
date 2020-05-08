@@ -113,20 +113,20 @@ public class CowMove : MonoBehaviour
 
                 wanderTarget = GetComponent<AI_Cow_wanderTimer>().wanderPoint;
                 cowNav.SetDestination(wanderTarget);
-                print("wander");
+         //       print("wander");
                 break;
 
             case 2:
 
                 cowNav.SetDestination(target.transform.position);
-                print("Follow Player");
+               // print("Follow Player");
                 break;
 
             case 3:
 
                 cowNav.SetDestination(target.transform.TransformPoint(0, 0, 0));
                 AI_Case = target.GetComponent<grassEating>().AI_CowTarget;
-                print("Grass!");
+               // print("Grass!");
                 break;
 
             case 4:
