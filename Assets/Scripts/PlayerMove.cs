@@ -13,7 +13,12 @@ public class PlayerMove : MonoBehaviour
     private NavMeshAgent PlayerNav;
     public bool markerPlaced;
     public bool destinationReached;
-    public float distanceCheck; 
+    public float distanceCheck;
+
+    public bool pressHeld;
+    public float pressTimer;
+    public float pressHeldThreshhold;
+    public float lookSensitivity = 3.0f;
 
     void Start()
     {
@@ -38,33 +43,78 @@ public class PlayerMove : MonoBehaviour
     {
         
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         {
-            Ray clickRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hitInfo;
-
-            if (EventSystem.current.IsPointerOverGameObject())
-                return;
-
-            if (Physics.Raycast(clickRay, out hitInfo, 100, ClickableWorld))
+            pressTimer += Time.deltaTime;
+            if (pressTimer >= pressHeldThreshhold)
             {
-                Vector3 navPoint = hitInfo.point;
-                PlayerNav.SetDestination(hitInfo.point);
-                if (markerPlaced)
+                pressHeld = true;
+                if (markerPlaced == false || destinationReached == true)
                 {
-                    Destroy(navMarker);
+                    float rot = Input.GetAxis("Mouse X");
+                    transform.Rotate(0, rot * lookSensitivity, 0);
                 }
-                navMarker = Instantiate(navMarkerPrefab) as GameObject;
-                navMarker.transform.position = navPoint;
-                markerPlaced = true;
-                destinationReached = false;
-
-                AkSoundEngine.PostEvent("Location_Movement", gameObject);
             }
         
         }
+        if (Input.GetMouseButtonUp(0))
+        {
+            if (pressHeld == false)
+            {
+                Ray clickRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hitInfo;
 
-    if (destinationReached == false && navMarker != null)
+                if (EventSystem.current.IsPointerOverGameObject())
+                    return;
+
+                if (Physics.Raycast(clickRay, out hitInfo, 100, ClickableWorld))
+                {
+                    Vector3 navPoint = hitInfo.point;
+                    PlayerNav.SetDestination(hitInfo.point);
+                    if (markerPlaced)
+                    {
+                        Destroy(navMarker);
+                    }
+                    navMarker = Instantiate(navMarkerPrefab) as GameObject;
+                    navMarker.transform.position = navPoint;
+                    markerPlaced = true;
+                    destinationReached = false;
+
+                    AkSoundEngine.PostEvent("Location_Movement", gameObject);
+                }
+            }
+            pressHeld = false;
+            pressTimer = 0;
+        }
+
+        //Currently commented out just in case
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //    Ray clickRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+        //    RaycastHit hitInfo;
+        //
+        //    if (EventSystem.current.IsPointerOverGameObject())
+        //        return;
+        //
+        //    if (Physics.Raycast(clickRay, out hitInfo, 100, ClickableWorld))
+        //    {
+        //        Vector3 navPoint = hitInfo.point;
+        //        PlayerNav.SetDestination(hitInfo.point);
+        //        if (markerPlaced)
+        //        {
+        //            Destroy(navMarker);
+        //        }
+        //        navMarker = Instantiate(navMarkerPrefab) as GameObject;
+        //        navMarker.transform.position = navPoint;
+        //        markerPlaced = true;
+        //        destinationReached = false;
+        //
+        //        AkSoundEngine.PostEvent("Location_Movement", gameObject);
+        //    }
+        //
+        //}
+
+        if (destinationReached == false && navMarker != null)
     {
         walkDistanceCheck();
             // if that fail, put here
