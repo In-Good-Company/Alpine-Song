@@ -43,31 +43,28 @@ public class PlayerMove : MonoBehaviour
     {
         
 
-        if (Input.GetMouseButton(0))
-        {
-            pressTimer += Time.deltaTime;
-            if (pressTimer >= pressHeldThreshhold)
-            {
-                pressHeld = true;
-                if (markerPlaced == false || destinationReached == true)
-                {
-                    float rot = Input.GetAxis("Mouse X");
-                    transform.Rotate(0, rot * lookSensitivity, 0);
-                }
-<<<<<<< Updated upstream
-=======
-                navMarker = Instantiate(navMarkerPrefab) as GameObject;
-                navMarker.transform.position = navPoint;
-                markerPlaced = true;
-                destinationReached = false;
-                //sound for clicking
-               // AkSoundEngine.PostEvent("Location_Movement", gameObject);
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-            }
-        
-        }
-        if (Input.GetMouseButtonUp(0))
+       //if (Input.GetMouseButton(0))
+       //{
+       //    pressTimer += Time.deltaTime;
+       //    if (pressTimer >= pressHeldThreshhold)
+       //    {
+       //        pressHeld = true;
+       //        if (markerPlaced == false || destinationReached == true)
+       //        {
+       //            float rot = Input.GetAxis("Mouse X");
+       //            transform.Rotate(0, rot * lookSensitivity, 0);
+       //        }
+       //
+       //       //navMarker = Instantiate(navMarkerPrefab) as GameObject;
+       //       //navMarker.transform.position = navPoint;
+       //       //markerPlaced = true;
+       //       //destinationReached = false;
+       //        //sound for clicking
+       //       // AkSoundEngine.PostEvent("Location_Movement", gameObject);
+       //    }
+       //
+       //}
+        if (Input.GetMouseButtonDown(0))
         {
             if (pressHeld == false)
             {
