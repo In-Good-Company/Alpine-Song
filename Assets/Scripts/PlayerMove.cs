@@ -62,6 +62,7 @@ public class PlayerMove : MonoBehaviour
                 destinationReached = false;
                 //sound for clicking
                // AkSoundEngine.PostEvent("Location_Movement", gameObject);
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
             }
         
