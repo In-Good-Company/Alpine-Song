@@ -8,9 +8,7 @@ public class TerrainMaterialManager : MonoBehaviour
     public TerrainData _terrainData;
     public int alphaHeight;
     public int alphaWidth;
-    public float footStep_Pause;
-    public float Timer;
-    private float timerCountDown;
+
     public float[,,] splatmapData;
     public int numTextures;
 
@@ -21,10 +19,6 @@ public class TerrainMaterialManager : MonoBehaviour
         GetTerrain();
         playerMove = GetComponent<PlayerMove>();
         playerPos = this.transform;
-        footStep_Pause = 1.5f;
-        Timer = footStep_Pause;
-        timerCountDown = 1 * Time.deltaTime;
-        
     }
 
     void GetTerrain()
@@ -65,54 +59,21 @@ public class TerrainMaterialManager : MonoBehaviour
         return terrainIdx;
     }
 
-
-    IEnumerator StepPause()
-   {
-        yield return new WaitForSeconds(footStep_Pause);
-        
-        print("step");
-        
-        yield return null;
-        
-    }
-    
-    
     private void PlayFootStepSound(int _terrainIDX)
     {
-        
         if (playerMove.destinationReached == false && playerMove.markerPlaced == true)
         {
             switch (_terrainIDX)
             {
                 case 0:
-                    print("step0");
-
+                    AkSoundEngine.PostEvent("Footsteps", gameObject);
                     break;
                 case 1:
-                    print("step1");
-
-                    break;
-                case 2:
-                    print("step2");
-                    if (Timer <= 0.0f)
-                    {
-                        AkSoundEngine.PostEvent("Footsteps", gameObject);
-                        Timer = footStep_Pause;
-                    }
-
+                    //AkSoundEngine.PostEvent("Footsteps_Dirt", gameObject);
                     break;
                 case 3:
-                    print("step3");
                     //AkSoundEngine.PostEvent("Footsteps_Sand", gameObject);
                     break;
-                case 4:
-                    print("step4");
-                    break;
-
-                case 5:
-                    print("step5");
-                    break;
-
             }
         }
     }
@@ -122,7 +83,5 @@ public class TerrainMaterialManager : MonoBehaviour
     {
         int terrainIdx = GetActiveTerrainTextureIdx(playerPos.transform.position);
         PlayFootStepSound(terrainIdx);
-        Timer -= timerCountDown;
-        
     }
 }
