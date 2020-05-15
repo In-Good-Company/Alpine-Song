@@ -42,6 +42,7 @@ RenderSettings:
   m_IndirectSpecularColor: {r: 0.0587501, g: 0.06996681, b: 0.08823783, a: 0.029}
 =======
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.029}
+>>>>>>> Stashed changes
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
