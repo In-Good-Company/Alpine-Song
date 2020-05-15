@@ -54,6 +54,12 @@ public class PlayerMove : MonoBehaviour
                     float rot = Input.GetAxis("Mouse X");
                     transform.Rotate(0, rot * lookSensitivity, 0);
                 }
+                navMarker = Instantiate(navMarkerPrefab) as GameObject;
+                navMarker.transform.position = navPoint;
+                markerPlaced = true;
+                destinationReached = false;
+                //sound for clicking
+               // AkSoundEngine.PostEvent("Location_Movement", gameObject);
             }
         
         }

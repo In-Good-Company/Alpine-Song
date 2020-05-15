@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 2293969191238645516}
   - component: {fileID: 4658378477647214550}
   - component: {fileID: 8488023968574564136}
+  - component: {fileID: 88979750127459102}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -299,7 +300,8 @@ MonoBehaviour:
   m_callbackDataInternal: {fileID: 0}
   MultiPositionType: 1
   multiPositionTypeLabel: 0
-  LargeModePositions: []
+  LargeModePositions:
+  - {fileID: 0}
   multiPositionArray: []
 --- !u!114 &4658378477647214550
 MonoBehaviour:
@@ -308,7 +310,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4427651561178187416}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e971b51b36e5eed418e0e708ec027fad, type: 3}
   m_Name: 
@@ -355,8 +357,28 @@ MonoBehaviour:
   m_callbackDataInternal: {fileID: 0}
   MultiPositionType: 1
   multiPositionTypeLabel: 0
-  LargeModePositions: []
+  LargeModePositions:
+  - {fileID: 0}
   multiPositionArray: []
+--- !u!95 &88979750127459102
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4427651561178187416}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4427651561617657109
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,7 +389,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4427651561617657098}
   - component: {fileID: 4427651561617657099}
-  - component: {fileID: 4427651561370609501}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -432,17 +453,3 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &4427651561370609501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4427651561617657109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa61093a433c4f84fb8cce280e68393a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDefaultListener: 1
-  listenerId: 0
