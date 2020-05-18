@@ -7,8 +7,11 @@ using UnityEngine.EventSystems;
 public class PlayerMove : MonoBehaviour
 {
     public LayerMask ClickableWorld;
+    public LayerMask Interactables;
     public GameObject navMarker;
     public GameObject navMarkerPrefab;
+    public Camera cam;
+    public GameObject cameraParent;
 
     private NavMeshAgent PlayerNav;
     public bool markerPlaced;
@@ -24,6 +27,7 @@ public class PlayerMove : MonoBehaviour
     {
         PlayerNav = GetComponent<NavMeshAgent>();
         destinationReached = false;
+        cam = GetComponent<Camera>();
     }
 
    private void walkDistanceCheck()
@@ -49,11 +53,8 @@ public class PlayerMove : MonoBehaviour
             if (pressTimer >= pressHeldThreshhold)
             {
                 pressHeld = true;
-                if (markerPlaced == false || destinationReached == true)
-                {
-                    float rot = Input.GetAxis("Mouse X");
-                    transform.Rotate(0, rot * lookSensitivity, 0);
-                }
+                float rot = Input.GetAxis("Mouse X");
+                cameraParent.transform.Rotate(0, rot * lookSensitivity, 0);
             }
         
         }
@@ -66,6 +67,15 @@ public class PlayerMove : MonoBehaviour
 
                 if (EventSystem.current.IsPointerOverGameObject())
                     return;
+
+                if (Physics.Raycast(clickRay, out hitInfo, 100, Interactables))
+                {
+                    if (hitInfo.collider.gameObject.GetComponent<Interactable>() != null)
+                    {
+                        Interactable interactable = hitInfo.collider.gameObject.GetComponent<Interactable>();
+                        interactable.Interact();
+                    }
+                }
 
                 if (Physics.Raycast(clickRay, out hitInfo, 100, ClickableWorld))
                 {
@@ -120,5 +130,12 @@ public class PlayerMove : MonoBehaviour
             // if that fail, put here
     }
     
+    }
+
+    private IEnumerator cameraRefocusTimer()
+    {
+
+
+        yield return null;
     }
 }
