@@ -64,17 +64,6 @@ public class TerrainMaterialManager : MonoBehaviour
         int terrainIdx = GetActiveTerrainTextureIdx(pos);
         return terrainIdx;
     }
-
-
-    IEnumerator StepPause()
-   {
-        yield return new WaitForSeconds(footStep_Pause);
-        
-        print("step");
-        
-        yield return null;
-        
-    }
     
     
     private void PlayFootStepSound(int _terrainIDX)
