@@ -12,6 +12,7 @@ public class PlayerMove : MonoBehaviour
     public GameObject navMarkerPrefab;
     public Camera cam;
     public GameObject cameraParent;
+    public Interactable interactTarget;
 
     private NavMeshAgent PlayerNav;
     public bool markerPlaced;
@@ -24,6 +25,7 @@ public class PlayerMove : MonoBehaviour
     public float lookSensitivity = 3.0f;
 
     public bool interactablePressed;
+    public bool waitingToActivate;
 
     void Start()
     {
@@ -47,7 +49,16 @@ public class PlayerMove : MonoBehaviour
     
     void Update()
     {
-        
+        if (waitingToActivate && interactTarget != null)
+        {
+            //if (Vector3.Distance(this.transform.position, interactTarget.transform.position) <= 3.0f)
+            if (destinationReached == true)
+            {
+                interactTarget.Interact();
+                interactTarget = null;
+                waitingToActivate = false;
+            }
+        }
 
         if (Input.GetMouseButton(0))
         {
@@ -74,9 +85,25 @@ public class PlayerMove : MonoBehaviour
                 {
                     if (hitInfo.collider.gameObject.GetComponent<Interactable>() != null)
                     {
+                        waitingToActivate = true;
                         interactablePressed = true;
+                        interactTarget = hitInfo.collider.gameObject.GetComponent<Interactable>();
                         Interactable interactable = hitInfo.collider.gameObject.GetComponent<Interactable>();
-                        interactable.Interact();
+                        Vector3 navPoint = interactable.playerInteractPos.position;
+                        PlayerNav.SetDestination(interactable.playerInteractPos.position);
+                        if (markerPlaced)
+                        {
+                            Destroy(navMarker);
+                        }
+                        navMarker = Instantiate(navMarkerPrefab) as GameObject;
+                        navMarker.transform.position = navPoint;
+                        markerPlaced = true;
+                        destinationReached = false;
+
+                        AkSoundEngine.PostEvent("Location_Movement", gameObject);
+
+                        
+                  
                     }
                 }
 

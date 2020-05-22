@@ -2,6 +2,7 @@
 
 public class Interactable : MonoBehaviour
 {
+    public Transform playerInteractPos;
     public float radius = 3f;
     public Transform InteractableTransform;
 

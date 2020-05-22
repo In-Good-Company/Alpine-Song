@@ -1414,7 +1414,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 4e-45}
+  m_BoundingSphereOverride: {x: 6.222e-42, y: 1.02e-43, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -3975,6 +3975,12 @@ Transform:
   m_Father: {fileID: 2137442133}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 40.181004, y: 0, z: 0}
+--- !u!4 &534937548 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6371810651214759514, guid: 55209243961a9304e916db449b2f60d0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8853724195650121298}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &538821757 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3125222648305436405, guid: 417fbeadb3d0c6045aa52f796410cf8e,
@@ -21888,6 +21894,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5013961567664010186, guid: 55209243961a9304e916db449b2f60d0,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerInteractPos
+      objectReference: {fileID: 0}
     - target: {fileID: 8853724194918308706, guid: 55209243961a9304e916db449b2f60d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21948,6 +21959,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTestCube
       objectReference: {fileID: 0}
+    - target: {fileID: 8853724194918308734, guid: 55209243961a9304e916db449b2f60d0,
+        type: 3}
+      propertyPath: playerInteractPos
+      value: 
+      objectReference: {fileID: 534937548}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55209243961a9304e916db449b2f60d0, type: 3}
 --- !u!1001 &8974666632865283253
@@ -21957,11 +21973,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4624685273509781020, guid: 6c290b695e9ce2540987c8b78c01961b,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerInteractPos
+      objectReference: {fileID: 0}
     - target: {fileID: 8974666633452145792, guid: 6c290b695e9ce2540987c8b78c01961b,
         type: 3}
       propertyPath: m_Name
       value: TestDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 8974666633452145794, guid: 6c290b695e9ce2540987c8b78c01961b,
+        type: 3}
+      propertyPath: playerInteractPos
+      value: 
+      objectReference: {fileID: 8974666632865283254}
     - target: {fileID: 8974666633452145806, guid: 6c290b695e9ce2540987c8b78c01961b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22019,6 +22045,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c290b695e9ce2540987c8b78c01961b, type: 3}
+--- !u!4 &8974666632865283254 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4692864719528238247, guid: 6c290b695e9ce2540987c8b78c01961b,
+    type: 3}
+  m_PrefabInstance: {fileID: 8974666632865283253}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &9067944152918806669
 MonoBehaviour:
   m_ObjectHideFlags: 0
