@@ -23,6 +23,8 @@ public class PlayerMove : MonoBehaviour
     public float pressHeldThreshhold;
     public float lookSensitivity = 3.0f;
 
+    public bool interactablePressed;
+
     void Start()
     {
         PlayerNav = GetComponent<NavMeshAgent>();
@@ -72,12 +74,13 @@ public class PlayerMove : MonoBehaviour
                 {
                     if (hitInfo.collider.gameObject.GetComponent<Interactable>() != null)
                     {
+                        interactablePressed = true;
                         Interactable interactable = hitInfo.collider.gameObject.GetComponent<Interactable>();
                         interactable.Interact();
                     }
                 }
 
-                if (Physics.Raycast(clickRay, out hitInfo, 100, ClickableWorld))
+                if (Physics.Raycast(clickRay, out hitInfo, 100, ClickableWorld)&& interactablePressed == false)
                 {
                     Vector3 navPoint = hitInfo.point;
                     PlayerNav.SetDestination(hitInfo.point);
@@ -93,6 +96,7 @@ public class PlayerMove : MonoBehaviour
                     AkSoundEngine.PostEvent("Location_Movement", gameObject);
                 }
             }
+            interactablePressed = false;
             pressHeld = false;
             pressTimer = 0;
         }
