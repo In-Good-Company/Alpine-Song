@@ -66,8 +66,8 @@ public class PlayerMove : MonoBehaviour
             if (pressTimer >= pressHeldThreshhold)
             {
                 pressHeld = true;
-                float rot = Input.GetAxis("Mouse X");
-                cameraParent.transform.Rotate(0, rot * lookSensitivity, 0);
+                //float rot = Input.GetAxis("Mouse X");
+                //cameraParent.transform.Rotate(0, rot * lookSensitivity, 0);
             }
         
         }

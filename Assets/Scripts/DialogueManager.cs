@@ -8,14 +8,17 @@ public class DialogueManager : MonoBehaviour {
 
     public Text nameText;
     public Text dialogueText;
+    public GameObject responsePrefab;
 
     public Animator animator;
 
    private Queue<string> sentences;
+    private Queue<string> responses;
 
 	// Use this for initialization
 	void Start () {
         sentences = new Queue<string>();
+        responses = new Queue<string>();
 	}
 
 	public void StartDialogue(Dialogue dialogue)
@@ -31,13 +34,18 @@ public class DialogueManager : MonoBehaviour {
             sentences.Enqueue(sentence);
         }
 
-        DisplayNextSentence();
+        DisplayNextSentence(dialogue);
     }
 
-    public void DisplayNextSentence()
+    public void DisplayNextSentence(Dialogue dialogue)
     {
         if (sentences.Count == 0)
         {
+            foreach(Response _responses in dialogue.responses)
+            {
+                Instantiate<GameObject>(responsePrefab as GameObject);
+                //_responses.choiceText = dialogue.cho
+            }
             EndDialogue();
             return;
         }
@@ -62,4 +70,5 @@ public class DialogueManager : MonoBehaviour {
         animator.SetBool("IsOpen", false);
         //Debug.Log("End Of Conversation");
     }
+
 }

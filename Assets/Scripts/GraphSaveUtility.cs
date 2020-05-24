@@ -4,6 +4,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class GraphSaveUtility
 {
@@ -72,14 +73,14 @@ public class GraphSaveUtility
         CreateNodes();
         ConnectNodes();
     }
-
+    
     private void ClearGraph()
     {
         Nodes.Find(dialogueNode => dialogueNode.entryPoint).GUID = _containerCache.nodeLinks[0].baseNodeGUID;
 
         foreach ( var node in Nodes)
         {
-            if (node.entryPoint) return;
+            if (node.entryPoint) continue;
             Edges.Where(edge => edge.input.node == node).ToList().ForEach(edge => _targetGraphView.RemoveElement(edge));
 
             _targetGraphView.RemoveElement(node);
@@ -93,11 +94,37 @@ public class GraphSaveUtility
             tempNode.GUID = nodeData.nodeGUID;
             _targetGraphView.AddElement(tempNode);
 
-            //var nodePort =
+            var nodePorts = _containerCache.nodeLinks.Where(nodeLinkData => nodeLinkData.baseNodeGUID == nodeData.nodeGUID).ToList();
+
+            nodePorts.ForEach(nodeLinkData => _targetGraphView.AddChoicePort(tempNode, nodeLinkData.portName));
         }
     }
     private void ConnectNodes()
     {
+        for (int i = 0; i < Nodes.Count; i++)
+        {
+            var connections = _containerCache.nodeLinks.Where(nodeLinkData => nodeLinkData.baseNodeGUID == Nodes[i].GUID).ToList();
+            for (int j = 0; j < connections.Count; j++)
+            {
+                var targetNodeGUID = connections[j].targetNodeGUID;
+                var targetNode = Nodes.First(dialogueNode => dialogueNode.GUID == targetNodeGUID);
+                LinkNodes(Nodes[i].outputContainer[j].Q<Port>(), (Port) targetNode.inputContainer[0]);
 
+                targetNode.SetPosition(new Rect(_containerCache.dialogueNodeData.First(dialogueNodeData => dialogueNodeData.nodeGUID == targetNodeGUID).Pos,_targetGraphView.defualtNodeSize));
+            }
+        }
+    }
+
+    private void LinkNodes(Port output, Port input)
+    {
+        var tempEdge = new Edge
+        {
+            output = output,
+            input = input
+        };
+
+        tempEdge.input.Connect(tempEdge);
+        tempEdge.output.Connect(tempEdge);
+        _targetGraphView.Add(tempEdge);
     }
 }

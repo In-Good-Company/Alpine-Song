@@ -23,6 +23,9 @@ public class DialogueGraph : EditorWindow
     {
         ConstructGraph();
         GenerateToolbar();
+        GenerateMiniMap();
+
+
     }
 
     private void ConstructGraph()
@@ -86,5 +89,12 @@ public class DialogueGraph : EditorWindow
     public void OnDisable()
     {
         rootVisualElement.Remove(_graphview);
+    }
+
+    private void GenerateMiniMap()
+    {
+        var miniMap = new MiniMap { anchored = true };
+        miniMap.SetPosition(new Rect(10, 30, 200, 140));
+        _graphview.Add(miniMap);
     }
 }
