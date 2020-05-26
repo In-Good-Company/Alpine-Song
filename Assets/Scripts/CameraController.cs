@@ -5,21 +5,36 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
 
-    public GameObject camParent;
     public GameObject player;
     public float CameraMoveSpeed = 120.0f;
     public float lookSensitivity = 3.0f;
     public float lastMoveTime = 0.0f;
     public float camRecenterTime = 3.0f;
+    public PlayerMove playerMove;
+
+    private void Start()
+    {
+        lastMoveTime = 3.0f;
+        if (playerMove == null)
+        {
+            playerMove = GameObject.FindObjectOfType<PlayerMove>();
+        }
+        if (player == null)
+        {
+            player = GameObject.Find("Player");
+        }
+    }
 
     void Update()
     {
-
         if (Input.GetMouseButton(0))
         {
-            lastMoveTime = 0;
-            float rot = Input.GetAxis("Mouse X");
-            this.gameObject.transform.Rotate(0, rot * lookSensitivity, 0);
+            if (playerMove.pressTimer >= playerMove.pressHeldThreshhold)
+            {
+                lastMoveTime = 0;
+                float rot = Input.GetAxis("Mouse X");
+                this.gameObject.transform.Rotate(0, rot * lookSensitivity, 0);
+            }
         }
         CameraPosUpdate();
         if (lastMoveTime >= camRecenterTime)
