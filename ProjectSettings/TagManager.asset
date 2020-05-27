@@ -9,6 +9,7 @@ TagManager:
   - Cow
   - Trap
   - navPoint
+  - responseObject
   layers:
   - Default
   - TransparentFX

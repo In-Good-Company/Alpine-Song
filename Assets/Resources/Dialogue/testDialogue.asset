@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d7f1eac21910f4cbce0c516916d98d, type: 3}
   m_Name: testDialogue
   m_EditorClassIdentifier: 
-  name: 
+  name: name
   sentences:
   - Hi
   - Hello
@@ -20,5 +20,5 @@ MonoBehaviour:
   responses:
   - choiceText: Good
     nextDialogue: {fileID: 11400000, guid: ab4799dcf22dc9749ba15d59648411eb, type: 2}
-  - choiceText: bad
+  - choiceText: Bad
     nextDialogue: {fileID: 11400000, guid: d0b49d3380c7481429b354dabec84a25, type: 2}

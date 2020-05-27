@@ -16,9 +16,19 @@ public class Dialogue : ScriptableObject {
 }
 
 [System.Serializable]
-public struct Response
+public class Response
 {
     [TextArea(3, 10)]
     public string choiceText;
     public Dialogue nextDialogue;
+    public string GetChoiceText(string _choiceText)
+    {
+        _choiceText = choiceText;
+        return _choiceText;
+    }
+    public Dialogue GetNextDialogue(Dialogue _nextDialogue)
+    {
+        _nextDialogue = nextDialogue;
+        return _nextDialogue;
+    }
 }

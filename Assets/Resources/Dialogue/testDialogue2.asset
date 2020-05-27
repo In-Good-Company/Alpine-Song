@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d7f1eac21910f4cbce0c516916d98d, type: 3}
   m_Name: testDialogue2
   m_EditorClassIdentifier: 
-  name: 
+  name: name
   sentences:
   - great!
   responses: []

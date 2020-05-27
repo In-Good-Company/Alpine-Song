@@ -48,10 +48,17 @@ public class TerrainMaterialManager : MonoBehaviour
         Terrain _terrain = targetTerrain;
         if (targetTerrain != null)
         {
-            Vector3 terrainPosition = _terrain.transform.position;
-            coordinate.x = ((playerPos.x - terrainPosition.x) / _terrain.terrainData.size.x) * _terrain.terrainData.alphamapWidth;
-            coordinate.z = ((playerPos.z - terrainPosition.z) / _terrain.terrainData.size.z) * _terrain.terrainData.alphamapHeight;      
-    }
+            if (coordinate.z < _terrain.terrainData.alphamapWidth && coordinate.z > -_terrain.terrainData.alphamapWidth && coordinate.x < _terrain.terrainData.alphamapHeight && coordinate.x > -_terrain.terrainData.alphamapHeight)
+            {
+                Vector3 terrainPosition = _terrain.transform.position;
+                coordinate.x = ((playerPos.x - terrainPosition.x) / _terrain.terrainData.size.x) * _terrain.terrainData.alphamapWidth;
+                coordinate.z = ((playerPos.z - terrainPosition.z) / _terrain.terrainData.size.z) * _terrain.terrainData.alphamapHeight;
+            }
+            else
+            {
+                Debug.Log("outside bounds");
+            }
+        }
         return coordinate;
     }
 
