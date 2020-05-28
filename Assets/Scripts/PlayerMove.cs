@@ -7,8 +7,12 @@ using UnityEngine.EventSystems;
 public class PlayerMove : MonoBehaviour
 {
     public LayerMask ClickableWorld;
+    public LayerMask Interactables;
     public GameObject navMarker;
     public GameObject navMarkerPrefab;
+    public Camera cam;
+    public GameObject cameraParent;
+    public Interactable interactTarget;
 
     private NavMeshAgent PlayerNav;
     public bool markerPlaced;
@@ -20,10 +24,14 @@ public class PlayerMove : MonoBehaviour
     public float pressHeldThreshhold;
     public float lookSensitivity = 3.0f;
 
+    public bool interactablePressed;
+    public bool waitingToActivate;
+
     void Start()
     {
         PlayerNav = GetComponent<NavMeshAgent>();
         destinationReached = false;
+        cam = GetComponent<Camera>();
     }
 
    private void walkDistanceCheck()
@@ -41,30 +49,29 @@ public class PlayerMove : MonoBehaviour
     
     void Update()
     {
-        
+        if (waitingToActivate && interactTarget != null)
+        {
+            //if (Vector3.Distance(this.transform.position, interactTarget.transform.position) <= 3.0f)
+            if (destinationReached == true)
+            {
+                interactTarget.Interact();
+                interactTarget = null;
+                waitingToActivate = false;
+            }
+        }
 
-       //if (Input.GetMouseButton(0))
-       //{
-       //    pressTimer += Time.deltaTime;
-       //    if (pressTimer >= pressHeldThreshhold)
-       //    {
-       //        pressHeld = true;
-       //        if (markerPlaced == false || destinationReached == true)
-       //        {
-       //            float rot = Input.GetAxis("Mouse X");
-       //            transform.Rotate(0, rot * lookSensitivity, 0);
-       //        }
-       //
-       //       //navMarker = Instantiate(navMarkerPrefab) as GameObject;
-       //       //navMarker.transform.position = navPoint;
-       //       //markerPlaced = true;
-       //       //destinationReached = false;
-       //        //sound for clicking
-       //       // AkSoundEngine.PostEvent("Location_Movement", gameObject);
-       //    }
-       //
-       //}
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
+        {
+            pressTimer += Time.deltaTime;
+            if (pressTimer >= pressHeldThreshhold)
+            {
+                pressHeld = true;
+                //float rot = Input.GetAxis("Mouse X");
+                //cameraParent.transform.Rotate(0, rot * lookSensitivity, 0);
+            }
+        
+        }
+        if (Input.GetMouseButtonUp(0))
         {
             if (pressHeld == false)
             {
@@ -74,7 +81,33 @@ public class PlayerMove : MonoBehaviour
                 if (EventSystem.current.IsPointerOverGameObject())
                     return;
 
-                if (Physics.Raycast(clickRay, out hitInfo, 100, ClickableWorld))
+                if (Physics.Raycast(clickRay, out hitInfo, 100, Interactables))
+                {
+                    if (hitInfo.collider.gameObject.GetComponent<Interactable>() != null)
+                    {
+                        waitingToActivate = true;
+                        interactablePressed = true;
+                        interactTarget = hitInfo.collider.gameObject.GetComponent<Interactable>();
+                        Interactable interactable = hitInfo.collider.gameObject.GetComponent<Interactable>();
+                        Vector3 navPoint = interactable.playerInteractPos.position;
+                        PlayerNav.SetDestination(interactable.playerInteractPos.position);
+                        if (markerPlaced)
+                        {
+                            Destroy(navMarker);
+                        }
+                        navMarker = Instantiate(navMarkerPrefab) as GameObject;
+                        navMarker.transform.position = navPoint;
+                        markerPlaced = true;
+                        destinationReached = false;
+
+                        AkSoundEngine.PostEvent("Location_Movement", gameObject);
+
+                        
+                  
+                    }
+                }
+
+                if (Physics.Raycast(clickRay, out hitInfo, 100, ClickableWorld)&& interactablePressed == false)
                 {
                     Vector3 navPoint = hitInfo.point;
                     PlayerNav.SetDestination(hitInfo.point);
@@ -90,6 +123,7 @@ public class PlayerMove : MonoBehaviour
                     AkSoundEngine.PostEvent("Location_Movement", gameObject);
                 }
             }
+            interactablePressed = false;
             pressHeld = false;
             pressTimer = 0;
         }
@@ -127,5 +161,12 @@ public class PlayerMove : MonoBehaviour
             // if that fail, put here
     }
     
+    }
+
+    private IEnumerator cameraRefocusTimer()
+    {
+
+
+        yield return null;
     }
 }
