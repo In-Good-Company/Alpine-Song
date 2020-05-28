@@ -10,8 +10,6 @@ public class PlayerMove : MonoBehaviour
     public LayerMask Interactables;
     public GameObject navMarker;
     public GameObject navMarkerPrefab;
-    public Camera cam;
-    public GameObject cameraParent;
     public Interactable interactTarget;
 
     private NavMeshAgent PlayerNav;
@@ -21,7 +19,7 @@ public class PlayerMove : MonoBehaviour
 
     public bool pressHeld;
     public float pressTimer;
-    public float pressHeldThreshhold;
+    public float pressHeldThreshhold = 0.1f;
     public float lookSensitivity = 3.0f;
 
     public bool interactablePressed;
@@ -29,9 +27,13 @@ public class PlayerMove : MonoBehaviour
 
     void Start()
     {
+        if (pressHeldThreshhold == 0)
+        {
+            pressHeldThreshhold = 0.1f;
+        }
         PlayerNav = GetComponent<NavMeshAgent>();
         destinationReached = false;
-        cam = GetComponent<Camera>();
+        //cam = GetComponent<Camera>();
     }
 
    private void walkDistanceCheck()
@@ -51,7 +53,6 @@ public class PlayerMove : MonoBehaviour
     {
         if (waitingToActivate && interactTarget != null)
         {
-            //if (Vector3.Distance(this.transform.position, interactTarget.transform.position) <= 3.0f)
             if (destinationReached == true)
             {
                 interactTarget.Interact();
@@ -67,8 +68,6 @@ public class PlayerMove : MonoBehaviour
             if (pressTimer >= pressHeldThreshhold)
             {
                 pressHeld = true;
-                //float rot = Input.GetAxis("Mouse X");
-                //cameraParent.transform.Rotate(0, rot * lookSensitivity, 0);
             }
         
         }
@@ -87,6 +86,7 @@ public class PlayerMove : MonoBehaviour
                 {
                     if (hitInfo.collider.gameObject.GetComponent<Interactable>() != null)
                     {
+                        Debug.Log("interactable found");
                         waitingToActivate = true;
                         interactablePressed = true;
                         interactTarget = hitInfo.collider.gameObject.GetComponent<Interactable>();
@@ -111,6 +111,7 @@ public class PlayerMove : MonoBehaviour
 
                 if (Physics.Raycast(clickRay, out hitInfo, 100, ClickableWorld)&& interactablePressed == false)
                 {
+                    Debug.Log("world position found");
                     Vector3 navPoint = hitInfo.point;
                     PlayerNav.SetDestination(hitInfo.point);
                     if (markerPlaced)
@@ -163,12 +164,5 @@ public class PlayerMove : MonoBehaviour
             // if that fail, put here
     }
     
-    }
-
-    private IEnumerator cameraRefocusTimer()
-    {
-
-
-        yield return null;
     }
 }
