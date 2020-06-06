@@ -2,6 +2,7 @@
 <ValidationCache Version="1" SchemaVersion="97">
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1586813598" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1586813598" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Switches\Foley.wwu" DateLow="1591469843" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1586813598" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\States\Default Work Unit.wwu" DateLow="1586813598" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1586813598" DateHigh="0"/>
@@ -20,11 +21,11 @@
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Interactive Music Hierarchy\Music.wwu" DateLow="1587687556" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1586813598" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Goat Game_WwiseProject.wproj" DateLow="1591469451" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Goat Game_WwiseProject.Danial.wsettings" DateLow="1591469273" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Goat Game_WwiseProject.Danial.wsettings" DateLow="1591470783" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1586813598" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Events\UI Sounds.wwu" DateLow="1586823319" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Events\Music.wwu" DateLow="1587686883" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Events\Foley.wwu" DateLow="1591469272" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Events\Foley.wwu" DateLow="1591469900" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Events\Default Work Unit.wwu" DateLow="1588025049" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Events\Animals.wwu" DateLow="1587431098" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Effects\Factory Effects.wwu" DateLow="1586813598" DateHigh="0"/>
@@ -36,7 +37,7 @@
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1586813598" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1586813598" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Actor-Mixer Hierarchy\UI Sounds.wwu" DateLow="1586822932" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Actor-Mixer Hierarchy\Foley.wwu" DateLow="1591469272" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Actor-Mixer Hierarchy\Foley.wwu" DateLow="1591470075" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1587430846" DateHigh="0"/>
-	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Actor-Mixer Hierarchy\Animals.wwu" DateLow="1587438085" DateHigh="0"/>
+	<ValidationCacheItem File="E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\Actor-Mixer Hierarchy\Animals.wwu" DateLow="1591470485" DateHigh="0"/>
 </ValidationCache>

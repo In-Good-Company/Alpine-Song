@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{50C6ED20-A9F5-4586-90AD-6632AB58584F}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{50C6ED20-A9F5-4586-90AD-6632AB58584F}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Ambience" ID="{19B8B286-AB81-4B06-BAB2-402DF1919769}" ShortID="755064204">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="MG 1_Ambience_A1_Batch A" ID="{3FDD8D43-26F1-4405-82EB-BBF53A37DB79}" ShortID="692367745">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MG 1_Ambience_A1_Batch A" ID="{A3326892-614B-4E22-B7D4-AB2C462A8BD2}">
+									<Language>SFX</Language>
+									<AudioFile>MG 1_Ambience_A1_Batch A.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="693040249"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MG 1_Ambience_A1_Batch A" ID="{A3326892-614B-4E22-B7D4-AB2C462A8BD2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -11,6 +11,21 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="85412153" Language="SFX">
+			<ObjectPath>\SoundBanks\Ambience\Ambience</ObjectPath>
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="127942577" Name="Ambience_L1" ObjectPath="\Events\Ambience\Ambience_L1" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="693040249" Language="SFX">
+							<ShortName>MG 1_Ambience_A1_Batch A.wav</ShortName>
+							<Path>SFX\MG 1_Ambience_A1_Batch A_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
 		<SoundBank Id="247557814" Language="SFX">
 			<ObjectPath>\SoundBanks\Foley\Foley</ObjectPath>
 			<ShortName>Foley</ShortName>
@@ -20,7 +35,7 @@
 					<IncludedMemoryFiles>
 						<File Id="326200082" Language="SFX">
 							<ShortName>MG1_Foley_Footsteps_Dirt_A2_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A2_Batch A_40A75352.wem</Path>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A2_Batch A_D8D08F6F.wem</Path>
 						</File>
 						<File Id="358298820" Language="SFX">
 							<ShortName>MG 1_Cow Steps_Weeds A8_Batch B.wav</ShortName>
@@ -28,11 +43,11 @@
 						</File>
 						<File Id="440968966" Language="SFX">
 							<ShortName>MG1_Foley_Footsteps_Dirt_A3_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A3_Batch A_165BCDE1.wem</Path>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A3_Batch A_8A005AAD.wem</Path>
 						</File>
 						<File Id="486034750" Language="SFX">
 							<ShortName>MG1_Foley_Footsteps_Dirt_A7_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A7_Batch A_F8ECA100.wem</Path>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A7_Batch A_A9FF351D.wem</Path>
 						</File>
 						<File Id="513554068" Language="SFX">
 							<ShortName>MG 1_Cow Steps_Weeds A5_Batch B.wav</ShortName>
@@ -48,7 +63,7 @@
 						</File>
 						<File Id="552271610" Language="SFX">
 							<ShortName>MG1_Foley_Footsteps_Dirt_A1_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A1_Batch A_BF3DEFC8.wem</Path>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A1_Batch A_837DEC9D.wem</Path>
 						</File>
 						<File Id="673747760" Language="SFX">
 							<ShortName>MG 1_Cow Steps_Weeds A6_Batch B.wav</ShortName>
@@ -56,15 +71,15 @@
 						</File>
 						<File Id="753334073" Language="SFX">
 							<ShortName>MG1_Foley_Footsteps_Dirt_A8_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A8_Batch A_72F8407D.wem</Path>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A8_Batch A_69C6AEFE.wem</Path>
 						</File>
 						<File Id="818902179" Language="SFX">
 							<ShortName>MG1_Foley_Footsteps_Dirt_A6_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A6_Batch A_9DF50BAF.wem</Path>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A6_Batch A_FCC3E804.wem</Path>
 						</File>
 						<File Id="905293815" Language="SFX">
 							<ShortName>MG1_Foley_Footsteps_Dirt_A5_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A5_Batch A_A3CF3E13.wem</Path>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A5_Batch A_D019E916.wem</Path>
 						</File>
 						<File Id="909855718" Language="SFX">
 							<ShortName>MG 1_Cow Steps_Weeds A7_Batch B.wav</ShortName>
@@ -80,7 +95,7 @@
 						</File>
 						<File Id="1050239933" Language="SFX">
 							<ShortName>MG1_Foley_Footsteps_Dirt_A4_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A4_Batch A_0BB7BF72.wem</Path>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A4_Batch A_6A6A2BFD.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
