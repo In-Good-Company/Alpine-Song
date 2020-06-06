@@ -104,6 +104,7 @@
 										<Value>4</Value>
 									</ValueList>
 								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverridePriority" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -129,13 +130,16 @@
 										<Value>-20</Value>
 									</ValueList>
 								</Property>
-								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{38C450C3-05D5-4E64-87CD-5C95E41168FF}">
@@ -157,7 +161,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="58277__benboncan__cow_Batch A" ID="{A5ED76EF-2D21-4058-B623-DF0A92827F04}" ShortID="179514306">
+								<Sound Name="MG1_Cow Moos_A1_Batch_A" ID="{0FE2D6C2-5C9C-4F36-B1AC-A98EF97BD69D}" ShortID="398023921">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -167,19 +171,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="58277__benboncan__cow_Batch A" ID="{0DDB1CA7-DB80-4FB4-97B0-41701B691458}">
+										<AudioFileSource Name="MG1_Cow Moos_A1_Batch_A" ID="{6A652460-31E3-4515-94AC-FB6184E0A5C1}">
 											<Language>SFX</Language>
-											<AudioFile>58277__benboncan__cow_Batch A.wav</AudioFile>
+											<AudioFile>MG1_Cow Moos_A1_Batch_A.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="174442643"/>
+												<MediaID ID="145657906"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="58277__benboncan__cow_Batch A" ID="{0DDB1CA7-DB80-4FB4-97B0-41701B691458}" Platform="Linked"/>
+										<ActiveSource Name="MG1_Cow Moos_A1_Batch_A" ID="{6A652460-31E3-4515-94AC-FB6184E0A5C1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="233128__jarredgibb__cow-moo-3-96khz_Batch A" ID="{92AF72F5-598A-419B-8D93-EBF71D1CC751}" ShortID="737759826">
+								<Sound Name="MG1_Cow Moos_A2_Batch_A" ID="{36D594D0-2721-4446-9CB7-BC091A46E609}" ShortID="444697330">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -189,19 +193,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="233128__jarredgibb__cow-moo-3-96khz_Batch A" ID="{C23E8C60-FB15-4B40-AF92-21DCF897AA51}">
+										<AudioFileSource Name="MG1_Cow Moos_A2_Batch_A" ID="{3661A23B-A664-4EA1-B40F-C9FBA2A5E841}">
 											<Language>SFX</Language>
-											<AudioFile>233128__jarredgibb__cow-moo-3-96khz_Batch A.wav</AudioFile>
+											<AudioFile>MG1_Cow Moos_A2_Batch_A.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="799053858"/>
+												<MediaID ID="523598433"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="233128__jarredgibb__cow-moo-3-96khz_Batch A" ID="{C23E8C60-FB15-4B40-AF92-21DCF897AA51}" Platform="Linked"/>
+										<ActiveSource Name="MG1_Cow Moos_A2_Batch_A" ID="{3661A23B-A664-4EA1-B40F-C9FBA2A5E841}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="377603__yudena__cow-bymondfisch89_Batch A" ID="{A195799C-6B7A-4499-842F-153A0BDC330C}" ShortID="738451115">
+								<Sound Name="MG1_Cow Moos_A3_Batch_A" ID="{BFBF62DF-BAB4-4848-98FB-3B5093B2E202}" ShortID="985920784">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -211,16 +215,82 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="377603__yudena__cow-bymondfisch89_Batch A" ID="{88636851-1A64-4009-9A93-7E869B04B476}">
+										<AudioFileSource Name="MG1_Cow Moos_A3_Batch_A" ID="{158EDDC6-704F-498C-90EA-9B1BD6CD7CFB}">
 											<Language>SFX</Language>
-											<AudioFile>377603__yudena__cow-bymondfisch89_Batch A.wav</AudioFile>
+											<AudioFile>MG1_Cow Moos_A3_Batch_A.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="743381272"/>
+												<MediaID ID="625290867"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="377603__yudena__cow-bymondfisch89_Batch A" ID="{88636851-1A64-4009-9A93-7E869B04B476}" Platform="Linked"/>
+										<ActiveSource Name="MG1_Cow Moos_A3_Batch_A" ID="{158EDDC6-704F-498C-90EA-9B1BD6CD7CFB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MG1_Cow Moos_A4_Batch_A" ID="{BE1032DB-6EBA-4765-B8E6-9347E8B57698}" ShortID="576498764">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MG1_Cow Moos_A4_Batch_A" ID="{6BBD0E9F-A96B-4E25-AE81-2EA622934526}">
+											<Language>SFX</Language>
+											<AudioFile>MG1_Cow Moos_A4_Batch_A.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1012553245"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MG1_Cow Moos_A4_Batch_A" ID="{6BBD0E9F-A96B-4E25-AE81-2EA622934526}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MG1_Cow Moos_A5_Batch_A" ID="{A9F23923-BB4B-4FB1-938F-C228C68FC5E1}" ShortID="638773467">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MG1_Cow Moos_A5_Batch_A" ID="{D877628D-575A-43BF-B3F6-6D37828AC47F}">
+											<Language>SFX</Language>
+											<AudioFile>MG1_Cow Moos_A5_Batch_A.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="554654189"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MG1_Cow Moos_A5_Batch_A" ID="{D877628D-575A-43BF-B3F6-6D37828AC47F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MG1_Cow Moos_A6_Batch_A" ID="{DD661248-5E3A-4802-B2AC-0F5DD7097F70}" ShortID="1063485032">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MG1_Cow Moos_A6_Batch_A" ID="{3F42D7FD-1BCF-489A-BE47-FC5D2AF161B7}">
+											<Language>SFX</Language>
+											<AudioFile>MG1_Cow Moos_A6_Batch_A.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="488649298"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MG1_Cow Moos_A6_Batch_A" ID="{3F42D7FD-1BCF-489A-BE47-FC5D2AF161B7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
