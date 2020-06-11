@@ -30,8 +30,14 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Dirt" ID="{D038DA79-0328-40AD-BCE1-710CA86A2CFC}" WorkUnitID="{DD98EBBB-1879-47D9-B14A-083A5AA8D7DC}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Footsteps_Materials" ID="{B5A59E27-718B-4A34-8BC9-8838AA20854A}" WorkUnitID="{DD98EBBB-1879-47D9-B14A-083A5AA8D7DC}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -443,6 +449,250 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Footsteps_Dirt" ID="{D71C37A2-5561-46CA-AA84-7AFEE6D8FE87}" ShortID="990933132">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C4FC6D2E-0036-415E-96A2-B9D372108156}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A1_Batch A" ID="{F8AF6681-D12D-44E0-8789-E51A19DF8843}" ShortID="809853410">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A1_Batch A" ID="{677E3B0C-B7F1-4950-9E40-06969FF9436B}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0327186261558785"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.478055482166447"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A1_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="552271610"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A1_Batch A" ID="{677E3B0C-B7F1-4950-9E40-06969FF9436B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A2_Batch A" ID="{83F9650F-A29C-496B-B9B3-CBC7FA5B1CBE}" ShortID="397497040">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A2_Batch A" ID="{4A194D17-BD36-4A03-BF95-3FE4FFBA1527}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0176627036547776"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.50837868780273"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A2_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="326200082"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A2_Batch A" ID="{4A194D17-BD36-4A03-BF95-3FE4FFBA1527}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A3_Batch A" ID="{538D11E2-BEAA-409F-B6F6-49DF4514D5C6}" ShortID="637735539">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A3_Batch A" ID="{BB0E1BCC-9D78-45B3-A1AB-BF79BBB72EB4}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0561241743725231"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.476275979744606"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A3_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="440968966"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A3_Batch A" ID="{BB0E1BCC-9D78-45B3-A1AB-BF79BBB72EB4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A4_Batch A" ID="{86C5B432-9F2B-4EDA-BB9B-9FF3DC16979D}" ShortID="114246452">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A4_Batch A" ID="{047D9CA3-8334-4F65-90CC-24E25F62C925}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0647225891677675"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.514623513870542"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A4_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1050239933"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A4_Batch A" ID="{047D9CA3-8334-4F65-90CC-24E25F62C925}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A5_Batch A" ID="{8C747D6C-449E-4D2C-85C7-4F8E3E025255}" ShortID="850928821">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A5_Batch A" ID="{7F4B69E1-D00E-4180-8CCA-55FD19CF11D0}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0716230735358873"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.470221047996478"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A5_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="905293815"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A5_Batch A" ID="{7F4B69E1-D00E-4180-8CCA-55FD19CF11D0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A6_Batch A" ID="{EE4268BF-4443-45EF-B8C0-431784533D85}" ShortID="609312364">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A6_Batch A" ID="{68727D00-99BE-414E-AD50-08F638FE3A62}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0307177454865698"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.476125055041832"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A6_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="818902179"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A6_Batch A" ID="{68727D00-99BE-414E-AD50-08F638FE3A62}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A7_Batch A" ID="{0BC3A8FF-543C-461C-A056-21CB6666BDDC}" ShortID="143648056">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A7_Batch A" ID="{98F683CA-7366-4C86-960A-E777C16CF2CC}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0838678996036988"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.53640510788199"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A7_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="486034750"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A7_Batch A" ID="{98F683CA-7366-4C86-960A-E777C16CF2CC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A8_Batch A" ID="{D3AA1462-3F70-438F-9EA1-F4E3CBBF491A}" ShortID="86386662">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A8_Batch A" ID="{CB88C3AB-8CDB-4B87-AB30-66F66E455032}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0589009247027741"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.482821664464994"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A8_Batch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="753334073"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A8_Batch A" ID="{CB88C3AB-8CDB-4B87-AB30-66F66E455032}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -452,7 +702,24 @@
 									<GroupingBehavior>
 										<ItemRef Name="Footsteps_Weeds" ID="{FA91746A-FC28-4EE5-9CB6-A1597C0D9C24}"/>
 									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Footsteps_Dirt" ID="{D71C37A2-5561-46CA-AA84-7AFEE6D8FE87}"/>
+									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Dirt" ID="{D038DA79-0328-40AD-BCE1-710CA86A2CFC}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps_Dirt" ID="{D71C37A2-5561-46CA-AA84-7AFEE6D8FE87}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Grass" ID="{D37B20AF-B90C-4811-BF91-ACB245C1D913}"/>
+										<ItemList>
+											<ItemRef Name="Footsteps_Weeds_Grasssss" ID="{2D694B2E-92EF-45CD-B92A-C6BDAA625B77}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>

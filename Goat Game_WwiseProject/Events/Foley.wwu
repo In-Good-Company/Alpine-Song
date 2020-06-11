@@ -5,10 +5,10 @@
 			<ChildrenList>
 				<Event Name="Footsteps" ID="{03838782-8AE1-4C30-AA48-566DA342435E}">
 					<ChildrenList>
-						<Action Name="" ID="{E7D409A3-4FB5-485A-A4E0-6FAD25A0D1E5}" ShortID="667138738">
+						<Action Name="" ID="{9FA9A393-B168-4A0F-A95B-7F47020F774B}" ShortID="855495705">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Footsteps_Weeds" ID="{FA91746A-FC28-4EE5-9CB6-A1597C0D9C24}" WorkUnitID="{3F2AD430-19C5-4182-A93E-6AB017184746}"/>
+									<ObjectRef Name="Footsteps_Materials" ID="{84BE48B2-8E02-4423-BBD5-F4EC5AC8EC73}" WorkUnitID="{3F2AD430-19C5-4182-A93E-6AB017184746}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

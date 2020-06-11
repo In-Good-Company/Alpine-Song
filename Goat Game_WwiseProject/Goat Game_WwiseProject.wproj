@@ -21,6 +21,17 @@
 						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9Ijg1MjYiIG1hc2s9IlVCTEMyNjEyIiBlbmM9IjAiPjxsaWNl
+bnNlIGlkPSI0MSIgbmFtZT0iV3dpc2UgKExpbWl0ZWQgQ29tbWVyY2lhbCBMaWNl
+bnNlKSAoTGltaXRlZCB0byA1MDAgYXNzZXRzKSIgdHlwZT0iMiIgcGxhdGZvcm1z
+PSIyLDMsNCwxMCwxMyIgZXhwaXJlcz0iMjAyMS0wNC0yNCIgYXNzZXRzPSI1MDAi
+IC8+PC9wcm9qZWN0Pg==|x6X+B0EeOdtfG05N52wMBTmzpbArDA0zeKf6GCXl64I
+Cm8M/wZW6RgBeY4IzS8/gBsHbziKNCvvvSRU6Bw+j2OxBGChA2mK2AmVyaqS7hRX
+BIgSVs5GxJ7B8lxriTRYcqkWkW0fgMo7qpEl8Moa1sK7zuXU0mK8X/+ilIfvhfmI
+sgoVNB/sZjOPU5AIGLaJlc8yUIyKKA+mcMC578FAixBwWk7YoxWYU1WhCGz/frKd
+XAuV7ZQ3ram0aRqs3GyqJ3Q9xJIIQT8jh/dZy7GxtTDSpnQYndlqeS1ibDN3/vTW
+IbV56ebLbBCYC/c3xx0PR5n39T9hzN4aQ3CdtWza7zw==
+"/>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
 						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
