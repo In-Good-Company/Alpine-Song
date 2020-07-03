@@ -262,7 +262,7 @@ MonoBehaviour:
     m_Bits: 512
   Interactables:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   navMarker: {fileID: 0}
   navMarkerPrefab: {fileID: 6364817035538628322, guid: eb800faea03754b4c88c06dd81398b1e,
     type: 3}

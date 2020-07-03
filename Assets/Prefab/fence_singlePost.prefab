@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8259772733722061185}
   - component: {fileID: 1151686980954411959}
   - component: {fileID: 6685334567373582158}
+  - component: {fileID: 3791635137925931240}
   m_Layer: 0
   m_Name: fence_singlePost
   m_TagString: Untagged
@@ -78,3 +79,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!208 &3791635137925931240
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4970780275092167570}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.0050000004, y: 0.0050000004, z: 0.023000002}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 0
+  m_Center: {x: 0.001, y: -0.001, z: 0.019000001}
+  m_TimeToStationary: 0.5

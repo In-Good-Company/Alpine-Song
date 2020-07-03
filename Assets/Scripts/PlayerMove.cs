@@ -49,6 +49,21 @@ public class PlayerMove : MonoBehaviour
 
     }
     
+    private void lookAround()
+    {
+        //if (Input.touchCount == 2)
+        if(Input.GetMouseButton(0))
+        {
+            print("test1");
+            pressTimer += Time.deltaTime;
+            if (pressTimer >= pressHeldThreshhold)
+            {
+                pressHeld = true;
+            }
+
+        }
+    }
+
     void Update()
     {
         if (waitingToActivate && interactTarget != null)
@@ -61,16 +76,7 @@ public class PlayerMove : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButton(0))
-        {
-            print("test1");
-            pressTimer += Time.deltaTime;
-            if (pressTimer >= pressHeldThreshhold)
-            {
-                pressHeld = true;
-            }
         
-        }
         if (Input.GetMouseButtonUp(0))
         {
             print("test2");
@@ -131,6 +137,7 @@ public class PlayerMove : MonoBehaviour
             pressTimer = 0;
         }
 
+        lookAround();
         //Currently commented out just in case
         //if (Input.GetMouseButtonDown(0))
         //{

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3271168243298472392
+--- !u!1 &7322705811452445167
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1963252741573632987}
-  - component: {fileID: 7378542469639690733}
-  - component: {fileID: 3844191868791956756}
-  - component: {fileID: 7263196255183417774}
+  - component: {fileID: 6035988964510872572}
+  - component: {fileID: 3359444823832922570}
+  - component: {fileID: 9053268997765461299}
+  - component: {fileID: 1638913568868368399}
+  - component: {fileID: 1638913568868368396}
   m_Layer: 0
-  m_Name: fence_section01
+  m_Name: house_standin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1963252741573632987
+--- !u!4 &6035988964510872572
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3271168243298472392}
-  m_LocalRotation: {x: -0.63234156, y: 0.31645566, z: 0.31645563, w: 0.63234156}
-  m_LocalPosition: {x: 157.41, y: 36.77, z: 36.83}
-  m_LocalScale: {x: 35.913, y: 35.913, z: 35.913}
+  m_GameObject: {fileID: 7322705811452445167}
+  m_LocalRotation: {x: -0, y: 0.70802647, z: -0, w: 0.706186}
+  m_LocalPosition: {x: 188.26, y: 38.87, z: 54.22}
+  m_LocalScale: {x: 0.82, y: 0.82, z: 0.82}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 53.171}
---- !u!33 &7378542469639690733
+  m_LocalEulerAnglesHint: {x: 0, y: 90.149, z: 0}
+--- !u!33 &3359444823832922570
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3271168243298472392}
-  m_Mesh: {fileID: -1701780393220615262, guid: 30b6353225f877a4dbbff2bc39a76dc5, type: 3}
---- !u!23 &3844191868791956756
+  m_GameObject: {fileID: 7322705811452445167}
+  m_Mesh: {fileID: 4068373912626513877, guid: 06232153e0cc6824f81e3781e2efe9b7, type: 3}
+--- !u!23 &9053268997765461299
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3271168243298472392}
+  m_GameObject: {fileID: 7322705811452445167}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -58,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: 30b6353225f877a4dbbff2bc39a76dc5, type: 3}
+  - {fileID: 5561349426305759274, guid: 06232153e0cc6824f81e3781e2efe9b7, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79,19 +80,32 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!208 &7263196255183417774
+--- !u!65 &1638913568868368399
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7322705811452445167}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.572955, y: 10.916433, z: 13.432108}
+  m_Center: {x: -0.71846443, y: 2.8013136, z: -0.0000005813191}
+--- !u!208 &1638913568868368396
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3271168243298472392}
+  m_GameObject: {fileID: 7322705811452445167}
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 0.11400001, y: 0.006, z: 0.023000002}
+  m_Extents: {x: 6.06, y: 5.458, z: 6.7160006}
   m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 0
-  m_Center: {x: -0.109000005, y: 0, z: 0.019000001}
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.032, y: 2.801, z: 0}
   m_TimeToStationary: 0.5
