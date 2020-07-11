@@ -36,11 +36,26 @@ MonoBehaviour:
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus
   BankWwu:
+  - PhysicalPath: SoundBanks\Ambience.wwu
+    ParentPath: Ambience
+    guid: 0be2a27dffc1bb459949550705e723d4
+    GuidInternal: 
+    m_lastTime: -8586083401031855429
+    List:
+    - name: Ambience
+      guid: cdcbdfe1f93e1d4199d46fa2228f08a8
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Ambience
+        ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 7
+      Path: Ambience\Ambience
   - PhysicalPath: SoundBanks\Animals.wwu
     ParentPath: Animals
     guid: ebb7f41f8b6b6343a9d86992b5eb9228
     GuidInternal: 
-    m_lastTime: -8586128580200436848
+    m_lastTime: -8586117893326722245
     List:
     - name: Cows
       guid: a0cdd2978e24f648933040878e421cbc
@@ -76,7 +91,7 @@ MonoBehaviour:
     ParentPath: Music
     guid: 81638f3fd8b44343823be5f37dd006d1
     GuidInternal: 
-    m_lastTime: -8586128580200202242
+    m_lastTime: -8586117893326702243
     List:
     - name: Music
       guid: a40c7cda75515447b308296d4dbd428e
@@ -103,11 +118,29 @@ MonoBehaviour:
         ObjectType: 7
       Path: UI_Sounds\UI_Sounds
   EventWwu:
+  - PhysicalPath: Events\Ambience.wwu
+    ParentPath: Ambience
+    guid: fbfbd241f4b3e945950d779a3270e77c
+    GuidInternal: 
+    m_lastTime: -8586083401068129363
+    List:
+    - name: Ambience_L1
+      guid: 3900ce15602849458aa00036cf7a511a
+      id: 127942577
+      PathAndIcons:
+      - ElementName: Ambience
+        ObjectType: 12
+      - ElementName: Ambience_L1
+        ObjectType: 3
+      Path: Ambience\Ambience_L1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Animals.wwu
     ParentPath: Animals
     guid: d8536be1ffde3848a50e759eb89952ef
     GuidInternal: 
-    m_lastTime: -8586128580221732674
+    m_lastTime: -8586117893412709271
     List:
     - name: Cows
       guid: ddb1ba37cf62c249b0f8c6e6ad7a62b1
@@ -131,7 +164,7 @@ MonoBehaviour:
     ParentPath: Foley
     guid: 9397757bca6ac54ea4500a4f46d93bf9
     GuidInternal: 
-    m_lastTime: -8586101369849419305
+    m_lastTime: -8586083401068119331
     List:
     - name: Footsteps
       guid: 82878303e18a304caa48566da342435e
@@ -149,7 +182,7 @@ MonoBehaviour:
     ParentPath: Music
     guid: 1550aabf5f43714187f2c7ef404ce504
     GuidInternal: 
-    m_lastTime: -8586128580221712703
+    m_lastTime: -8586117893412618584
     List:
     - name: L1_Energized_Explore_Music
       guid: e11ae39f67e4414ba44a0dc17365f37a
@@ -254,7 +287,7 @@ MonoBehaviour:
     ParentPath: Foley
     guid: bbeb98dd7918d947b14a083a5aa8d7dc
     GuidInternal: 
-    m_lastTime: -8586101370417580634
+    m_lastTime: -8586083401031845434
     List:
     - name: Footsteps_Materials
       guid: 279ea5b58b71344a8bc98838aa20854a

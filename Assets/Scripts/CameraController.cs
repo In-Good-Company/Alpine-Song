@@ -53,4 +53,9 @@ public class CameraController : MonoBehaviour
     
     
     }
+
+    void CameraAvoid()
+    {
+
+    }
 }

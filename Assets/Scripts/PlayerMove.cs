@@ -85,8 +85,8 @@ public class PlayerMove : MonoBehaviour
                 Ray clickRay = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hitInfo;
 
-                if (EventSystem.current.IsPointerOverGameObject())
-                    return;
+              // if (EventSystem.current.IsPointerOverGameObject())
+              //     return;
 
                 if (Physics.Raycast(clickRay, out hitInfo, 100, Interactables))
                 {
