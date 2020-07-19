@@ -2,10 +2,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	3838159985	Cows			\Animals\Cows	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	145657906	MG1_Cow Moos_A1_Batch_A	C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG1_Cow Moos_A1_Batch_A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\MG1_Cow Moos_A1_Batch_A		422208
-	488649298	MG1_Cow Moos_A6_Batch_A	C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG1_Cow Moos_A6_Batch_A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\MG1_Cow Moos_A6_Batch_A		624704
-	523598433	MG1_Cow Moos_A2_Batch_A	C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG1_Cow Moos_A2_Batch_A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\MG1_Cow Moos_A2_Batch_A		435008
-	554654189	MG1_Cow Moos_A5_Batch_A	C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG1_Cow Moos_A5_Batch_A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\MG1_Cow Moos_A5_Batch_A		629312
-	625290867	MG1_Cow Moos_A3_Batch_A	C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG1_Cow Moos_A3_Batch_A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\MG1_Cow Moos_A3_Batch_A		436160
-	1012553245	MG1_Cow Moos_A4_Batch_A	C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG1_Cow Moos_A4_Batch_A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\MG1_Cow Moos_A4_Batch_A		623808
+	145657906	MG1_Cow Moos_A1_Batch_A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG1_Cow Moos_A1_Batch_A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\MG1_Cow Moos_A1_Batch_A		422208
+	488649298	MG1_Cow Moos_A6_Batch_A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG1_Cow Moos_A6_Batch_A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\MG1_Cow Moos_A6_Batch_A		624704
+	523598433	MG1_Cow Moos_A2_Batch_A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG1_Cow Moos_A2_Batch_A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\MG1_Cow Moos_A2_Batch_A		435008
+	554654189	MG1_Cow Moos_A5_Batch_A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG1_Cow Moos_A5_Batch_A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\MG1_Cow Moos_A5_Batch_A		629312
+	625290867	MG1_Cow Moos_A3_Batch_A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG1_Cow Moos_A3_Batch_A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\MG1_Cow Moos_A3_Batch_A		436160
+	1012553245	MG1_Cow Moos_A4_Batch_A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG1_Cow Moos_A4_Batch_A_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Cows\Moos\MG1_Cow Moos_A4_Batch_A		623808
 

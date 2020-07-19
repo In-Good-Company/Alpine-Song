@@ -28,7 +28,7 @@ public class TerrainMaterialManager : MonoBehaviour
         GetTerrain();
         playerMove = GetComponent<PlayerMove>();
         playerPos = this.transform;
-        footStep_Pause = .178f;
+        footStep_Pause = .1784f;
         Timer = footStep_Pause;
         timerCountDown = 1 * Time.deltaTime;
         playerCollider = this.GetComponent<Collider>();
