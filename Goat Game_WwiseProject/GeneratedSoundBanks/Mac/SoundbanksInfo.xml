@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>

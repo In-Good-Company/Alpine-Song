@@ -4,7 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2704396606	Small_River_Wide_River			\Environmental\Small_River_Wide_River	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	420839744	MG_Water_MD_River A1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Water_MD_River A1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Water_MD_River A1		22766040
-	804531265	MG_Water_SM_River A1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Water_SM_River A1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Water_SM_River A1		22706260
-	1031840039	MG_Water_SM_Wide_River A1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Water_SM_Wide_River A1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Water_SM_Wide_River A1	 	22836288
+	420839744	MG_Water_MD_River A1	C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Water_MD_River A1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Water_MD_River A1		22766040
+	804531265	MG_Water_SM_River A1	C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Water_SM_River A1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Water_SM_River A1		22706260
+	1031840039	MG_Water_SM_Wide_River A1	C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Water_SM_Wide_River A1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Water_SM_Wide_River A1		22836288
 
