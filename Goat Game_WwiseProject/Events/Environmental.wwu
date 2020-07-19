@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{80C3119C-AA14-48DD-A424-F20C6BD3882F}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Environmental" ID="{80C3119C-AA14-48DD-A424-F20C6BD3882F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Small_River_Wide_River" ID="{E1336C43-4DB7-4453-A27B-F1CD8F16225F}">
+					<ChildrenList>
+						<Action Name="" ID="{CA961D0E-0C61-4190-B67B-9A625C1A43D6}" ShortID="221760464">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MG_Water_SM_Wide_River A1" ID="{EA8346F4-47EC-4B57-8C6A-32A310545D5B}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Medium_River" ID="{28F80C3A-C197-4E74-ACC8-011A847790E7}">
+					<ChildrenList>
+						<Action Name="" ID="{BB7206A3-A796-4747-B058-A9699124F288}" ShortID="977370627">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MG_Water_MD_River A1" ID="{CF9AFB42-2726-431A-9246-E2D7FD8CDA3D}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Small_River" ID="{08C36C2B-C24B-4E05-84B8-73AF7BA068AD}">
+					<ChildrenList>
+						<Action Name="" ID="{A2675693-2628-4104-BA8F-1506A041F621}" ShortID="118915574">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MG_Water_SM_River A1" ID="{972E4DB2-C75D-40F7-8F55-D808F14AAFB1}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

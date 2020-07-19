@@ -72,6 +72,21 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8586147932872476746
     List: []
+  - PhysicalPath: SoundBanks\Environmental.wwu
+    ParentPath: Environmental
+    guid: eb2cd476133cb142838d0b66b23be692
+    GuidInternal: 
+    m_lastTime: -8586064747431558473
+    List:
+    - name: River
+      guid: 4ad4590b11b0b84f8e17b1a1a0de30c8
+      id: 3605787649
+      PathAndIcons:
+      - ElementName: Environmental
+        ObjectType: 12
+      - ElementName: River
+        ObjectType: 7
+      Path: Environmental\River
   - PhysicalPath: SoundBanks\Foley.wwu
     ParentPath: Foley
     guid: 1ba9fbbb3a21624f8cc01e0f5bb95f75
@@ -160,6 +175,48 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8586135818361670319
     List: []
+  - PhysicalPath: Events\Environmental.wwu
+    ParentPath: Environmental
+    guid: 9c11c38014aadd48a424f20c6bd3882f
+    GuidInternal: 
+    m_lastTime: -8586064747431598453
+    List:
+    - name: Medium_River
+      guid: 3a0cf82897c1744eacc8011a847790e7
+      id: 1383998259
+      PathAndIcons:
+      - ElementName: Environmental
+        ObjectType: 12
+      - ElementName: Medium_River
+        ObjectType: 3
+      Path: Environmental\Medium_River
+      maxAttenuation: 50
+      maxDuration: -1
+      minDuration: -1
+    - name: Small_River
+      guid: 2b6cc3084bc2054e84b873af7ba068ad
+      id: 1536124373
+      PathAndIcons:
+      - ElementName: Environmental
+        ObjectType: 12
+      - ElementName: Small_River
+        ObjectType: 3
+      Path: Environmental\Small_River
+      maxAttenuation: 50
+      maxDuration: -1
+      minDuration: -1
+    - name: Small_River_Wide_River
+      guid: 436c33e1b74d5344a27bf1cd8f16225f
+      id: 2704396606
+      PathAndIcons:
+      - ElementName: Environmental
+        ObjectType: 12
+      - ElementName: Small_River_Wide_River
+        ObjectType: 3
+      Path: Environmental\Small_River_Wide_River
+      maxAttenuation: 75
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Foley.wwu
     ParentPath: Foley
     guid: 9397757bca6ac54ea4500a4f46d93bf9
@@ -176,7 +233,7 @@ MonoBehaviour:
         ObjectType: 3
       Path: Foley\Footsteps
       maxAttenuation: 0
-      maxDuration: 0.805179
+      maxDuration: 0.758752
       minDuration: 0.418919
   - PhysicalPath: Events\Music.wwu
     ParentPath: Music
@@ -323,10 +380,5 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Goat Game_WwiseProject
-  - /Goat Game_WwiseProject/Events
-  - /Goat Game_WwiseProject/Events/Animals
-  - /Goat Game_WwiseProject/Events/Foley
-  - /Goat Game_WwiseProject/SoundBanks
-  - /Goat Game_WwiseProject/SoundBanks/Music
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
