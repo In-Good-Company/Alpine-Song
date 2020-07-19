@@ -18,6 +18,11 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -44,7 +49,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MG_Water_SM_Wide_River A1" ID="{EA8346F4-47EC-4B57-8C6A-32A310545D5B}" ShortID="166904033">
-							<Comment> </Comment>
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
