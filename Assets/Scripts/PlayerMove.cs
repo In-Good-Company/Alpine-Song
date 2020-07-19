@@ -92,6 +92,7 @@ public class PlayerMove : MonoBehaviour
                 {
                     if (hitInfo.collider.gameObject.GetComponent<Interactable>() != null)
                     {
+                       
                         Debug.Log("interactable found");
                         waitingToActivate = true;
                         interactablePressed = true;
