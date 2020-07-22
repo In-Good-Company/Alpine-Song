@@ -117,6 +117,125 @@
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
+				<Attenuation Name="Watermill" ID="{D233C44C-62FE-4BD5-9F49-401FC507BE5B}" ShortID="674974170">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="75"/>
+					</PropertyList>
+					<CurveUsageInfoList>
+						<VolumeDryUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeDry" ID="{B36B7DE8-FAD7-4AD9-9AFB-747E7D376A4A}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>15.101385</XPos>
+											<YPos>-0.778</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>22.848795</XPos>
+											<YPos>-1.86971</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>37.21698</XPos>
+											<YPos>-3.93762</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>49.5603</XPos>
+											<YPos>-6.54089</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>59.64113</XPos>
+											<YPos>-10.74845</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>75</XPos>
+											<YPos>-200</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="LowPassFilter" ID="{3DC85D58-54F3-4C8C-B62D-3C69371A26D5}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>15.19383</XPos>
+											<YPos>4</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>22.469565</XPos>
+											<YPos>6</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>30.242265</XPos>
+											<YPos>9</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>38.48256</XPos>
+											<YPos>13</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>48.900525</XPos>
+											<YPos>19</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>60.205995</XPos>
+											<YPos>28</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>75</XPos>
+											<YPos>32</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</LowPassFilterUsage>
+						<HighPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</HighPassFilterUsage>
+						<SpreadUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</SpreadUsage>
+						<FocusUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</FocusUsage>
+					</CurveUsageInfoList>
+				</Attenuation>
 			</ChildrenList>
 		</WorkUnit>
 	</Attenuations>

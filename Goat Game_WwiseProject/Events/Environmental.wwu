@@ -36,6 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Watermill" ID="{4FA4E5F6-BFCC-4F61-8339-307905D470A0}">
+					<ChildrenList>
+						<Action Name="" ID="{E43C7E39-E125-4A8B-8390-5A3213BC762B}" ShortID="1016301499">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MG_Watermill_A1_Batch A" ID="{315D88AC-CCBC-41FA-8325-27BA6F251773}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
