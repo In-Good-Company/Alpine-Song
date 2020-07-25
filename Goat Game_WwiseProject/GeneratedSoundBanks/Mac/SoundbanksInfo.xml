@@ -232,6 +232,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1416444632" Name="Watermill" ObjectPath="\Events\Environmental\Watermill" MaxAttenuation="75.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="819872502" Language="SFX">
+							<ShortName>MG_Watermill_A1_Batch A.wav</ShortName>
+							<Path>SFX\MG_Watermill_A1_Batch A_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="3838159985" Language="SFX">

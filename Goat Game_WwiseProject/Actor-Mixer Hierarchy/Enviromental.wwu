@@ -53,6 +53,11 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -221,6 +226,41 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="MG_Water_SM_River A1" ID="{2896FE73-6B55-4F1A-9170-A15975005282}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MG_Watermill_A1_Batch A" ID="{315D88AC-CCBC-41FA-8325-27BA6F251773}" ShortID="892496903">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Watermill" ID="{D233C44C-62FE-4BD5-9F49-401FC507BE5B}" WorkUnitID="{F6BAC3B1-E5A5-493F-8D20-6F64BDEBDAD5}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MG_Watermill_A1_Batch A" ID="{786BF7C6-EAD7-42ED-B8A9-B1D5BFF23832}">
+									<Language>SFX</Language>
+									<AudioFile>MG_Watermill_A1_Batch A.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="819872502"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MG_Watermill_A1_Batch A" ID="{786BF7C6-EAD7-42ED-B8A9-B1D5BFF23832}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
