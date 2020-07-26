@@ -76,7 +76,7 @@ MonoBehaviour:
     ParentPath: Environmental
     guid: eb2cd476133cb142838d0b66b23be692
     GuidInternal: 
-    m_lastTime: -8586059566236333841
+    m_lastTime: -8586062143504598459
     List:
     - name: River
       guid: 4ad4590b11b0b84f8e17b1a1a0de30c8
@@ -179,7 +179,7 @@ MonoBehaviour:
     ParentPath: Environmental
     guid: 9c11c38014aadd48a424f20c6bd3882f
     GuidInternal: 
-    m_lastTime: -8586059566309581373
+    m_lastTime: -8586062143504628460
     List:
     - name: Medium_River
       guid: 3a0cf82897c1744eacc8011a847790e7
@@ -393,6 +393,7 @@ MonoBehaviour:
   ExpandedItems:
   - /Goat Game_WwiseProject
   - /Goat Game_WwiseProject/Events
+  - /Goat Game_WwiseProject/Events/Environmental
   - /Goat Game_WwiseProject/Events/Music
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
