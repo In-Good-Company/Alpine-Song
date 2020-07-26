@@ -76,7 +76,7 @@ MonoBehaviour:
     ParentPath: Environmental
     guid: eb2cd476133cb142838d0b66b23be692
     GuidInternal: 
-    m_lastTime: -8586062426843306434
+    m_lastTime: -8586059566236333841
     List:
     - name: River
       guid: 4ad4590b11b0b84f8e17b1a1a0de30c8
@@ -179,7 +179,7 @@ MonoBehaviour:
     ParentPath: Environmental
     guid: 9c11c38014aadd48a424f20c6bd3882f
     GuidInternal: 
-    m_lastTime: -8586062428009389025
+    m_lastTime: -8586059566309581373
     List:
     - name: Medium_River
       guid: 3a0cf82897c1744eacc8011a847790e7
@@ -214,6 +214,18 @@ MonoBehaviour:
       - ElementName: Small_River_Wide_River
         ObjectType: 3
       Path: Environmental\Small_River_Wide_River
+      maxAttenuation: 75
+      maxDuration: -1
+      minDuration: -1
+    - name: Watermill
+      guid: f6e5a44fccbf614f8339307905d470a0
+      id: 1416444632
+      PathAndIcons:
+      - ElementName: Environmental
+        ObjectType: 12
+      - ElementName: Watermill
+        ObjectType: 3
+      Path: Environmental\Watermill
       maxAttenuation: 75
       maxDuration: -1
       minDuration: -1
