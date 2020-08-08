@@ -17,5 +17,6 @@ public class doorOpen : Interactable
     {
         isOpen = !isOpen;
         anim.SetBool("isOpen", isOpen);
+        AkSoundEngine.PostEvent("Gates", gameObject);
     }
 }
