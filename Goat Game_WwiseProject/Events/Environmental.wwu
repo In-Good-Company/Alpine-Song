@@ -47,6 +47,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Gates" ID="{F44DB7CC-B6C4-48F2-BDD2-A034A2DD4861}">
+					<ChildrenList>
+						<Action Name="" ID="{352DEB15-381A-4860-AE96-7BC79A61FEE3}" ShortID="477033446">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wooden Gates_A1" ID="{6D99EC49-CD3C-454A-A870-8E7E6787347E}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

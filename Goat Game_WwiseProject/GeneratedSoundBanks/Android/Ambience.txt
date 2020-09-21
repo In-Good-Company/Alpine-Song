@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	127942577	Ambience_L1			\Ambience\Ambience_L1	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	693040249	MG 1_Ambience_A1_Batch A	C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\SFX\MG 1_Ambience_A1_Batch A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\Ambience\MG 1_Ambience_A1_Batch A		16195648
+	693040249	MG 1_Ambience_A1_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\SFX\MG 1_Ambience_A1_Batch A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\Ambience\MG 1_Ambience_A1_Batch A		16195648
 

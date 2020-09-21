@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2908201163	Gates			\Environmental\Gates	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	357693630	Wooden Gates_A1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Mac\SFX\Wooden Gates_A1_10C4C929.wem		\Actor-Mixer Hierarchy\Enviromental\Gates\Wooden Gates_A1		554656
+

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -203,10 +203,10 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3605787649" Language="SFX">
-			<ObjectPath>\SoundBanks\Environmental\River</ObjectPath>
-			<ShortName>River</ShortName>
-			<Path>River.bnk</Path>
+		<SoundBank Id="2654748154" Language="SFX">
+			<ObjectPath>\SoundBanks\Environmental\Water</ObjectPath>
+			<ShortName>Water</ShortName>
+			<Path>Water.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1383998259" Name="Medium_River" ObjectPath="\Events\Environmental\Medium_River" MaxAttenuation="50.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -272,6 +272,21 @@
 						<File Id="1012553245" Language="SFX">
 							<ShortName>MG1_Cow Moos_A4_Batch_A.wav</ShortName>
 							<Path>SFX\MG1_Cow Moos_A4_Batch_A_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3879640103" Language="SFX">
+			<ObjectPath>\SoundBanks\Environmental\Structures</ObjectPath>
+			<ShortName>Structures</ShortName>
+			<Path>Structures.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2908201163" Name="Gates" ObjectPath="\Events\Environmental\Gates" DurationType="OneShot" DurationMin="2.888500" DurationMax="2.888500">
+					<IncludedMemoryFiles>
+						<File Id="357693630" Language="SFX">
+							<ShortName>Wooden Gates_A1.wav</ShortName>
+							<Path>SFX\Wooden Gates_A1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
