@@ -98,7 +98,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2217525614322871792}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e971b51b36e5eed418e0e708ec027fad, type: 3}
   m_Name: 
@@ -125,8 +125,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9989e4a3bb02934fbd662ead256e331, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Camera: {fileID: 2217525614322871790}
+  closeCamPos_X: 0
+  closeCamPos_Y: 0
+  closeCamPos_Z: 0
+  closeCamRot_X: 0
+  farCamPos_X: 0
+  farCamPos_Y: 0
+  farCamPos_Z: 0
+  lerpSpeed: 0
+  farCamRot_X: 0
   camCase: 0
+  camera_Main: {fileID: 2217525614322871792}
+  farLerpPos: {x: 0, y: 0, z: 0}
+  farLerpRot: {x: 0, y: 0, z: 0}
+  closeLerpPos: {x: 0, y: 0, z: 0}
+  closeLerpRot: {x: 0, y: 0, z: 0}
+  MyPos: {fileID: 0}
 --- !u!1 &2217525615944515818
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,7 +157,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2217525615944515819
 Transform:
   m_ObjectHideFlags: 0

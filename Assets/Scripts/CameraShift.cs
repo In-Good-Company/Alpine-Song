@@ -26,13 +26,12 @@ public class CameraShift : MonoBehaviour
 
     public GameObject camera_Main;
 
-    public bool triggerExit;
-
     public Vector3 farLerpPos;
     public Vector3 farLerpRot;
     public Vector3 closeLerpPos;
     public Vector3 closeLerpRot;
 
+    public Transform MyPos;
     void Start()
     {
         closeCamPos_X = 0.0f;
@@ -45,64 +44,37 @@ public class CameraShift : MonoBehaviour
         farCamPos_Z = -21.0f;
         farCamRot_X = 60.0f;
 
-        lerpSpeed = 0.01f;//* Time.deltaTime;
+        lerpSpeed = 0.01f;
 
-        closeCamRot = new Vector3(closeCamRot_X, 0, 0);
+       
         farCamRot = new Vector3(farCamRot_X, 0, 0);
 
-        closeCamPositioner = new Vector3(closeCamPos_X, closeCamPos_Y, closeCamPos_Z);
-        farCamPositioner = new Vector3(farCamPos_X, farCamPos_Y, farCamPos_Z);
+        closeCamPositioner = new Vector3(0.0f, 16.0f, -15.0f);
+        farCamPositioner = new Vector3(0.0f, 60.0f, -21.0f);
 
-        ///////
-
-
-        farLerpPos = Vector3.Lerp(closeCamPositioner, farCamPositioner, lerpSpeed * Time.deltaTime);
+        camCase = 2;
+        
         farLerpRot = Vector3.Lerp(closeCamRot, farCamRot, lerpSpeed * Time.deltaTime);
-        closeLerpPos = Vector3.Lerp(farCamPositioner, closeCamPositioner, lerpSpeed * Time.deltaTime);
+        
         closeLerpRot = Vector3.Lerp(farCamRot, closeCamRot, lerpSpeed * Time.deltaTime);
     }
 
     private void Awake()
     {
-       
+        MyPos = this.transform;
 
 
     }
     public void camSwitch(int camCase)
     {
-        
-
-    }
-
-    private void OnTriggerEnter(Collider col)
-    {
-        if (col.gameObject.name == "Player")
-        {
-            camCase = 2;
-        }
-
-    }
-
-    private void OnTriggerExit(Collider col)
-    {
-        print("exit");
-        if (col.gameObject.name == "Player" && triggerExit == true)
-        {
-            camCase = 1;
-        }
-    }
-
-    private void Update()
-    {
-        
-        camSwitch(camCase);
-
         switch (camCase)
         {
             case 1:
 
-                camera_Main.transform.localEulerAngles = Vector3.Lerp(closeCamRot, farCamRot, lerpSpeed / Time.deltaTime); ;
-                camera_Main.transform.localPosition = Vector3.Lerp(closeCamPositioner, farCamPositioner, lerpSpeed / Time.deltaTime); ;
+                farLerpPos = Vector3.Lerp(MyPos.position, farCamPositioner, lerpSpeed * Time.deltaTime);
+                //camera_Main.transform.localEulerAngles = Quaternion.Slerp(this.transform.rotation, farCamRot, lerpSpeed * Time.deltaTime); ;
+                camera_Main.transform.position = farLerpPos;
+                MyPos = this.transform;
 
 
 
@@ -110,14 +82,26 @@ public class CameraShift : MonoBehaviour
                 break;
             case 2:
 
-                camera_Main.transform.localPosition = Vector3.Lerp(farCamRot, closeCamRot, lerpSpeed / Time.deltaTime);
-                camera_Main.transform.localEulerAngles = Vector3.Lerp(farCamPositioner, closeCamPositioner, lerpSpeed / Time.deltaTime);
-
+                closeLerpPos = Vector3.Lerp(MyPos.position, closeCamPositioner, lerpSpeed * Time.deltaTime);
+                camera_Main.transform.position = closeLerpPos;
+                // camera_Main.transform.localEulerAngles = Vector3.Lerp(farCamPositioner, closeCamPositioner, lerpSpeed / Time.deltaTime);
+                MyPos = this.transform;
 
 
 
                 break;
 
         }
+
+    }
+
+   
+
+    private void Update()
+    {
+        
+        camSwitch(camCase);
+
+       
     }
 };
