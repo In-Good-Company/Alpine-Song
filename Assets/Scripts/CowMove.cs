@@ -113,7 +113,7 @@ public class CowMove : MonoBehaviour
 
                 wanderTarget = GetComponent<AI_Cow_wanderTimer>().wanderPoint;
                 cowNav.SetDestination(wanderTarget);
-                print("wander");
+                
                 break;
 
             case 2:

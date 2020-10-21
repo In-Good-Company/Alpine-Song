@@ -51,7 +51,8 @@ public class CameraController : MonoBehaviour
         float step = CameraMoveSpeed * Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, target.position, step);
     
-    
+
+
     }
 
     void CameraAvoid()

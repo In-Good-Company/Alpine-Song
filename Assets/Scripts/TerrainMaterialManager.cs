@@ -101,7 +101,7 @@ public class TerrainMaterialManager : MonoBehaviour
             switch (_terrainIDX)
             {
                 case 0:
-                    print("step0");
+                   
                     if (Timer <= 0.0f)
                     {
                         AkSoundEngine.PostEvent("Footsteps", gameObject);
@@ -110,7 +110,7 @@ public class TerrainMaterialManager : MonoBehaviour
 
                     break;
                 case 1:
-                    print("step1");
+                   
                     if (Timer <= 0.0f)
                     {
                         AkSoundEngine.PostEvent("Footsteps", gameObject);
@@ -119,7 +119,7 @@ public class TerrainMaterialManager : MonoBehaviour
 
                     break;
                 case 2:
-                    print("step2");
+                   
                     if (Timer <= 0.0f)
                     {
                         AkSoundEngine.PostEvent("Footsteps", gameObject);
@@ -128,15 +128,15 @@ public class TerrainMaterialManager : MonoBehaviour
 
                     break;
                 case 3:
-                    print("step3");
+                   
                     //AkSoundEngine.PostEvent("Footsteps_Sand", gameObject);
                     break;
                 case 4:
-                    print("step4");
+                   
                     break;
 
                 case 5:
-                    print("step5");
+                    
                     break;
 
             }

@@ -54,7 +54,7 @@ public class PlayerMove : MonoBehaviour
         //if (Input.touchCount == 2)
         if(Input.GetMouseButton(0))
         {
-            print("test1");
+            
             pressTimer += Time.deltaTime;
             if (pressTimer >= pressHeldThreshhold)
             {
@@ -79,7 +79,7 @@ public class PlayerMove : MonoBehaviour
         
         if (Input.GetMouseButtonUp(0))
         {
-            print("test2");
+           
             if (pressHeld == false)
             {
                 Ray clickRay = Camera.main.ScreenPointToRay(Input.mousePosition);
