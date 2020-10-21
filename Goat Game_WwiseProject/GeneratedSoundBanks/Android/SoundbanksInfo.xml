@@ -210,37 +210,49 @@
 			<IncludedEvents>
 				<Event Id="1383998259" Name="Medium_River" ObjectPath="\Events\Environmental\Medium_River" MaxAttenuation="50.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="420839744" Language="SFX">
-							<ShortName>MG_Water_MD_River A1.wav</ShortName>
-							<Path>SFX\MG_Water_MD_River A1_D79FB2B7.wem</Path>
+						<File Id="205053339" Language="SFX">
+							<ShortName>MG_Water_MD_River A144.1kHz_16bit 1.wav</ShortName>
+							<Path>SFX\MG_Water_MD_River A144.1kHz_16bit 1_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1536124373" Name="Small_River" ObjectPath="\Events\Environmental\Small_River" MaxAttenuation="50.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="804531265" Language="SFX">
-							<ShortName>MG_Water_SM_River A1.wav</ShortName>
-							<Path>SFX\MG_Water_SM_River A1_D79FB2B7.wem</Path>
+						<File Id="332121027" Language="SFX">
+							<ShortName>MG_Water_SM_River A144.1kHz_16bit 1.wav</ShortName>
+							<Path>SFX\MG_Water_SM_River A144.1kHz_16bit 1_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2704396606" Name="Small_River_Wide_River" ObjectPath="\Events\Environmental\Small_River_Wide_River" MaxAttenuation="75.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="1031840039" Language="SFX">
-							<ShortName>MG_Water_SM_Wide_River A1.wav</ShortName>
-							<Path>SFX\MG_Water_SM_Wide_River A1_D79FB2B7.wem</Path>
+						<File Id="824099348" Language="SFX">
+							<ShortName>MG_Water_SM_Wide_River A144.1kHz_16bit 1.wav</ShortName>
+							<Path>SFX\MG_Water_SM_Wide_River A144.1kHz_16bit 1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2089625053" Name="Waterfall_1" ObjectPath="\Events\Environmental\Waterfall_1" MaxAttenuation="125.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="526850732" Language="SFX">
+							<ShortName>MG_Waterfall_A1_Batch A44.1kHz_16bit 1.wav</ShortName>
+							<Path>SFX\MG_Waterfall_A1_Batch A44.1kHz_16bit 1_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1416444632" Name="Watermill" ObjectPath="\Events\Environmental\Watermill" MaxAttenuation="75.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="819872502" Language="SFX">
-							<ShortName>MG_Watermill_A1_Batch A.wav</ShortName>
-							<Path>SFX\MG_Watermill_A1_Batch A_D79FB2B7.wem</Path>
+						<File Id="671790597" Language="SFX">
+							<ShortName>MG_Watermill_A1_Batch A44.1kHz_16bit 1.wav</ShortName>
+							<Path>SFX\MG_Watermill_A1_Batch A44.1kHz_16bit 1_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="222722569" Name="RTPC_Occlusion_LoPass" ObjectPath="\Game Parameters\RTPC\RTPC_Occlusion_LoPass"/>
+				<GameParameter Id="342905355" Name="RTPC_Occlusion_Volume" ObjectPath="\Game Parameters\RTPC\RTPC_Occlusion_Volume"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="3838159985" Language="SFX">
 			<ObjectPath>\SoundBanks\Animals\Cows</ObjectPath>

@@ -4,6 +4,64 @@
 		<WorkUnit Name="Enviromental" ID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="Water" ID="{025D59DB-359D-471A-AF59-3D787BFA8B6E}" ShortID="540978488">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{F16DD623-E2ED-4EFA-BD3D-4BC4D759E076}" ShortID="600389161">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_Occlusion_LoPass" ID="{6AFC29C1-7EF9-441D-B32C-C6C3E536348B}" WorkUnitID="{4E2648D2-DC05-4771-80BF-00E7DCE58B52}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{CA32F910-BC80-416A-B8CF-8F29AEDF6302}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>74</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{960AA838-98AF-4136-A7B5-F7899E35C64D}" ShortID="939362078">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_Occlusion_Volume" ID="{86B2345A-14F4-4C8C-96A1-A228648D295B}" WorkUnitID="{4E2648D2-DC05-4771-80BF-00E7DCE58B52}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B79D2BEC-BB69-40E2-9D15-97471AEA97B4}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -13,7 +71,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="MG_Water_MD_River A1" ID="{CF9AFB42-2726-431A-9246-E2D7FD8CDA3D}" ShortID="230639413">
+						<Sound Name="MG_Water_MD_River A144_1kHz_16bit 1" ID="{3C0AB439-EE9C-4FBC-AB7B-57B0168F9E42}" ShortID="786603087">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -36,40 +94,65 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="MG_Water_MD_River A1" ID="{8446098D-9120-4AB6-8DE6-7EBD7582CDBA}">
+								<AudioFileSource Name="MG_Water_MD_River A144_1kHz_16bit 1" ID="{D3C0C0C2-BD95-44C7-BB3F-AF14A702E987}">
 									<Language>SFX</Language>
-									<AudioFile>MG_Water_MD_River A1.wav</AudioFile>
+									<AudioFile>MG_Water_MD_River A144.1kHz_16bit 1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="420839744"/>
+										<MediaID ID="205053339"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="MG_Water_MD_River A1" ID="{8446098D-9120-4AB6-8DE6-7EBD7582CDBA}" Platform="Linked"/>
+								<ActiveSource Name="MG_Water_MD_River A144_1kHz_16bit 1" ID="{D3C0C0C2-BD95-44C7-BB3F-AF14A702E987}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="MG_Water_SM_Wide_River A1" ID="{EA8346F4-47EC-4B57-8C6A-32A310545D5B}" ShortID="166904033">
+						<Sound Name="MG_Water_SM_River A144_1kHz_16bit 1" ID="{0EA6A3E1-7B2E-4EF0-8B98-426414DDFB3F}" ShortID="175949910">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-1</Value>
-									</ValueList>
-								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="River" ID="{D62F3B63-6B3E-403A-BDF4-BAFBB25A818C}" WorkUnitID="{F6BAC3B1-E5A5-493F-8D20-6F64BDEBDAD5}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MG_Water_SM_River A144_1kHz_16bit 1" ID="{E7D12730-996E-437D-88EB-778D22A32CDD}">
+									<Language>SFX</Language>
+									<AudioFile>MG_Water_SM_River A144.1kHz_16bit 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="332121027"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MG_Water_SM_River A144_1kHz_16bit 1" ID="{E7D12730-996E-437D-88EB-778D22A32CDD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MG_Water_SM_Wide_River A144_1kHz_16bit 1" ID="{BC57C2A7-E5ED-407C-A09C-3CB90DC7517B}" ShortID="706311339">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<Custom CreatedFrom="{D62F3B63-6B3E-403A-BDF4-BAFBB25A818C}">
-										<Attenuation Name="River (Custom)" ID="{4A89BA62-E497-441C-8F64-8C5DE42B002A}" ShortID="68028711">
+										<Attenuation Name="River (Custom)" ID="{70FE0A5B-3208-4C05-9A0D-0CEC22CDDAFD}" ShortID="609706424">
 											<PropertyList>
 												<Property Name="RadiusMax" Type="Real64" Value="75"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{BF58737F-ADF9-4509-8183-BBCA74D16915}">
+														<Curve Name="VolumeDry" ID="{E0BFAB62-49D1-41D8-9C61-1D8E7ED9BFB5}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -80,23 +163,23 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>13.21695</XPos>
-																	<YPos>-2.65822</YPos>
+																	<XPos>13.217</XPos>
+																	<YPos>-2.658</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>23.50833</XPos>
-																	<YPos>-6.22206</YPos>
+																	<XPos>23.508</XPos>
+																	<YPos>-6.222</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>30.99839</XPos>
-																	<YPos>-9.39869</YPos>
+																	<XPos>30.998</XPos>
+																	<YPos>-9.399</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>45.13108</XPos>
-																	<YPos>-15.53326</YPos>
+																	<XPos>45.13101</XPos>
+																	<YPos>-15.533</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -116,7 +199,7 @@
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="LowPassFilter" ID="{3A901D9E-CFBB-43A0-8B61-5014A3EE857C}">
+														<Curve Name="LowPassFilter" ID="{654F5DD4-F755-49AA-939D-DABAD1F32052}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="65537"/>
 															</PropertyList>
@@ -132,18 +215,18 @@
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>22.75222</XPos>
-																	<YPos>9</YPos>
-																	<Flags>0</Flags>
-																</Point>
-																<Point>
-																	<XPos>30.33649</XPos>
+																	<XPos>22.84644</XPos>
 																	<YPos>12</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>38.57677</XPos>
-																	<YPos>15</YPos>
+																	<XPos>30.43071</XPos>
+																	<YPos>14</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>38.576775</XPos>
+																	<YPos>17</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -186,27 +269,32 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="MG_Water_SM_Wide_River A1" ID="{01692093-275A-4C3C-B53F-577B1BEF5C6A}">
+								<AudioFileSource Name="MG_Water_SM_Wide_River A144_1kHz_16bit 1" ID="{59F7F1EE-1B00-4190-A3B0-47FF7C9FFA19}">
 									<Language>SFX</Language>
-									<AudioFile>MG_Water_SM_Wide_River A1.wav</AudioFile>
+									<AudioFile>MG_Water_SM_Wide_River A144.1kHz_16bit 1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="1031840039"/>
+										<MediaID ID="824099348"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="MG_Water_SM_Wide_River A1" ID="{01692093-275A-4C3C-B53F-577B1BEF5C6A}" Platform="Linked"/>
+								<ActiveSource Name="MG_Water_SM_Wide_River A144_1kHz_16bit 1" ID="{59F7F1EE-1B00-4190-A3B0-47FF7C9FFA19}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="MG_Water_SM_River A1" ID="{972E4DB2-C75D-40F7-8F55-D808F14AAFB1}" ShortID="539852237">
+						<Sound Name="MG_Waterfall_A1_Batch A44_1kHz_16bit 1" ID="{42913F79-2379-4772-90EE-1A36E42F141A}" ShortID="781282686">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="River" ID="{D62F3B63-6B3E-403A-BDF4-BAFBB25A818C}" WorkUnitID="{F6BAC3B1-E5A5-493F-8D20-6F64BDEBDAD5}"/>
+									<ObjectRef Name="Waterfall_A1" ID="{3DC77DAB-8487-4DFB-AEC6-FC45F7C8A452}" WorkUnitID="{F6BAC3B1-E5A5-493F-8D20-6F64BDEBDAD5}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -216,19 +304,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="MG_Water_SM_River A1" ID="{2896FE73-6B55-4F1A-9170-A15975005282}">
+								<AudioFileSource Name="MG_Waterfall_A1_Batch A44_1kHz_16bit 1" ID="{2E3F6E8B-A94A-4932-86B1-6D28780C1235}">
 									<Language>SFX</Language>
-									<AudioFile>MG_Water_SM_River A1.wav</AudioFile>
+									<AudioFile>MG_Waterfall_A1_Batch A44.1kHz_16bit 1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="804531265"/>
+										<MediaID ID="526850732"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="MG_Water_SM_River A1" ID="{2896FE73-6B55-4F1A-9170-A15975005282}" Platform="Linked"/>
+								<ActiveSource Name="MG_Waterfall_A1_Batch A44_1kHz_16bit 1" ID="{2E3F6E8B-A94A-4932-86B1-6D28780C1235}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="MG_Watermill_A1_Batch A" ID="{315D88AC-CCBC-41FA-8325-27BA6F251773}" ShortID="892496903">
+						<Sound Name="MG_Watermill_A1_Batch A44_1kHz_16bit 1" ID="{400882FC-893D-4DAA-BBA0-5B9CAC3C2520}" ShortID="741935662">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -251,16 +339,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="MG_Watermill_A1_Batch A" ID="{786BF7C6-EAD7-42ED-B8A9-B1D5BFF23832}">
+								<AudioFileSource Name="MG_Watermill_A1_Batch A44_1kHz_16bit 1" ID="{FD320745-9EFA-4259-AF53-71497D4EC91F}">
 									<Language>SFX</Language>
-									<AudioFile>MG_Watermill_A1_Batch A.wav</AudioFile>
+									<AudioFile>MG_Watermill_A1_Batch A44.1kHz_16bit 1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="819872502"/>
+										<MediaID ID="671790597"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="MG_Watermill_A1_Batch A" ID="{786BF7C6-EAD7-42ED-B8A9-B1D5BFF23832}" Platform="Linked"/>
+								<ActiveSource Name="MG_Watermill_A1_Batch A44_1kHz_16bit 1" ID="{FD320745-9EFA-4259-AF53-71497D4EC91F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

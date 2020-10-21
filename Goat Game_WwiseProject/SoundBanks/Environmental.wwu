@@ -6,6 +6,7 @@
 				<SoundBank Name="Water" ID="{0B59D44A-B011-4FB8-8E17-B1A1A0DE30C8}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Small_River_Wide_River" ID="{E1336C43-4DB7-4453-A27B-F1CD8F16225F}" WorkUnitID="{80C3119C-AA14-48DD-A424-F20C6BD3882F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Waterfall_1" ID="{D24DAA71-DE46-4CD8-818C-8CE8BEF6BDB0}" WorkUnitID="{80C3119C-AA14-48DD-A424-F20C6BD3882F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Small_River" ID="{08C36C2B-C24B-4E05-84B8-73AF7BA068AD}" WorkUnitID="{80C3119C-AA14-48DD-A424-F20C6BD3882F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Medium_River" ID="{28F80C3A-C197-4E74-ACC8-011A847790E7}" WorkUnitID="{80C3119C-AA14-48DD-A424-F20C6BD3882F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Watermill" ID="{4FA4E5F6-BFCC-4F61-8339-307905D470A0}" WorkUnitID="{80C3119C-AA14-48DD-A424-F20C6BD3882F}" Origin="Manual" Filter="7"/>

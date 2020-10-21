@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4E2648D2-DC05-4771-80BF-00E7DCE58B52}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="RTPC" ID="{4E2648D2-DC05-4771-80BF-00E7DCE58B52}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Occlusion_LoPass" ID="{6AFC29C1-7EF9-441D-B32C-C6C3E536348B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.4"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.4"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Occlusion_Volume" ID="{86B2345A-14F4-4C8C-96A1-A228648D295B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.4"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.4"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

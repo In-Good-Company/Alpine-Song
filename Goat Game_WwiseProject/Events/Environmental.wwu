@@ -5,10 +5,10 @@
 			<ChildrenList>
 				<Event Name="Small_River_Wide_River" ID="{E1336C43-4DB7-4453-A27B-F1CD8F16225F}">
 					<ChildrenList>
-						<Action Name="" ID="{CA961D0E-0C61-4190-B67B-9A625C1A43D6}" ShortID="221760464">
+						<Action Name="" ID="{0A824180-9FFA-4943-A552-1291B59144D2}" ShortID="69638308">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MG_Water_SM_Wide_River A1" ID="{EA8346F4-47EC-4B57-8C6A-32A310545D5B}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
+									<ObjectRef Name="MG_Water_SM_Wide_River A144_1kHz_16bit 1" ID="{BC57C2A7-E5ED-407C-A09C-3CB90DC7517B}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -16,10 +16,10 @@
 				</Event>
 				<Event Name="Medium_River" ID="{28F80C3A-C197-4E74-ACC8-011A847790E7}">
 					<ChildrenList>
-						<Action Name="" ID="{BB7206A3-A796-4747-B058-A9699124F288}" ShortID="977370627">
+						<Action Name="" ID="{B97AB46C-1C8B-483C-BD64-4FD70477930E}" ShortID="527062775">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MG_Water_MD_River A1" ID="{CF9AFB42-2726-431A-9246-E2D7FD8CDA3D}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
+									<ObjectRef Name="MG_Water_MD_River A144_1kHz_16bit 1" ID="{3C0AB439-EE9C-4FBC-AB7B-57B0168F9E42}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -27,10 +27,10 @@
 				</Event>
 				<Event Name="Small_River" ID="{08C36C2B-C24B-4E05-84B8-73AF7BA068AD}">
 					<ChildrenList>
-						<Action Name="" ID="{A2675693-2628-4104-BA8F-1506A041F621}" ShortID="118915574">
+						<Action Name="" ID="{FA287006-598C-444B-A156-693B9D397F6D}" ShortID="406424369">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MG_Water_SM_River A1" ID="{972E4DB2-C75D-40F7-8F55-D808F14AAFB1}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
+									<ObjectRef Name="MG_Water_SM_River A144_1kHz_16bit 1" ID="{0EA6A3E1-7B2E-4EF0-8B98-426414DDFB3F}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -38,10 +38,10 @@
 				</Event>
 				<Event Name="Watermill" ID="{4FA4E5F6-BFCC-4F61-8339-307905D470A0}">
 					<ChildrenList>
-						<Action Name="" ID="{E43C7E39-E125-4A8B-8390-5A3213BC762B}" ShortID="1016301499">
+						<Action Name="" ID="{F831F2E0-416F-4523-BE72-7309FDA00AC4}" ShortID="749403381">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MG_Watermill_A1_Batch A" ID="{315D88AC-CCBC-41FA-8325-27BA6F251773}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
+									<ObjectRef Name="MG_Watermill_A1_Batch A44_1kHz_16bit 1" ID="{400882FC-893D-4DAA-BBA0-5B9CAC3C2520}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -53,6 +53,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Wooden Gates_A1" ID="{6D99EC49-CD3C-454A-A870-8E7E6787347E}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Waterfall_1" ID="{D24DAA71-DE46-4CD8-818C-8CE8BEF6BDB0}">
+					<ChildrenList>
+						<Action Name="" ID="{658B9604-5D8B-4338-96A9-5CB6D14FEA93}" ShortID="680163903">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MG_Waterfall_A1_Batch A44_1kHz_16bit 1" ID="{42913F79-2379-4772-90EE-1A36E42F141A}" WorkUnitID="{586A5F77-7CED-44B2-AD54-9B27834CFD0A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

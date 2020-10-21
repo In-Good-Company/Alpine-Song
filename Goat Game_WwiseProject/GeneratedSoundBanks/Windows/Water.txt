@@ -2,11 +2,17 @@ Event	ID	Name			Wwise Object Path	Notes
 	1383998259	Medium_River			\Environmental\Medium_River	
 	1416444632	Watermill			\Environmental\Watermill	
 	1536124373	Small_River			\Environmental\Small_River	
+	2089625053	Waterfall_1			\Environmental\Waterfall_1	
 	2704396606	Small_River_Wide_River			\Environmental\Small_River_Wide_River	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	222722569	RTPC_Occlusion_LoPass			\RTPC\RTPC_Occlusion_LoPass	
+	342905355	RTPC_Occlusion_Volume			\RTPC\RTPC_Occlusion_Volume	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	420839744	MG_Water_MD_River A1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Water_MD_River A1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Water_MD_River A1		22766040
-	804531265	MG_Water_SM_River A1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Water_SM_River A1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Water_SM_River A1		22706260
-	819872502	MG_Watermill_A1_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Watermill_A1_Batch A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Watermill_A1_Batch A		21614656
-	1031840039	MG_Water_SM_Wide_River A1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Water_SM_Wide_River A1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Water_SM_Wide_River A1		22836288
+	205053339	MG_Water_MD_River A144_1kHz_16bit 1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Water_MD_River A144.1kHz_16bit 1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Water_MD_River A144_1kHz_16bit 1		20916304
+	332121027	MG_Water_SM_River A144_1kHz_16bit 1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Water_SM_River A144.1kHz_16bit 1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Water_SM_River A144_1kHz_16bit 1		20861384
+	526850732	MG_Waterfall_A1_Batch A44_1kHz_16bit 1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Waterfall_A1_Batch A44.1kHz_16bit 1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Waterfall_A1_Batch A44_1kHz_16bit 1		19826484
+	671790597	MG_Watermill_A1_Batch A44_1kHz_16bit 1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Watermill_A1_Batch A44.1kHz_16bit 1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Watermill_A1_Batch A44_1kHz_16bit 1		19858472
+	824099348	MG_Water_SM_Wide_River A144_1kHz_16bit 1	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Windows\SFX\MG_Water_SM_Wide_River A144.1kHz_16bit 1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviromental\Water\MG_Water_SM_Wide_River A144_1kHz_16bit 1		20980848
 
