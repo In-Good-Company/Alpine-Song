@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="L1_Somber_Fields" ID="{607D3C70-1B97-4845-BDF5-B84ED99F90A1}">
+					<ChildrenList>
+						<Action Name="" ID="{60F1776F-8CFE-4370-8779-E1C42A87DC4D}" ShortID="276424951">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Alpine_Somber_Field" ID="{C5B3B1EE-1FAE-4119-8A20-DE8D8E716D72}" WorkUnitID="{D2E1C6E7-0D4C-4D55-990C-3D89D737D0D6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -7,6 +7,7 @@
 					<ChildrenList>
 						<Switch Name="Dirt" ID="{D038DA79-0328-40AD-BCE1-710CA86A2CFC}"/>
 						<Switch Name="Grass" ID="{D37B20AF-B90C-4811-BF91-ACB245C1D913}"/>
+						<Switch Name="Dirt_Grass" ID="{4A7BCF40-6C6D-4663-9C74-111E20C0631C}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

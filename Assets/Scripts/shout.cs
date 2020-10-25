@@ -15,6 +15,7 @@ public class shout : MonoBehaviour
     private void Shout()
     {
         // shout sound here
+        AkSoundEngine.PostEvent("Kulning_Cow_Calls", gameObject);
         particle.Play();
     }
 

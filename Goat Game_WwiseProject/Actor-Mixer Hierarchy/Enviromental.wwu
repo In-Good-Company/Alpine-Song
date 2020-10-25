@@ -78,13 +78,13 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>-96</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="River" ID="{D62F3B63-6B3E-403A-BDF4-BAFBB25A818C}" WorkUnitID="{F6BAC3B1-E5A5-493F-8D20-6F64BDEBDAD5}"/>
+									<ObjectRef Name="River_2" ID="{58E62CC3-E3CA-485F-82BA-73D52DE69911}" WorkUnitID="{F6BAC3B1-E5A5-493F-8D20-6F64BDEBDAD5}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -349,6 +349,41 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="MG_Watermill_A1_Batch A44_1kHz_16bit 1" ID="{FD320745-9EFA-4259-AF53-71497D4EC91F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MG_Waterfall_A1_2_Batch A44_1kHz_16bit 1" ID="{32BA8A26-E3E8-4500-99ED-762BBEEA6C1A}" ShortID="1039521762">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Waterfall_A2" ID="{9360304C-1837-4062-8A21-9100D2D9B77C}" WorkUnitID="{F6BAC3B1-E5A5-493F-8D20-6F64BDEBDAD5}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MG_Waterfall_A1_Batch A44_1kHz_16bit 1" ID="{FF372E98-9C95-4F0B-85E3-841BB6EC05B0}">
+									<Language>SFX</Language>
+									<AudioFile>MG_Waterfall_A1_Batch A44.1kHz_16bit 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="526850732"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MG_Waterfall_A1_Batch A44_1kHz_16bit 1" ID="{FF372E98-9C95-4F0B-85E3-841BB6EC05B0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

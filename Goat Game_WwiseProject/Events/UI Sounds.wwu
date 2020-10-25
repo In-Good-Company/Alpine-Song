@@ -47,6 +47,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Kulning_Cow_Calls" ID="{517C1E36-177D-4D79-ADCB-D3CDB840DB0A}">
+					<ChildrenList>
+						<Action Name="" ID="{EC42D457-412D-4B85-A24E-A5657735B72F}" ShortID="339185651">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Kulning_Cow_Calls_Sequence" ID="{DDCB41BD-C036-4D12-8DB1-066AE0B4B3A7}" WorkUnitID="{C63FC727-FB62-4F3B-851B-E2585FAAB087}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

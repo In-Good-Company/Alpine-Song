@@ -1,8 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1746458944	L1_Explore_Music			\Music\L1_Explore_Music	
 	2914591108	L1_Energized_Explore_Music			\Music\L1_Energized_Explore_Music	
+	3957746843	L1_Somber_Fields			\Music\L1_Somber_Fields	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	343779368	Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\SFX\Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore_Playlist\Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M\Alpine-Pasture_Calm_1_85bpm6-8_L8M-P1M		4065948
+	810492532	Alpine_Somber_Field	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\SFX\Alpine_Somber_Field_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Alpine_Somber_Field\Alpine_Somber_Field		10838080
 	825303904	Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\SFX\Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Energized_Explore_Playlist\Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M\Alpine-Pasture-Energized_1_93bpm-6-8-L32M-P8M		15607804
 

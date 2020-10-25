@@ -76,17 +76,26 @@ MonoBehaviour:
     ParentPath: Environmental
     guid: eb2cd476133cb142838d0b66b23be692
     GuidInternal: 
-    m_lastTime: -8586059566236333841
+    m_lastTime: -8586028622395736548
     List:
-    - name: River
-      guid: 4ad4590b11b0b84f8e17b1a1a0de30c8
-      id: 3605787649
+    - name: Structures
+      guid: e4843d3cb08c6c4fb7119066992bfbf3
+      id: 3879640103
       PathAndIcons:
       - ElementName: Environmental
         ObjectType: 12
-      - ElementName: River
+      - ElementName: Structures
         ObjectType: 7
-      Path: Environmental\River
+      Path: Environmental\Structures
+    - name: Water
+      guid: 4ad4590b11b0b84f8e17b1a1a0de30c8
+      id: 2654748154
+      PathAndIcons:
+      - ElementName: Environmental
+        ObjectType: 12
+      - ElementName: Water
+        ObjectType: 7
+      Path: Environmental\Water
   - PhysicalPath: SoundBanks\Foley.wwu
     ParentPath: Foley
     guid: 1ba9fbbb3a21624f8cc01e0f5bb95f75
@@ -106,7 +115,7 @@ MonoBehaviour:
     ParentPath: Music
     guid: 81638f3fd8b44343823be5f37dd006d1
     GuidInternal: 
-    m_lastTime: -8586117893326702243
+    m_lastTime: -8585979419720262098
     List:
     - name: Music
       guid: a40c7cda75515447b308296d4dbd428e
@@ -121,7 +130,7 @@ MonoBehaviour:
     ParentPath: UI_Sounds
     guid: e77a915bc50fe24fab7a976e403c7b7f
     GuidInternal: 
-    m_lastTime: -8586147305014289015
+    m_lastTime: -8585979406059678354
     List:
     - name: UI_Sounds
       guid: 3f57784819ef554ca9cfb7bb7d9f7bc8
@@ -179,8 +188,20 @@ MonoBehaviour:
     ParentPath: Environmental
     guid: 9c11c38014aadd48a424f20c6bd3882f
     GuidInternal: 
-    m_lastTime: -8586059566309581373
+    m_lastTime: -8586013191451857480
     List:
+    - name: Gates
+      guid: ccb74df4c4b6f248bdd2a034a2dd4861
+      id: 2908201163
+      PathAndIcons:
+      - ElementName: Environmental
+        ObjectType: 12
+      - ElementName: Gates
+        ObjectType: 3
+      Path: Environmental\Gates
+      maxAttenuation: 0
+      maxDuration: 2.8885
+      minDuration: 2.8885
     - name: Medium_River
       guid: 3a0cf82897c1744eacc8011a847790e7
       id: 1383998259
@@ -217,6 +238,18 @@ MonoBehaviour:
       maxAttenuation: 75
       maxDuration: -1
       minDuration: -1
+    - name: Waterfall_1
+      guid: 71aa4dd246ded84c818c8ce8bef6bdb0
+      id: 2089625053
+      PathAndIcons:
+      - ElementName: Environmental
+        ObjectType: 12
+      - ElementName: Waterfall_1
+        ObjectType: 3
+      Path: Environmental\Waterfall_1
+      maxAttenuation: 125
+      maxDuration: -1
+      minDuration: -1
     - name: Watermill
       guid: f6e5a44fccbf614f8339307905d470a0
       id: 1416444632
@@ -251,7 +284,7 @@ MonoBehaviour:
     ParentPath: Music
     guid: 1550aabf5f43714187f2c7ef404ce504
     GuidInternal: 
-    m_lastTime: -8586117893412618584
+    m_lastTime: -8585979419720301992
     List:
     - name: L1_Energized_Explore_Music
       guid: e11ae39f67e4414ba44a0dc17365f37a
@@ -277,11 +310,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: L1_Somber_Fields
+      guid: 703c7d60971b4548bdf5b84ed99f90a1
+      id: 3957746843
+      PathAndIcons:
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: L1_Somber_Fields
+        ObjectType: 3
+      Path: Music\L1_Somber_Fields
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\UI Sounds.wwu
     ParentPath: UI Sounds
     guid: aa87b07c32b6ba48825e6205d6279808
     GuidInternal: 
-    m_lastTime: -8586147305022327187
+    m_lastTime: -8585979406059718251
     List:
     - name: Button_A
       guid: cee38777fbab9445a7cbbb78cda7acd0
@@ -319,6 +364,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.0625
       minDuration: 0.0625
+    - name: Kulning_Cow_Calls
+      guid: 361e7c517d17794dadcbd3cdb840db0a
+      id: 651861523
+      PathAndIcons:
+      - ElementName: UI Sounds
+        ObjectType: 12
+      - ElementName: Kulning_Cow_Calls
+        ObjectType: 3
+      Path: UI Sounds\Kulning_Cow_Calls
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Location_Movement
       guid: 68e0856bdefe0744bea1bb17776ac805
       id: 3713975176
@@ -338,6 +395,30 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8586147932872566656
     List: []
+  - PhysicalPath: Game Parameters\RTPC.wwu
+    ParentPath: RTPC
+    guid: d248264e05dc714780bf00e7dce58b52
+    GuidInternal: 
+    m_lastTime: -8586022502604291896
+    List:
+    - name: RTPC_Occlusion_LoPass
+      guid: c129fc6af97e1d44b32cc6c3e536348b
+      id: 222722569
+      PathAndIcons:
+      - ElementName: RTPC
+        ObjectType: 12
+      - ElementName: RTPC_Occlusion_LoPass
+        ObjectType: 13
+      Path: RTPC\RTPC_Occlusion_LoPass
+    - name: RTPC_Occlusion_Volume
+      guid: 5a34b286f4148c4c96a1a228648d295b
+      id: 342905355
+      PathAndIcons:
+      - ElementName: RTPC
+        ObjectType: 12
+      - ElementName: RTPC_Occlusion_Volume
+        ObjectType: 13
+      Path: RTPC\RTPC_Occlusion_Volume
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPath: Default Work Unit
@@ -356,7 +437,7 @@ MonoBehaviour:
     ParentPath: Foley
     guid: bbeb98dd7918d947b14a083a5aa8d7dc
     GuidInternal: 
-    m_lastTime: -8586062426843296290
+    m_lastTime: -8585979414363465604
     List:
     - name: Footsteps_Materials
       guid: 279ea5b58b71344a8bc98838aa20854a
@@ -373,6 +454,12 @@ MonoBehaviour:
         id: 2195636714
         PathAndIcons:
         - ElementName: Dirt
+          ObjectType: 10
+      - name: Dirt_Grass
+        guid: 40cf7b4a6d6c63469c74111e20c0631c
+        id: 95152949
+        PathAndIcons:
+        - ElementName: Dirt_Grass
           ObjectType: 10
       - name: Grass
         guid: af207bd30cb91148bf91acb245c1d913
@@ -393,6 +480,6 @@ MonoBehaviour:
   ExpandedItems:
   - /Goat Game_WwiseProject
   - /Goat Game_WwiseProject/Events
-  - /Goat Game_WwiseProject/Events/Music
+  - /Goat Game_WwiseProject/Events/UI Sounds
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
