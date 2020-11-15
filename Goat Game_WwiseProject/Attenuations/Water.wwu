@@ -119,7 +119,7 @@
 				</Attenuation>
 				<Attenuation Name="Watermill" ID="{D233C44C-62FE-4BD5-9F49-401FC507BE5B}" ShortID="674974170">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="75"/>
+						<Property Name="RadiusMax" Type="Real64" Value="65"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -135,32 +135,32 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>15.28865</XPos>
+											<XPos>13.2501633333333</XPos>
 											<YPos>-0.28011</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>30.05853</XPos>
+											<XPos>26.050726</XPos>
 											<YPos>-0.93816</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>40.6814</XPos>
-											<YPos>-1.92214</YPos>
+											<XPos>35.01377</XPos>
+											<YPos>-2.67318</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>49.5603</XPos>
-											<YPos>-6.54089</YPos>
+											<XPos>42.70881</XPos>
+											<YPos>-7.51154</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>59.64113</XPos>
-											<YPos>-10.74845</YPos>
+											<XPos>51.44553</XPos>
+											<YPos>-12.53521</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>75</XPos>
+											<XPos>65</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -187,38 +187,43 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>15.28746</XPos>
+											<XPos>13.249132</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>23.125</XPos>
+											<XPos>20.0416666666667</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>30.24227</XPos>
+											<XPos>26.2099673333333</XPos>
 											<YPos>4</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>38.48256</XPos>
+											<XPos>33.351552</XPos>
 											<YPos>13</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>48.900525</XPos>
+											<XPos>42.380455</XPos>
 											<YPos>19</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>60.205995</XPos>
-											<YPos>28</YPos>
+											<XPos>51.52934</XPos>
+											<YPos>22</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>75</XPos>
-											<YPos>32</YPos>
+											<XPos>59.80649</XPos>
+											<YPos>30</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>65</XPos>
+											<YPos>33</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
