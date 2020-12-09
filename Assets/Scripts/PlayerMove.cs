@@ -10,6 +10,7 @@ public class PlayerMove : MonoBehaviour
     public LayerMask Interactables;
     public GameObject navMarker;
     public GameObject navMarkerPrefab;
+    public GameObject interactionPoint;
     public Interactable interactTarget;
 
     private NavMeshAgent PlayerNav;
@@ -49,20 +50,20 @@ public class PlayerMove : MonoBehaviour
 
     }
     
-    private void lookAround()
-    {
-        //if (Input.touchCount == 2)
-        if(Input.GetMouseButton(0))
-        {
-            
-            pressTimer += Time.deltaTime;
-            if (pressTimer >= pressHeldThreshhold)
-            {
-                pressHeld = true;
-            }
-
-        }
-    }
+   // private void lookAround()
+   // {
+   //     //if (Input.touchCount == 2)
+   //     if(Input.GetMouseButton(0))
+   //     {
+   //         
+   //         pressTimer += Time.deltaTime;
+   //         if (pressTimer >= pressHeldThreshhold)
+   //         {
+   //             pressHeld = true;
+   //         }
+   //
+   //     }
+   // }
 
     void Update()
     {
@@ -92,14 +93,18 @@ public class PlayerMove : MonoBehaviour
                 {
                     if (hitInfo.collider.gameObject.GetComponent<Interactable>() != null)
                     {
-                       
+
+                        
+
                         Debug.Log("interactable found");
                         waitingToActivate = true;
                         interactablePressed = true;
                         interactTarget = hitInfo.collider.gameObject.GetComponent<Interactable>();
                         Interactable interactable = hitInfo.collider.gameObject.GetComponent<Interactable>();
-                        Vector3 navPoint = interactable.playerInteractPos.position;
-                        PlayerNav.SetDestination(interactable.playerInteractPos.position);
+                        Vector3 navPoint = interactable.playerInteractPos.transform.position;
+                        interactionPoint = interactable.playerInteractPos;
+                        interactionPoint.GetComponent<SphereCollider>().enabled = true;
+                        PlayerNav.SetDestination(interactable.playerInteractPos.transform.position);
                         if (markerPlaced)
                         {
                             Destroy(navMarker);
@@ -109,7 +114,7 @@ public class PlayerMove : MonoBehaviour
                         markerPlaced = true;
                         destinationReached = false;
 
-                        AkSoundEngine.PostEvent("Location_Movement", gameObject);
+                        //AkSoundEngine.PostEvent("Location_Movement", gameObject);
 
                         
                   
@@ -130,7 +135,7 @@ public class PlayerMove : MonoBehaviour
                     markerPlaced = true;
                     destinationReached = false;
 
-                    AkSoundEngine.PostEvent("Location_Movement", gameObject);
+                    //AkSoundEngine.PostEvent("Location_Movement", gameObject);
                 }
             }
             interactablePressed = false;
@@ -138,7 +143,7 @@ public class PlayerMove : MonoBehaviour
             pressTimer = 0;
         }
 
-        lookAround();
+        //lookAround();
         //Currently commented out just in case
         //if (Input.GetMouseButtonDown(0))
         //{

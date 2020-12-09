@@ -10,6 +10,7 @@ public class AI_Cow_wanderTimer : MonoBehaviour
     public GameObject wanderTarget;
     public int AI_CowCase;
 
+    public float cowVocal;
     private float Timer;
     private float rotAngleNav;
     public float wanderSwitch;
@@ -17,14 +18,23 @@ public class AI_Cow_wanderTimer : MonoBehaviour
     void Start()
     {
         Speed = 1;
-        rotAngleNav = Random.Range(0, 300);
+        rotAngleNav = Random.Range(0, 300);             //range of time between rotation changes for the cows following direction
+        cowVocal = Random.Range(50, 150);               //range of time between each "moo" from the cow
         Timer = Random.Range(5, 20);
         AI_CowCase = GetComponent<CowMove>().AI_Case;
         wanderPoint = transform.position;
         wanderSwitch = Random.Range(0, 100);
         
-        
+    }
 
+    private void cowSound()
+    {
+        if(cowVocal <= 0.0)
+        {
+            AkSoundEngine.PostEvent("Cows", gameObject);
+            cowVocal = Random.Range(50, 150);
+        }
+        
     }
 
     private void cowWander()
@@ -53,10 +63,12 @@ public class AI_Cow_wanderTimer : MonoBehaviour
         if (Timer <= 0.0)
         {
             wanderSwitch = Random.Range(0, 100);
-            AkSoundEngine.PostEvent("Cows", gameObject);
+            
         }
         cowWander();
-       
+        cowSound();
+
+        cowVocal -= Time.deltaTime;
         Timer -= Time.deltaTime;
         if(AI_CowCase == 1)
         {

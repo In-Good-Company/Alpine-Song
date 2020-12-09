@@ -2,7 +2,7 @@
 
 public class Interactable : MonoBehaviour
 {
-    public Transform playerInteractPos;
+    public GameObject playerInteractPos;
     public float radius = 3f;
     public Transform InteractableTransform;
 
@@ -22,4 +22,5 @@ public class Interactable : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, radius);
     }
+
 }

@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/inHouse.unity
     guid: 57228032c3d695d4fb0ab26fcee22aa1
+  - enabled: 1
+    path: Assets/Scenes/mountainTop.unity
+    guid: ae4ea61c4357e204eab7c9ebab29d377
   m_configObjects: {}

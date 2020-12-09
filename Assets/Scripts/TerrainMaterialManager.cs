@@ -40,7 +40,7 @@ public class TerrainMaterialManager : MonoBehaviour
         {
             _terrainData = targetTerrain.terrainData;
         }
-        //_terrainData = Terrain.activeTerrain.terrainData;
+        _terrainData = Terrain.activeTerrain.terrainData;
         alphaHeight = _terrainData.alphamapHeight;
         alphaWidth = _terrainData.alphamapWidth;
         splatmapData = _terrainData.GetAlphamaps(0, 0, alphaWidth, alphaHeight);

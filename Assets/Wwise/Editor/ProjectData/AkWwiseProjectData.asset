@@ -76,7 +76,7 @@ MonoBehaviour:
     ParentPath: Environmental
     guid: eb2cd476133cb142838d0b66b23be692
     GuidInternal: 
-    m_lastTime: -8586028622395736548
+    m_lastTime: -8585979098146203700
     List:
     - name: Structures
       guid: e4843d3cb08c6c4fb7119066992bfbf3
@@ -115,7 +115,7 @@ MonoBehaviour:
     ParentPath: Music
     guid: 81638f3fd8b44343823be5f37dd006d1
     GuidInternal: 
-    m_lastTime: -8585979419720262098
+    m_lastTime: -8585979098146193708
     List:
     - name: Music
       guid: a40c7cda75515447b308296d4dbd428e
@@ -130,7 +130,7 @@ MonoBehaviour:
     ParentPath: UI_Sounds
     guid: e77a915bc50fe24fab7a976e403c7b7f
     GuidInternal: 
-    m_lastTime: -8585979406059678354
+    m_lastTime: -8585979098146183712
     List:
     - name: UI_Sounds
       guid: 3f57784819ef554ca9cfb7bb7d9f7bc8
@@ -188,7 +188,7 @@ MonoBehaviour:
     ParentPath: Environmental
     guid: 9c11c38014aadd48a424f20c6bd3882f
     GuidInternal: 
-    m_lastTime: -8586013191451857480
+    m_lastTime: -8585979098149181080
     List:
     - name: Gates
       guid: ccb74df4c4b6f248bdd2a034a2dd4861
@@ -200,8 +200,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Environmental\Gates
       maxAttenuation: 0
-      maxDuration: 2.8885
-      minDuration: 2.8885
+      maxDuration: -1
+      minDuration: -1
     - name: Medium_River
       guid: 3a0cf82897c1744eacc8011a847790e7
       id: 1383998259
@@ -211,7 +211,7 @@ MonoBehaviour:
       - ElementName: Medium_River
         ObjectType: 3
       Path: Environmental\Medium_River
-      maxAttenuation: 50
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Small_River
@@ -223,7 +223,7 @@ MonoBehaviour:
       - ElementName: Small_River
         ObjectType: 3
       Path: Environmental\Small_River
-      maxAttenuation: 50
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Small_River_Wide_River
@@ -235,7 +235,7 @@ MonoBehaviour:
       - ElementName: Small_River_Wide_River
         ObjectType: 3
       Path: Environmental\Small_River_Wide_River
-      maxAttenuation: 75
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Waterfall_1
@@ -247,7 +247,7 @@ MonoBehaviour:
       - ElementName: Waterfall_1
         ObjectType: 3
       Path: Environmental\Waterfall_1
-      maxAttenuation: 125
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Watermill
@@ -259,7 +259,7 @@ MonoBehaviour:
       - ElementName: Watermill
         ObjectType: 3
       Path: Environmental\Watermill
-      maxAttenuation: 75
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
   - PhysicalPath: Events\Foley.wwu
@@ -284,7 +284,7 @@ MonoBehaviour:
     ParentPath: Music
     guid: 1550aabf5f43714187f2c7ef404ce504
     GuidInternal: 
-    m_lastTime: -8585979419720301992
+    m_lastTime: -8585979098149159551
     List:
     - name: L1_Energized_Explore_Music
       guid: e11ae39f67e4414ba44a0dc17365f37a
@@ -326,7 +326,7 @@ MonoBehaviour:
     ParentPath: UI Sounds
     guid: aa87b07c32b6ba48825e6205d6279808
     GuidInternal: 
-    m_lastTime: -8585979406059718251
+    m_lastTime: -8585979098149155648
     List:
     - name: Button_A
       guid: cee38777fbab9445a7cbbb78cda7acd0
@@ -338,8 +338,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI Sounds\Button_A
       maxAttenuation: 0
-      maxDuration: 0.076167
-      minDuration: 0.076167
+      maxDuration: -1
+      minDuration: -1
     - name: Button_B
       guid: baf1dc366baecc43b1b46d134138bfde
       id: 2661066194
@@ -350,8 +350,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI Sounds\Button_B
       maxAttenuation: 0
-      maxDuration: 0.062958
-      minDuration: 0.062958
+      maxDuration: -1
+      minDuration: -1
     - name: Button_C
       guid: d55872e2deb3944684e9ded34a35cb56
       id: 2661066195
@@ -362,8 +362,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI Sounds\Button_C
       maxAttenuation: 0
-      maxDuration: 0.0625
-      minDuration: 0.0625
+      maxDuration: -1
+      minDuration: -1
     - name: Kulning_Cow_Calls
       guid: 361e7c517d17794dadcbd3cdb840db0a
       id: 651861523
@@ -386,8 +386,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI Sounds\Location_Movement
       maxAttenuation: 0
-      maxDuration: 1.377938
-      minDuration: 1.227603
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPath: Default Work Unit
@@ -399,7 +399,7 @@ MonoBehaviour:
     ParentPath: RTPC
     guid: d248264e05dc714780bf00e7dce58b52
     GuidInternal: 
-    m_lastTime: -8586022502604291896
+    m_lastTime: -8585979098149145630
     List:
     - name: RTPC_Occlusion_LoPass
       guid: c129fc6af97e1d44b32cc6c3e536348b
@@ -437,7 +437,7 @@ MonoBehaviour:
     ParentPath: Foley
     guid: bbeb98dd7918d947b14a083a5aa8d7dc
     GuidInternal: 
-    m_lastTime: -8585979414363465604
+    m_lastTime: -8585979098146163705
     List:
     - name: Footsteps_Materials
       guid: 279ea5b58b71344a8bc98838aa20854a
