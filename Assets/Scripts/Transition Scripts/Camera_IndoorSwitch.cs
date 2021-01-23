@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Camera_IndoorSwitch : MonoBehaviour
+public class Camera_IndoorSwitch : Interactable
 {
     public GameObject camPos;
     public GameObject playerTransitionPos;
@@ -11,6 +11,10 @@ public class Camera_IndoorSwitch : MonoBehaviour
     public GameObject Player;
     public NavMeshAgent navSwitch;
 
+    public override void Interact()
+    {
+        base.Interact();
+    }
 
     private void Awake()
     {

@@ -5,16 +5,19 @@ using UnityEngine;
 
 public class Transition_IndoorSwitch : Camera_IndoorSwitch
 {
+    public Animator transition;
     public bool sceneChange;
     public string Scene;
-  
+    public float transitionTime = 1f;
+
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject == Player)
         {
             if (sceneChange == true)
             {
-                SceneManager.LoadScene(Scene);
+                LoadNextScene();
+                //StartCoroutine(PlayTransition(Scene));
             }
             navSwitch.enabled = false;
             Player.transform.position = playerTransitionPos.transform.position;
@@ -25,6 +28,17 @@ public class Transition_IndoorSwitch : Camera_IndoorSwitch
            
         }
     }
+    public override void Interact()
+    {
+        base.Interact();
+        LoadNextScene();
+    }
+
+    public void LoadNextScene()
+    {
+        StartCoroutine(PlayTransition(Scene));
+        //SceneManager.LoadScene(sceneToLoad.buildIndex);
+    }
 
     private void OnTriggerExit(Collider other)
     {
@@ -32,5 +46,29 @@ public class Transition_IndoorSwitch : Camera_IndoorSwitch
         {
             this.GetComponent<SphereCollider>().enabled = false;
         }
+    }
+
+    IEnumerator PlayTransition(string scene)
+    {
+        transition.SetTrigger("Start");
+        AsyncOperation asynchOperation = SceneManager.LoadSceneAsync(scene);
+        transition.SetTrigger("Start");
+        Debug.Log("Started Wait");
+
+
+        yield return new WaitForSeconds(transitionTime);
+        if (sceneChange)
+        {
+            transition.SetTrigger("loadingBar");
+        }
+
+        SceneManager.LoadScene(scene);
+
+
+        //play animaton
+
+        //wait
+
+        //Load it
     }
 }

@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
+
+//This is a parent scripts for anything that needs interaction
+//any child script only needs to inherit and place  "override Void Interact()" without the comments to be interactable through clicking
 public class Interactable : MonoBehaviour
 {
     public GameObject playerInteractPos;
