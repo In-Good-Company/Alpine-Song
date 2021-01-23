@@ -6,17 +6,31 @@ public class doorOpen : Interactable
 {
     public Animator anim;
     public bool isOpen = false;
+    public Item keyItem;
+    public bool isLocked = false;
     public override void Interact()
     {
         base.Interact();
-        toggleOpen();
-        Debug.Log("shouldBeOpening");
+        if (isLocked == true && Inventory.instance.activeItem == keyItem)
+        {
+            isLocked = false;
+            Inventory.instance.RemoveItem(Inventory.instance.activeItem);
+        }
+
+        if (!isLocked)
+            {
+                toggleOpen();
+            }
+            
     }
 
     public void toggleOpen()
     {
-        isOpen = !isOpen;
-        anim.SetBool("isOpen", isOpen);
-        AkSoundEngine.PostEvent("Gates", gameObject);
+        if (Inventory.instance.activeItem == keyItem || keyItem == null)
+        {
+            isOpen = !isOpen;
+            anim.SetBool("isOpen", isOpen);
+            AkSoundEngine.PostEvent("Gates", gameObject);
+        }
     }
 }

@@ -52,6 +52,12 @@ public class Inventory : MonoBehaviour
         activeItemIcon.sprite = _sprite;
     }
 
+    public void InventoryToggle()
+    {
+        inventoryOpen = !inventoryOpen;
+        inventoryPanel.SetActive(inventoryOpen);
+    }
+
     private void OpenInventory()
     {
         inventoryPanel.SetActive(true);
@@ -97,27 +103,28 @@ public class Inventory : MonoBehaviour
         {
             onItemChangedCallback.Invoke();
         }
+        Debug.Log(activeItem.name + " removed");
     }
 
 
-    private void Update()
-    {
-        if (Input.GetButtonDown("InventoryToggle"))
-        {
-            if (inventoryOpen == false)
-            {
-                OpenInventory();
-            }
-            else if (inventoryOpen == true)
-            {
-                CloseInventory();
-            }
-        }
-
-        if (Input.GetButtonDown("Cancel"))
-        {
-            activeItem = null;
-            activeItemIcon.sprite = inventoryDefaultSprite;
-        }
-    }
+    //private void Update()
+    //{
+    //    if (Input.GetButtonDown("InventoryToggle"))
+    //    {
+    //        if (inventoryOpen == false)
+    //        {
+    //            OpenInventory();
+    //        }
+    //        else if (inventoryOpen == true)
+    //        {
+    //            CloseInventory();
+    //        }
+    //    }
+    //
+    //    if (Input.GetButtonDown("Cancel"))
+    //    {
+    //        activeItem = null;
+    //        activeItemIcon.sprite = inventoryDefaultSprite;
+    //    }
+    //}
 }

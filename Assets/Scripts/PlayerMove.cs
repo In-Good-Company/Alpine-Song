@@ -103,7 +103,7 @@ public class PlayerMove : MonoBehaviour
                         Interactable interactable = hitInfo.collider.gameObject.GetComponent<Interactable>();
                         Vector3 navPoint = interactable.playerInteractPos.transform.position;
                         interactionPoint = interactable.playerInteractPos;
-                        interactionPoint.GetComponent<SphereCollider>().enabled = true;
+                        //interactionPoint.GetComponent<SphereCollider>().enabled = true;
                         PlayerNav.SetDestination(interactable.playerInteractPos.transform.position);
                         if (markerPlaced)
                         {

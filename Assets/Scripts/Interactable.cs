@@ -6,6 +6,14 @@ public class Interactable : MonoBehaviour
     public Transform InteractableTransform;
     public GameObject playerInteractPos;
 
+    private void Start()
+    {
+        if (playerInteractPos == null)
+        {
+            playerInteractPos = this.gameObject;
+        }
+    }
+
     public virtual void Interact()
     {
         // this method to be overwritten
