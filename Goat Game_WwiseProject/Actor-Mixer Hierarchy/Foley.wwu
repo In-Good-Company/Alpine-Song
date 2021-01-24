@@ -475,7 +475,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="MG1_Foley_Footsteps_Dirt_A1_Batch A" ID="{F8AF6681-D12D-44E0-8789-E51A19DF8843}" ShortID="809853410">
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A1_Batch A44_1kHz_16bit" ID="{63C5B139-5E5D-4A59-B5F4-AC31606A9BF3}" ShortID="68084786">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -485,24 +485,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A1_Batch A" ID="{677E3B0C-B7F1-4950-9E40-06969FF9436B}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0327186261558785"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.478055482166447"/>
-													</PropertyList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A1_Batch A44_1kHz_16bit" ID="{4F80CCFF-6A7C-4BDE-9D86-4B7804544864}">
 													<Language>SFX</Language>
-													<AudioFile>MG1_Foley_Footsteps_Dirt_A1_Batch A.wav</AudioFile>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A1_Batch A44.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="552271610"/>
+														<MediaID ID="517413148"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A1_Batch A" ID="{677E3B0C-B7F1-4950-9E40-06969FF9436B}" Platform="Linked"/>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A1_Batch A44_1kHz_16bit" ID="{4F80CCFF-6A7C-4BDE-9D86-4B7804544864}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="MG1_Foley_Footsteps_Dirt_A2_Batch A" ID="{83F9650F-A29C-496B-B9B3-CBC7FA5B1CBE}" ShortID="397497040">
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A2_Batch A44_1kHz_16bit" ID="{7A1E3ECC-B12D-4F99-9A18-4CB3F2B43B77}" ShortID="1056708498">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -512,24 +507,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A2_Batch A" ID="{4A194D17-BD36-4A03-BF95-3FE4FFBA1527}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0176627036547776"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.50837868780273"/>
-													</PropertyList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A2_Batch A44_1kHz_16bit" ID="{89F779EF-4393-4821-ABB3-237866E04CE0}">
 													<Language>SFX</Language>
-													<AudioFile>MG1_Foley_Footsteps_Dirt_A2_Batch A.wav</AudioFile>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A2_Batch A44.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="326200082"/>
+														<MediaID ID="689821266"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A2_Batch A" ID="{4A194D17-BD36-4A03-BF95-3FE4FFBA1527}" Platform="Linked"/>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A2_Batch A44_1kHz_16bit" ID="{89F779EF-4393-4821-ABB3-237866E04CE0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="MG1_Foley_Footsteps_Dirt_A3_Batch A" ID="{538D11E2-BEAA-409F-B6F6-49DF4514D5C6}" ShortID="637735539">
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A3_Batch A44_1kHz_16bit" ID="{744C1032-2530-440E-99AD-73C3784AC95B}" ShortID="751532105">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -539,24 +529,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A3_Batch A" ID="{BB0E1BCC-9D78-45B3-A1AB-BF79BBB72EB4}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0561241743725231"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.476275979744606"/>
-													</PropertyList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A3_Batch A44_1kHz_16bit" ID="{E42F3C44-C848-461A-9FB7-13C75F3DF45F}">
 													<Language>SFX</Language>
-													<AudioFile>MG1_Foley_Footsteps_Dirt_A3_Batch A.wav</AudioFile>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A3_Batch A44.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="440968966"/>
+														<MediaID ID="315644262"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A3_Batch A" ID="{BB0E1BCC-9D78-45B3-A1AB-BF79BBB72EB4}" Platform="Linked"/>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A3_Batch A44_1kHz_16bit" ID="{E42F3C44-C848-461A-9FB7-13C75F3DF45F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="MG1_Foley_Footsteps_Dirt_A4_Batch A" ID="{86C5B432-9F2B-4EDA-BB9B-9FF3DC16979D}" ShortID="114246452">
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A4_Batch A44_1kHz_16bit" ID="{66ED00C6-FFF3-4738-B643-C38C934A3736}" ShortID="159885655">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -566,24 +551,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A4_Batch A" ID="{047D9CA3-8334-4F65-90CC-24E25F62C925}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0647225891677675"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.514623513870542"/>
-													</PropertyList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A4_Batch A44_1kHz_16bit" ID="{2C29A69D-53DC-460A-82CA-23CF69CC6B1E}">
 													<Language>SFX</Language>
-													<AudioFile>MG1_Foley_Footsteps_Dirt_A4_Batch A.wav</AudioFile>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A4_Batch A44.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1050239933"/>
+														<MediaID ID="28661022"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A4_Batch A" ID="{047D9CA3-8334-4F65-90CC-24E25F62C925}" Platform="Linked"/>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A4_Batch A44_1kHz_16bit" ID="{2C29A69D-53DC-460A-82CA-23CF69CC6B1E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="MG1_Foley_Footsteps_Dirt_A5_Batch A" ID="{8C747D6C-449E-4D2C-85C7-4F8E3E025255}" ShortID="850928821">
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A5_Batch A44_1kHz_16bit" ID="{B9251A3A-A720-4BED-9137-34703C7308AA}" ShortID="185344080">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -593,24 +573,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A5_Batch A" ID="{7F4B69E1-D00E-4180-8CCA-55FD19CF11D0}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0716230735358873"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.470221047996478"/>
-													</PropertyList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A5_Batch A44_1kHz_16bit" ID="{1DD2BFF1-7734-4BC6-BD25-9868B2683C4E}">
 													<Language>SFX</Language>
-													<AudioFile>MG1_Foley_Footsteps_Dirt_A5_Batch A.wav</AudioFile>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A5_Batch A44.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="905293815"/>
+														<MediaID ID="576988603"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A5_Batch A" ID="{7F4B69E1-D00E-4180-8CCA-55FD19CF11D0}" Platform="Linked"/>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A5_Batch A44_1kHz_16bit" ID="{1DD2BFF1-7734-4BC6-BD25-9868B2683C4E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="MG1_Foley_Footsteps_Dirt_A6_Batch A" ID="{EE4268BF-4443-45EF-B8C0-431784533D85}" ShortID="609312364">
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A6_Batch A44_1kHz_16bit" ID="{A0BDB93D-FD6B-40B8-9AAD-A74D55DFAF30}" ShortID="1012407226">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -620,24 +595,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A6_Batch A" ID="{68727D00-99BE-414E-AD50-08F638FE3A62}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0307177454865698"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.476125055041832"/>
-													</PropertyList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A6_Batch A44_1kHz_16bit" ID="{221B9266-E9AD-4C29-8852-15C90BD0F687}">
 													<Language>SFX</Language>
-													<AudioFile>MG1_Foley_Footsteps_Dirt_A6_Batch A.wav</AudioFile>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A6_Batch A44.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="818902179"/>
+														<MediaID ID="804691732"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A6_Batch A" ID="{68727D00-99BE-414E-AD50-08F638FE3A62}" Platform="Linked"/>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A6_Batch A44_1kHz_16bit" ID="{221B9266-E9AD-4C29-8852-15C90BD0F687}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="MG1_Foley_Footsteps_Dirt_A7_Batch A" ID="{0BC3A8FF-543C-461C-A056-21CB6666BDDC}" ShortID="143648056">
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A7_Batch A44_1kHz_16bit" ID="{38D0E15F-A884-41D5-97C4-AE0E5D784EDF}" ShortID="432536269">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -647,24 +617,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A7_Batch A" ID="{98F683CA-7366-4C86-960A-E777C16CF2CC}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0838678996036988"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.53640510788199"/>
-													</PropertyList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A7_Batch A44_1kHz_16bit" ID="{BC4B1D5D-58B2-42B6-99DD-776887C637FA}">
 													<Language>SFX</Language>
-													<AudioFile>MG1_Foley_Footsteps_Dirt_A7_Batch A.wav</AudioFile>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A7_Batch A44.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="486034750"/>
+														<MediaID ID="821453138"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A7_Batch A" ID="{98F683CA-7366-4C86-960A-E777C16CF2CC}" Platform="Linked"/>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A7_Batch A44_1kHz_16bit" ID="{BC4B1D5D-58B2-42B6-99DD-776887C637FA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="MG1_Foley_Footsteps_Dirt_A8_Batch A" ID="{D3AA1462-3F70-438F-9EA1-F4E3CBBF491A}" ShortID="86386662">
+										<Sound Name="MG1_Foley_Footsteps_Dirt_A8_Batch A44_1kHz_16bit" ID="{B5F809B2-D66A-4541-AEB9-70D4534FB982}" ShortID="9043955">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -674,21 +639,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A8_Batch A" ID="{CB88C3AB-8CDB-4B87-AB30-66F66E455032}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0589009247027741"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.482821664464994"/>
-													</PropertyList>
+												<AudioFileSource Name="MG1_Foley_Footsteps_Dirt_A8_Batch A44_1kHz_16bit" ID="{BC96CBBC-02EE-4566-A378-6A6A20778C82}">
 													<Language>SFX</Language>
-													<AudioFile>MG1_Foley_Footsteps_Dirt_A8_Batch A.wav</AudioFile>
+													<AudioFile>MG1_Foley_Footsteps_Dirt_A8_Batch A44.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="753334073"/>
+														<MediaID ID="1047672570"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A8_Batch A" ID="{CB88C3AB-8CDB-4B87-AB30-66F66E455032}" Platform="Linked"/>
+												<ActiveSource Name="MG1_Foley_Footsteps_Dirt_A8_Batch A44_1kHz_16bit" ID="{BC96CBBC-02EE-4566-A378-6A6A20778C82}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -724,7 +684,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Grass Steps_A1" ID="{DADE7697-EB5B-48C9-9F62-5F7C156FC63E}" ShortID="634189165">
+										<Sound Name="Grass Steps_A144_1kHz_16bit" ID="{140F805E-31EC-4DD4-9750-FDC2437F5F14}" ShortID="950193420">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -734,19 +694,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Grass Steps_A1" ID="{0154C569-CB36-48B7-A86C-8D4B91C79C01}">
+												<AudioFileSource Name="Grass Steps_A144_1kHz_16bit" ID="{8600BBF0-3628-4926-8B27-C55DAE2FEAB0}">
 													<Language>SFX</Language>
-													<AudioFile>Grass Steps_A1.wav</AudioFile>
+													<AudioFile>Grass Steps_A144.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="924488392"/>
+														<MediaID ID="156616381"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Grass Steps_A1" ID="{0154C569-CB36-48B7-A86C-8D4B91C79C01}" Platform="Linked"/>
+												<ActiveSource Name="Grass Steps_A144_1kHz_16bit" ID="{8600BBF0-3628-4926-8B27-C55DAE2FEAB0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Grass Steps_A2" ID="{9D496375-2472-4C7E-BE20-498A3FB78306}" ShortID="1006466496">
+										<Sound Name="Grass Steps_A244_1kHz_16bit" ID="{91BA7F6E-33EC-4745-8D19-DC6D14EF324F}" ShortID="196436691">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -756,19 +716,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Grass Steps_A2" ID="{5FAF02EC-E4E8-4F56-B9D9-9B63B16CFD3D}">
+												<AudioFileSource Name="Grass Steps_A244_1kHz_16bit" ID="{68874F19-546C-4EBF-B5F6-AA71FE1DFD50}">
 													<Language>SFX</Language>
-													<AudioFile>Grass Steps_A2.wav</AudioFile>
+													<AudioFile>Grass Steps_A244.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="569711930"/>
+														<MediaID ID="1027033068"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Grass Steps_A2" ID="{5FAF02EC-E4E8-4F56-B9D9-9B63B16CFD3D}" Platform="Linked"/>
+												<ActiveSource Name="Grass Steps_A244_1kHz_16bit" ID="{68874F19-546C-4EBF-B5F6-AA71FE1DFD50}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Grass Steps_A3" ID="{E2DA3FFB-E50A-437F-9160-F5E7B4D9FC1B}" ShortID="5092721">
+										<Sound Name="Grass Steps_A344_1kHz_16bit" ID="{FCB95A12-BDDA-4434-8795-C9FFF31B3F63}" ShortID="61099366">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -778,19 +738,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Grass Steps_A3" ID="{D1426632-5AA8-4E3A-AC68-6B8C9ECE21C5}">
+												<AudioFileSource Name="Grass Steps_A344_1kHz_16bit" ID="{9FAF1782-496B-4D15-BEB9-C5A4389174A0}">
 													<Language>SFX</Language>
-													<AudioFile>Grass Steps_A3.wav</AudioFile>
+													<AudioFile>Grass Steps_A344.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="356410664"/>
+														<MediaID ID="98241261"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Grass Steps_A3" ID="{D1426632-5AA8-4E3A-AC68-6B8C9ECE21C5}" Platform="Linked"/>
+												<ActiveSource Name="Grass Steps_A344_1kHz_16bit" ID="{9FAF1782-496B-4D15-BEB9-C5A4389174A0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Grass Steps_A4" ID="{6B808CED-5CCD-415A-ADAC-CC4F99AD8630}" ShortID="367756984">
+										<Sound Name="Grass Steps_A444_1kHz_16bit" ID="{81B7D42A-6882-422E-BF59-86BA60135800}" ShortID="683637477">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -800,19 +760,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Grass Steps_A4" ID="{F5CE301B-47B2-48E2-BD0F-B5DAF7F30D1C}">
+												<AudioFileSource Name="Grass Steps_A444_1kHz_16bit" ID="{4A2D14A5-F581-4B08-B762-226CFC79C5E7}">
 													<Language>SFX</Language>
-													<AudioFile>Grass Steps_A4.wav</AudioFile>
+													<AudioFile>Grass Steps_A444.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="509612706"/>
+														<MediaID ID="12400865"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Grass Steps_A4" ID="{F5CE301B-47B2-48E2-BD0F-B5DAF7F30D1C}" Platform="Linked"/>
+												<ActiveSource Name="Grass Steps_A444_1kHz_16bit" ID="{4A2D14A5-F581-4B08-B762-226CFC79C5E7}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Grass Steps_A5" ID="{7630AE2C-326D-4A20-8663-7A57528C47B4}" ShortID="108861276">
+										<Sound Name="Grass Steps_A544_1kHz_16bit" ID="{EC05595B-256E-4DD1-BBF7-2F61339952BE}" ShortID="430678613">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -822,19 +782,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Grass Steps_A5" ID="{ED4E44E4-2344-4DC3-A360-32FA413E1C76}">
+												<AudioFileSource Name="Grass Steps_A544_1kHz_16bit" ID="{078D3524-C35B-4711-83C4-F8C7C724DB7F}">
 													<Language>SFX</Language>
-													<AudioFile>Grass Steps_A5.wav</AudioFile>
+													<AudioFile>Grass Steps_A544.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="366734053"/>
+														<MediaID ID="122338077"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Grass Steps_A5" ID="{ED4E44E4-2344-4DC3-A360-32FA413E1C76}" Platform="Linked"/>
+												<ActiveSource Name="Grass Steps_A544_1kHz_16bit" ID="{078D3524-C35B-4711-83C4-F8C7C724DB7F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Grass Steps_A6" ID="{AA5E81E9-7A94-450B-983A-48E9E0B9C7B7}" ShortID="688339">
+										<Sound Name="Grass Steps_A644_1kHz_16bit" ID="{9E3E6398-5E9B-4933-AE26-946E3709E39F}" ShortID="430745104">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -844,19 +804,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Grass Steps_A6" ID="{D77B5EBB-08B4-43FC-A004-71E0B5C5E339}">
+												<AudioFileSource Name="Grass Steps_A644_1kHz_16bit" ID="{D6CD01A0-266C-4F79-88A6-721CBA75B97A}">
 													<Language>SFX</Language>
-													<AudioFile>Grass Steps_A6.wav</AudioFile>
+													<AudioFile>Grass Steps_A644.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="398539633"/>
+														<MediaID ID="711942767"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Grass Steps_A6" ID="{D77B5EBB-08B4-43FC-A004-71E0B5C5E339}" Platform="Linked"/>
+												<ActiveSource Name="Grass Steps_A644_1kHz_16bit" ID="{D6CD01A0-266C-4F79-88A6-721CBA75B97A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Grass Steps_A7" ID="{9C60D767-2666-438A-A42D-E3ADE89927F5}" ShortID="71934253">
+										<Sound Name="Grass Steps_A744_1kHz_16bit" ID="{3741D316-6031-4E28-90AA-F09B8ECF3CFD}" ShortID="593036180">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -866,19 +826,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Grass Steps_A7" ID="{C25449BE-C636-475B-99D1-DF566BCF2F27}">
+												<AudioFileSource Name="Grass Steps_A744_1kHz_16bit" ID="{55CE14A4-8216-4F3C-B441-D732B67F768A}">
 													<Language>SFX</Language>
-													<AudioFile>Grass Steps_A7.wav</AudioFile>
+													<AudioFile>Grass Steps_A744.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="129376531"/>
+														<MediaID ID="583892527"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Grass Steps_A7" ID="{C25449BE-C636-475B-99D1-DF566BCF2F27}" Platform="Linked"/>
+												<ActiveSource Name="Grass Steps_A744_1kHz_16bit" ID="{55CE14A4-8216-4F3C-B441-D732B67F768A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Grass Steps_A8" ID="{DA49D05B-C5D6-4AA7-BC36-F03D44203F07}" ShortID="706320330">
+										<Sound Name="Grass Steps_A844_1kHz_16bit" ID="{07C5C425-B2AE-4A94-B99E-B0DB4229F5F9}" ShortID="984872346">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -888,16 +848,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Grass Steps_A8" ID="{5EE5452F-A231-4CEA-846D-8EA8CC90258F}">
+												<AudioFileSource Name="Grass Steps_A844_1kHz_16bit" ID="{B83DDF32-D81A-4F8E-B35A-CF45B859E884}">
 													<Language>SFX</Language>
-													<AudioFile>Grass Steps_A8.wav</AudioFile>
+													<AudioFile>Grass Steps_A844.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="678799872"/>
+														<MediaID ID="748953574"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Grass Steps_A8" ID="{5EE5452F-A231-4CEA-846D-8EA8CC90258F}" Platform="Linked"/>
+												<ActiveSource Name="Grass Steps_A844_1kHz_16bit" ID="{B83DDF32-D81A-4F8E-B35A-CF45B859E884}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -915,7 +875,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Dirt_Grass Steps_A1" ID="{6B8FB49D-3A48-4401-99F6-4295BCD6011C}" ShortID="478890537">
+										<Sound Name="Dirt_Grass Steps_A144_1kHz_16bit" ID="{1FF15AE3-1CB7-4042-9BFB-EDFDC2B72BAF}" ShortID="333637313">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -925,19 +885,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dirt_Grass Steps_A1" ID="{1FEB503E-C145-45D4-A121-D70DED8DE336}">
+												<AudioFileSource Name="Dirt_Grass Steps_A144_1kHz_16bit" ID="{F9C3ABE5-7CF6-4884-B9F8-FBE0E8BA6B42}">
 													<Language>SFX</Language>
-													<AudioFile>Dirt_Grass Steps_A1.wav</AudioFile>
+													<AudioFile>Dirt_Grass Steps_A144.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="117814206"/>
+														<MediaID ID="1051757381"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Dirt_Grass Steps_A1" ID="{1FEB503E-C145-45D4-A121-D70DED8DE336}" Platform="Linked"/>
+												<ActiveSource Name="Dirt_Grass Steps_A144_1kHz_16bit" ID="{F9C3ABE5-7CF6-4884-B9F8-FBE0E8BA6B42}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Dirt_Grass Steps_A2" ID="{79FBC597-936E-4136-9E82-407D8A3F22CD}" ShortID="818370028">
+										<Sound Name="Dirt_Grass Steps_A244_1kHz_16bit" ID="{ABAE1D10-562D-4BDF-B4ED-0A890159BD15}" ShortID="989117119">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -947,19 +907,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dirt_Grass Steps_A2" ID="{2FE74A9F-1795-4208-BE03-949ADBC4E323}">
+												<AudioFileSource Name="Dirt_Grass Steps_A244_1kHz_16bit" ID="{044E52E7-4F4C-4991-B2E6-D4FAA63CBE8D}">
 													<Language>SFX</Language>
-													<AudioFile>Dirt_Grass Steps_A2.wav</AudioFile>
+													<AudioFile>Dirt_Grass Steps_A244.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="741150319"/>
+														<MediaID ID="113952124"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Dirt_Grass Steps_A2" ID="{2FE74A9F-1795-4208-BE03-949ADBC4E323}" Platform="Linked"/>
+												<ActiveSource Name="Dirt_Grass Steps_A244_1kHz_16bit" ID="{044E52E7-4F4C-4991-B2E6-D4FAA63CBE8D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Dirt_Grass Steps_A3" ID="{15ECB2F2-0C9E-4DBC-84A9-78004F438B84}" ShortID="659131264">
+										<Sound Name="Dirt_Grass Steps_A344_1kHz_16bit" ID="{0EF282D6-8863-4C32-9A9F-59D6335951DE}" ShortID="227308717">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -969,19 +929,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dirt_Grass Steps_A3" ID="{153CD884-F346-4E00-B53F-1277619D8DFA}">
+												<AudioFileSource Name="Dirt_Grass Steps_A344_1kHz_16bit" ID="{9DC16930-F777-4DC8-83D7-D14938EFA1D8}">
 													<Language>SFX</Language>
-													<AudioFile>Dirt_Grass Steps_A3.wav</AudioFile>
+													<AudioFile>Dirt_Grass Steps_A344.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="256674286"/>
+														<MediaID ID="273440717"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Dirt_Grass Steps_A3" ID="{153CD884-F346-4E00-B53F-1277619D8DFA}" Platform="Linked"/>
+												<ActiveSource Name="Dirt_Grass Steps_A344_1kHz_16bit" ID="{9DC16930-F777-4DC8-83D7-D14938EFA1D8}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Dirt_Grass Steps_A4" ID="{B14D94F8-9412-49EB-AA1D-16CC9986F83F}" ShortID="316782295">
+										<Sound Name="Dirt_Grass Steps_A444_1kHz_16bit" ID="{56F1C4B2-8703-41A5-9BA0-9DEC9CB52511}" ShortID="663252383">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -991,19 +951,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dirt_Grass Steps_A4" ID="{C6955404-E2E5-47AC-9CCE-91C5BCE19B33}">
+												<AudioFileSource Name="Dirt_Grass Steps_A444_1kHz_16bit" ID="{EF3D7D5E-14D3-4DB4-AFDC-1CE834111806}">
 													<Language>SFX</Language>
-													<AudioFile>Dirt_Grass Steps_A4.wav</AudioFile>
+													<AudioFile>Dirt_Grass Steps_A444.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="243809611"/>
+														<MediaID ID="575167921"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Dirt_Grass Steps_A4" ID="{C6955404-E2E5-47AC-9CCE-91C5BCE19B33}" Platform="Linked"/>
+												<ActiveSource Name="Dirt_Grass Steps_A444_1kHz_16bit" ID="{EF3D7D5E-14D3-4DB4-AFDC-1CE834111806}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Dirt_Grass Steps_A5" ID="{8754BBAF-D7C6-44E4-8FD4-737F86F34C9A}" ShortID="127166092">
+										<Sound Name="Dirt_Grass Steps_A544_1kHz_16bit" ID="{39EDEF05-C6AD-4C9B-9E76-37B6D09908B9}" ShortID="160674796">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -1013,19 +973,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dirt_Grass Steps_A5" ID="{D4E19E74-0CC0-4D53-B344-3A357096B614}">
+												<AudioFileSource Name="Dirt_Grass Steps_A544_1kHz_16bit" ID="{A4849E11-1EAA-4C6A-86E5-295BDED9939B}">
 													<Language>SFX</Language>
-													<AudioFile>Dirt_Grass Steps_A5.wav</AudioFile>
+													<AudioFile>Dirt_Grass Steps_A544.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="427613296"/>
+														<MediaID ID="19259007"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Dirt_Grass Steps_A5" ID="{D4E19E74-0CC0-4D53-B344-3A357096B614}" Platform="Linked"/>
+												<ActiveSource Name="Dirt_Grass Steps_A544_1kHz_16bit" ID="{A4849E11-1EAA-4C6A-86E5-295BDED9939B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Dirt_Grass Steps_A6" ID="{4153AD0E-BCF1-48BC-A38E-F703155648C6}" ShortID="1002520694">
+										<Sound Name="Dirt_Grass Steps_A644_1kHz_16bit" ID="{4A65C385-2AAF-4888-88F9-9D0EA94C2866}" ShortID="914488358">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -1035,19 +995,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dirt_Grass Steps_A6" ID="{485942A6-676B-49A5-9848-CB24ED379447}">
+												<AudioFileSource Name="Dirt_Grass Steps_A644_1kHz_16bit" ID="{FF0829F4-4BB3-42EE-BFB9-48F66F369FAA}">
 													<Language>SFX</Language>
-													<AudioFile>Dirt_Grass Steps_A6.wav</AudioFile>
+													<AudioFile>Dirt_Grass Steps_A644.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="274023305"/>
+														<MediaID ID="98894087"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Dirt_Grass Steps_A6" ID="{485942A6-676B-49A5-9848-CB24ED379447}" Platform="Linked"/>
+												<ActiveSource Name="Dirt_Grass Steps_A644_1kHz_16bit" ID="{FF0829F4-4BB3-42EE-BFB9-48F66F369FAA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Dirt_Grass Steps_A7" ID="{2E377645-B5F2-4A6A-A145-EC5CA0CCE3C5}" ShortID="875190026">
+										<Sound Name="Dirt_Grass Steps_A744_1kHz_16bit" ID="{791FBDD8-DA7D-40CE-9510-227AA6DCC838}" ShortID="17781915">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -1057,19 +1017,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dirt_Grass Steps_A7" ID="{1D322E8E-1486-498A-9BA6-85DDE75806DC}">
+												<AudioFileSource Name="Dirt_Grass Steps_A744_1kHz_16bit" ID="{E5A6C7C0-42FF-49D3-8ED8-DA83FA7C5713}">
 													<Language>SFX</Language>
-													<AudioFile>Dirt_Grass Steps_A7.wav</AudioFile>
+													<AudioFile>Dirt_Grass Steps_A744.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="212150416"/>
+														<MediaID ID="374506789"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Dirt_Grass Steps_A7" ID="{1D322E8E-1486-498A-9BA6-85DDE75806DC}" Platform="Linked"/>
+												<ActiveSource Name="Dirt_Grass Steps_A744_1kHz_16bit" ID="{E5A6C7C0-42FF-49D3-8ED8-DA83FA7C5713}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Dirt_Grass Steps_A8" ID="{F899A4C1-5961-4242-A562-48E91071698A}" ShortID="808283221">
+										<Sound Name="Dirt_Grass Steps_A844_1kHz_16bit" ID="{E9048B90-CF03-4D26-810C-13D4FD5B9ADA}" ShortID="767332687">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -1079,16 +1039,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dirt_Grass Steps_A8" ID="{4DC83812-0812-4EFC-A96E-713A35EA683A}">
+												<AudioFileSource Name="Dirt_Grass Steps_A844_1kHz_16bit" ID="{27ADDD62-E509-46BC-8590-141D6B2931EE}">
 													<Language>SFX</Language>
-													<AudioFile>Dirt_Grass Steps_A8.wav</AudioFile>
+													<AudioFile>Dirt_Grass Steps_A844.1kHz_16bit.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="828452998"/>
+														<MediaID ID="532962946"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Dirt_Grass Steps_A8" ID="{4DC83812-0812-4EFC-A96E-713A35EA683A}" Platform="Linked"/>
+												<ActiveSource Name="Dirt_Grass Steps_A844_1kHz_16bit" ID="{27ADDD62-E509-46BC-8590-141D6B2931EE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

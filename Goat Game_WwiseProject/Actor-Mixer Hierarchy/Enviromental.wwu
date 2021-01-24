@@ -398,7 +398,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Wooden Gates_A1" ID="{6D99EC49-CD3C-454A-A870-8E7E6787347E}" ShortID="14356147">
+						<Sound Name="Wooden Gates_A144_1kHz_16bit" ID="{8DBF75F6-E097-43D8-9AE6-62F1C0DC5EF1}" ShortID="803294158">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -408,16 +408,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Wooden Gates_A1" ID="{557F8D09-56AA-4A94-9A24-9362B985698C}">
+								<AudioFileSource Name="Wooden Gates_A144_1kHz_16bit" ID="{6DBDAA21-930E-4C42-A4BD-B9BBF2BECBB9}">
 									<Language>SFX</Language>
-									<AudioFile>Wooden Gates_A1.wav</AudioFile>
+									<AudioFile>Wooden Gates_A144.1kHz_16bit.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="357693630"/>
+										<MediaID ID="68145262"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Wooden Gates_A1" ID="{557F8D09-56AA-4A94-9A24-9362B985698C}" Platform="Linked"/>
+								<ActiveSource Name="Wooden Gates_A144_1kHz_16bit" ID="{6DBDAA21-930E-4C42-A4BD-B9BBF2BECBB9}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

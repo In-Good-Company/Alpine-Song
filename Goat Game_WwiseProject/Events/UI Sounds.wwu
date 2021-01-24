@@ -5,10 +5,10 @@
 			<ChildrenList>
 				<Event Name="Button_A" ID="{7787E3CE-ABFB-4594-A7CB-BB78CDA7ACD0}">
 					<ChildrenList>
-						<Action Name="" ID="{75C158F2-700C-416E-A55D-084C12294D57}" ShortID="373566831">
+						<Action Name="" ID="{CB4170E3-D616-4220-9BD0-9A6913F0000A}" ShortID="834559023">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MG 1_UI Sounds_Start Menu 1_Button A1_Batch A" ID="{3EAFD036-9745-4480-BFBE-4C11D3EEC79E}" WorkUnitID="{C63FC727-FB62-4F3B-851B-E2585FAAB087}"/>
+									<ObjectRef Name="MG 1_UI Sounds_Start Menu 1_Button A1_Batch A44_1kHz_16bit" ID="{FB640031-A080-4436-8085-23B381168AFC}" WorkUnitID="{C63FC727-FB62-4F3B-851B-E2585FAAB087}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -16,10 +16,10 @@
 				</Event>
 				<Event Name="Button_B" ID="{36DCF1BA-AE6B-43CC-B1B4-6D134138BFDE}">
 					<ChildrenList>
-						<Action Name="" ID="{04D22D72-FD93-4490-8B4D-985696FC435C}" ShortID="309924153">
+						<Action Name="" ID="{95B8E2F5-3CC8-47BE-A8D9-AC94CF9701AD}" ShortID="736333698">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A" ID="{EFB63A72-9EBE-4755-AC14-1F8B4E74C4F7}" WorkUnitID="{C63FC727-FB62-4F3B-851B-E2585FAAB087}"/>
+									<ObjectRef Name="MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A44_1kHz_16bit" ID="{56C5F392-0E4F-4D30-8997-219FE26FC003}" WorkUnitID="{C63FC727-FB62-4F3B-851B-E2585FAAB087}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -27,10 +27,10 @@
 				</Event>
 				<Event Name="Button_C" ID="{E27258D5-B3DE-4694-84E9-DED34A35CB56}">
 					<ChildrenList>
-						<Action Name="" ID="{AA8B3024-7375-4EE0-A75E-20A6F947F2AD}" ShortID="682121268">
+						<Action Name="" ID="{CB35E3BB-DBF9-4D04-A363-3CE938089B9B}" ShortID="323026570">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A" ID="{4A566421-C30F-4BAC-9BC8-A90D23A646AD}" WorkUnitID="{C63FC727-FB62-4F3B-851B-E2585FAAB087}"/>
+									<ObjectRef Name="MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A44_1kHz_16bit" ID="{3937D6BA-5E54-4356-B01C-4A1C35C76463}" WorkUnitID="{C63FC727-FB62-4F3B-851B-E2585FAAB087}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

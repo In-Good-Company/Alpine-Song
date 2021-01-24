@@ -13,7 +13,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="MG 1_Ambience_A1_Batch A" ID="{3FDD8D43-26F1-4405-82EB-BBF53A37DB79}" ShortID="692367745">
+						<Sound Name="MG 1_Ambience_A1_Batch A44_1kHz_16bit" ID="{44019C45-0C67-431D-8821-306D6723E3C0}" ShortID="864047819">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
@@ -31,16 +31,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="MG 1_Ambience_A1_Batch A" ID="{A3326892-614B-4E22-B7D4-AB2C462A8BD2}">
+								<AudioFileSource Name="MG 1_Ambience_A1_Batch A44_1kHz_16bit" ID="{E28CF947-B942-4982-91E4-7FFF65AA862A}">
 									<Language>SFX</Language>
-									<AudioFile>MG 1_Ambience_A1_Batch A.wav</AudioFile>
+									<AudioFile>MG 1_Ambience_A1_Batch A44.1kHz_16bit.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="693040249"/>
+										<MediaID ID="29913665"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="MG 1_Ambience_A1_Batch A" ID="{A3326892-614B-4E22-B7D4-AB2C462A8BD2}" Platform="Linked"/>
+								<ActiveSource Name="MG 1_Ambience_A1_Batch A44_1kHz_16bit" ID="{E28CF947-B942-4982-91E4-7FFF65AA862A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
