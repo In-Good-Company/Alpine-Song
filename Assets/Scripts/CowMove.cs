@@ -18,8 +18,8 @@ public class CowMove : MonoBehaviour
 
 
     public Vector3 wanderTarget;
-    private GameObject wanderNav;
-    private GameObject wanderNavPrefab;
+    //private GameObject wanderNav;
+    //private GameObject wanderNavPrefab;
     public int AI_Case;
 
 
@@ -74,17 +74,7 @@ public class CowMove : MonoBehaviour
         }
 
     }
-    //private void walkDistanceCheck()
-    //{
-    //
-    //    distanceCheck = Vector3.Distance(transform.position, navMarker.transform.position);
-    //    if (distanceCheck < 1)
-    //    {
-    //        destinationReached = true;
-    //    }
-    //
-    //
-    //}
+ 
     private void OnTriggerExit(Collider col)
     {
         if (col.gameObject.name == "cowCallCol")
