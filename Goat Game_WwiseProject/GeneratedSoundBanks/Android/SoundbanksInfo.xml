@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Home\Documents\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -18,9 +18,9 @@
 			<IncludedEvents>
 				<Event Id="127942577" Name="Ambience_L1" ObjectPath="\Events\Ambience\Ambience_L1" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="693040249" Language="SFX">
-							<ShortName>MG 1_Ambience_A1_Batch A.wav</ShortName>
-							<Path>SFX\MG 1_Ambience_A1_Batch A_D79FB2B7.wem</Path>
+						<File Id="29913665" Language="SFX">
+							<ShortName>MG 1_Ambience_A1_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG 1_Ambience_A1_Batch A44.1kHz_16bit_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -31,140 +31,140 @@
 			<ShortName>Foley</ShortName>
 			<Path>Foley.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Foley\Footsteps" DurationType="OneShot" DurationMin="0.418919" DurationMax="1.157000">
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Foley\Footsteps" DurationType="OneShot" DurationMin="0.517913" DurationMax="1.157007">
 					<IncludedMemoryFiles>
-						<File Id="117814206" Language="SFX">
-							<ShortName>Dirt_Grass Steps_A1.wav</ShortName>
-							<Path>SFX\Dirt_Grass Steps_A1_10C4C929.wem</Path>
+						<File Id="12400865" Language="SFX">
+							<ShortName>Grass Steps_A444.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Grass Steps_A444.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="129376531" Language="SFX">
-							<ShortName>Grass Steps_A7.wav</ShortName>
-							<Path>SFX\Grass Steps_A7_10C4C929.wem</Path>
+						<File Id="19259007" Language="SFX">
+							<ShortName>Dirt_Grass Steps_A544.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Dirt_Grass Steps_A544.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="212150416" Language="SFX">
-							<ShortName>Dirt_Grass Steps_A7.wav</ShortName>
-							<Path>SFX\Dirt_Grass Steps_A7_10C4C929.wem</Path>
+						<File Id="28661022" Language="SFX">
+							<ShortName>MG1_Foley_Footsteps_Dirt_A4_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A4_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="243809611" Language="SFX">
-							<ShortName>Dirt_Grass Steps_A4.wav</ShortName>
-							<Path>SFX\Dirt_Grass Steps_A4_10C4C929.wem</Path>
+						<File Id="98241261" Language="SFX">
+							<ShortName>Grass Steps_A344.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Grass Steps_A344.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="256674286" Language="SFX">
-							<ShortName>Dirt_Grass Steps_A3.wav</ShortName>
-							<Path>SFX\Dirt_Grass Steps_A3_10C4C929.wem</Path>
+						<File Id="98894087" Language="SFX">
+							<ShortName>Dirt_Grass Steps_A644.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Dirt_Grass Steps_A644.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="274023305" Language="SFX">
-							<ShortName>Dirt_Grass Steps_A6.wav</ShortName>
-							<Path>SFX\Dirt_Grass Steps_A6_10C4C929.wem</Path>
+						<File Id="113952124" Language="SFX">
+							<ShortName>Dirt_Grass Steps_A244.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Dirt_Grass Steps_A244.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="326200082" Language="SFX">
-							<ShortName>MG1_Foley_Footsteps_Dirt_A2_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A2_Batch A_D8D08F6F.wem</Path>
+						<File Id="122338077" Language="SFX">
+							<ShortName>Grass Steps_A544.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Grass Steps_A544.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="356410664" Language="SFX">
-							<ShortName>Grass Steps_A3.wav</ShortName>
-							<Path>SFX\Grass Steps_A3_10C4C929.wem</Path>
+						<File Id="156616381" Language="SFX">
+							<ShortName>Grass Steps_A144.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Grass Steps_A144.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="366734053" Language="SFX">
-							<ShortName>Grass Steps_A5.wav</ShortName>
-							<Path>SFX\Grass Steps_A5_10C4C929.wem</Path>
+						<File Id="273440717" Language="SFX">
+							<ShortName>Dirt_Grass Steps_A344.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Dirt_Grass Steps_A344.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="398539633" Language="SFX">
-							<ShortName>Grass Steps_A6.wav</ShortName>
-							<Path>SFX\Grass Steps_A6_10C4C929.wem</Path>
+						<File Id="315644262" Language="SFX">
+							<ShortName>MG1_Foley_Footsteps_Dirt_A3_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A3_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="427613296" Language="SFX">
-							<ShortName>Dirt_Grass Steps_A5.wav</ShortName>
-							<Path>SFX\Dirt_Grass Steps_A5_10C4C929.wem</Path>
+						<File Id="374506789" Language="SFX">
+							<ShortName>Dirt_Grass Steps_A744.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Dirt_Grass Steps_A744.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="440968966" Language="SFX">
-							<ShortName>MG1_Foley_Footsteps_Dirt_A3_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A3_Batch A_8A005AAD.wem</Path>
+						<File Id="517413148" Language="SFX">
+							<ShortName>MG1_Foley_Footsteps_Dirt_A1_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A1_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="486034750" Language="SFX">
-							<ShortName>MG1_Foley_Footsteps_Dirt_A7_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A7_Batch A_A9FF351D.wem</Path>
+						<File Id="532962946" Language="SFX">
+							<ShortName>Dirt_Grass Steps_A844.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Dirt_Grass Steps_A844.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="509612706" Language="SFX">
-							<ShortName>Grass Steps_A4.wav</ShortName>
-							<Path>SFX\Grass Steps_A4_10C4C929.wem</Path>
+						<File Id="575167921" Language="SFX">
+							<ShortName>Dirt_Grass Steps_A444.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Dirt_Grass Steps_A444.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="552271610" Language="SFX">
-							<ShortName>MG1_Foley_Footsteps_Dirt_A1_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A1_Batch A_837DEC9D.wem</Path>
+						<File Id="576988603" Language="SFX">
+							<ShortName>MG1_Foley_Footsteps_Dirt_A5_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A5_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="569711930" Language="SFX">
-							<ShortName>Grass Steps_A2.wav</ShortName>
-							<Path>SFX\Grass Steps_A2_10C4C929.wem</Path>
+						<File Id="583892527" Language="SFX">
+							<ShortName>Grass Steps_A744.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Grass Steps_A744.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="678799872" Language="SFX">
-							<ShortName>Grass Steps_A8.wav</ShortName>
-							<Path>SFX\Grass Steps_A8_10C4C929.wem</Path>
+						<File Id="689821266" Language="SFX">
+							<ShortName>MG1_Foley_Footsteps_Dirt_A2_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A2_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="741150319" Language="SFX">
-							<ShortName>Dirt_Grass Steps_A2.wav</ShortName>
-							<Path>SFX\Dirt_Grass Steps_A2_10C4C929.wem</Path>
+						<File Id="711942767" Language="SFX">
+							<ShortName>Grass Steps_A644.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Grass Steps_A644.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="753334073" Language="SFX">
-							<ShortName>MG1_Foley_Footsteps_Dirt_A8_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A8_Batch A_69C6AEFE.wem</Path>
+						<File Id="748953574" Language="SFX">
+							<ShortName>Grass Steps_A844.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Grass Steps_A844.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="818902179" Language="SFX">
-							<ShortName>MG1_Foley_Footsteps_Dirt_A6_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A6_Batch A_FCC3E804.wem</Path>
+						<File Id="804691732" Language="SFX">
+							<ShortName>MG1_Foley_Footsteps_Dirt_A6_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A6_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="828452998" Language="SFX">
-							<ShortName>Dirt_Grass Steps_A8.wav</ShortName>
-							<Path>SFX\Dirt_Grass Steps_A8_10C4C929.wem</Path>
+						<File Id="821453138" Language="SFX">
+							<ShortName>MG1_Foley_Footsteps_Dirt_A7_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A7_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="905293815" Language="SFX">
-							<ShortName>MG1_Foley_Footsteps_Dirt_A5_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A5_Batch A_D019E916.wem</Path>
+						<File Id="1027033068" Language="SFX">
+							<ShortName>Grass Steps_A244.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Grass Steps_A244.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="924488392" Language="SFX">
-							<ShortName>Grass Steps_A1.wav</ShortName>
-							<Path>SFX\Grass Steps_A1_10C4C929.wem</Path>
+						<File Id="1047672570" Language="SFX">
+							<ShortName>MG1_Foley_Footsteps_Dirt_A8_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG1_Foley_Footsteps_Dirt_A8_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="1050239933" Language="SFX">
-							<ShortName>MG1_Foley_Footsteps_Dirt_A4_Batch A.wav</ShortName>
-							<Path>SFX\MG1_Foley_Footsteps_Dirt_A4_Batch A_6A6A2BFD.wem</Path>
+						<File Id="1051757381" Language="SFX">
+							<ShortName>Dirt_Grass Steps_A144.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Dirt_Grass Steps_A144.1kHz_16bit_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{D038DA79-0328-40AD-BCE1-710CA86A2CFC}">
 							<Media>
-								<File Id="552271610"/>
-								<File Id="326200082"/>
-								<File Id="440968966"/>
-								<File Id="1050239933"/>
-								<File Id="905293815"/>
-								<File Id="818902179"/>
-								<File Id="486034750"/>
-								<File Id="753334073"/>
+								<File Id="517413148"/>
+								<File Id="689821266"/>
+								<File Id="315644262"/>
+								<File Id="28661022"/>
+								<File Id="576988603"/>
+								<File Id="804691732"/>
+								<File Id="821453138"/>
+								<File Id="1047672570"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{D37B20AF-B90C-4811-BF91-ACB245C1D913}">
 							<Media>
-								<File Id="924488392"/>
-								<File Id="569711930"/>
-								<File Id="356410664"/>
-								<File Id="509612706"/>
-								<File Id="366734053"/>
-								<File Id="398539633"/>
-								<File Id="129376531"/>
-								<File Id="678799872"/>
+								<File Id="156616381"/>
+								<File Id="1027033068"/>
+								<File Id="98241261"/>
+								<File Id="12400865"/>
+								<File Id="122338077"/>
+								<File Id="711942767"/>
+								<File Id="583892527"/>
+								<File Id="748953574"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{4A7BCF40-6C6D-4663-9C74-111E20C0631C}">
 							<Media>
-								<File Id="117814206"/>
-								<File Id="741150319"/>
-								<File Id="256674286"/>
-								<File Id="243809611"/>
-								<File Id="427613296"/>
-								<File Id="274023305"/>
-								<File Id="212150416"/>
-								<File Id="828452998"/>
+								<File Id="1051757381"/>
+								<File Id="113952124"/>
+								<File Id="273440717"/>
+								<File Id="575167921"/>
+								<File Id="19259007"/>
+								<File Id="98894087"/>
+								<File Id="374506789"/>
+								<File Id="532962946"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -185,27 +185,27 @@
 			<ShortName>UI_Sounds</ShortName>
 			<Path>UI_Sounds.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2661066193" Name="Button_A" ObjectPath="\Events\UI Sounds\Button_A" DurationType="OneShot" DurationMin="0.076167" DurationMax="0.076167">
+				<Event Id="2661066193" Name="Button_A" ObjectPath="\Events\UI Sounds\Button_A" DurationType="OneShot" DurationMin="0.076168" DurationMax="0.076168">
 					<IncludedMemoryFiles>
-						<File Id="856906414" Language="SFX">
-							<ShortName>MG 1_UI Sounds_Start Menu 1_Button A1_Batch A.wav</ShortName>
-							<Path>SFX\MG 1_UI Sounds_Start Menu 1_Button A1_Batch A_10C4C929.wem</Path>
+						<File Id="136733918" Language="SFX">
+							<ShortName>MG 1_UI Sounds_Start Menu 1_Button A1_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG 1_UI Sounds_Start Menu 1_Button A1_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2661066194" Name="Button_B" ObjectPath="\Events\UI Sounds\Button_B" DurationType="OneShot" DurationMin="0.062958" DurationMax="0.062958">
+				<Event Id="2661066194" Name="Button_B" ObjectPath="\Events\UI Sounds\Button_B" DurationType="OneShot" DurationMin="0.062948" DurationMax="0.062948">
 					<IncludedMemoryFiles>
-						<File Id="447925123" Language="SFX">
-							<ShortName>MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A.wav</ShortName>
-							<Path>SFX\MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A_10C4C929.wem</Path>
+						<File Id="295614091" Language="SFX">
+							<ShortName>MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG 1_UI Sounds_Start Menu 1_Droplet A1_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2661066195" Name="Button_C" ObjectPath="\Events\UI Sounds\Button_C" DurationType="OneShot" DurationMin="0.062500" DurationMax="0.062500">
+				<Event Id="2661066195" Name="Button_C" ObjectPath="\Events\UI Sounds\Button_C" DurationType="OneShot" DurationMin="0.062494" DurationMax="0.062494">
 					<IncludedMemoryFiles>
-						<File Id="524332966" Language="SFX">
-							<ShortName>MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A.wav</ShortName>
-							<Path>SFX\MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A_10C4C929.wem</Path>
+						<File Id="61429439" Language="SFX">
+							<ShortName>MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG 1_UI Sounds_Start Menu 1_Droplet A2_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -225,35 +225,35 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3713975176" Name="Location_Movement" ObjectPath="\Events\UI Sounds\Location_Movement" DurationType="OneShot" DurationMin="1.227603" DurationMax="1.377938">
+				<Event Id="3713975176" Name="Location_Movement" ObjectPath="\Events\UI Sounds\Location_Movement" DurationType="OneShot" DurationMin="1.227602" DurationMax="1.377936">
 					<IncludedMemoryFiles>
-						<File Id="255828569" Language="SFX">
-							<ShortName>MG_Location Movement Selection_B6_Batch A.wav</ShortName>
-							<Path>SFX\MG_Location Movement Selection_B6_Batch A_10C4C929.wem</Path>
+						<File Id="81798956" Language="SFX">
+							<ShortName>MG_Location Movement Selection_B7_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG_Location Movement Selection_B7_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="569726428" Language="SFX">
-							<ShortName>MG_Location Movement Selection_B5_Batch A.wav</ShortName>
-							<Path>SFX\MG_Location Movement Selection_B5_Batch A_10C4C929.wem</Path>
+						<File Id="224519778" Language="SFX">
+							<ShortName>MG_Location Movement Selection_B2_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG_Location Movement Selection_B2_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="589330426" Language="SFX">
-							<ShortName>MG_Location Movement Selection_B2_Batch A.wav</ShortName>
-							<Path>SFX\MG_Location Movement Selection_B2_Batch A_10C4C929.wem</Path>
+						<File Id="351668025" Language="SFX">
+							<ShortName>MG_Location Movement Selection_B5_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG_Location Movement Selection_B5_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="741162847" Language="SFX">
-							<ShortName>MG_Location Movement Selection_B1_Batch A.wav</ShortName>
-							<Path>SFX\MG_Location Movement Selection_B1_Batch A_10C4C929.wem</Path>
+						<File Id="402828529" Language="SFX">
+							<ShortName>MG_Location Movement Selection_B3_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG_Location Movement Selection_B3_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="877110061" Language="SFX">
-							<ShortName>MG_Location Movement Selection_B4_Batch A.wav</ShortName>
-							<Path>SFX\MG_Location Movement Selection_B4_Batch A_10C4C929.wem</Path>
+						<File Id="502709689" Language="SFX">
+							<ShortName>MG_Location Movement Selection_B6_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG_Location Movement Selection_B6_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="942290856" Language="SFX">
-							<ShortName>MG_Location Movement Selection_B7_Batch A.wav</ShortName>
-							<Path>SFX\MG_Location Movement Selection_B7_Batch A_10C4C929.wem</Path>
+						<File Id="588619277" Language="SFX">
+							<ShortName>MG_Location Movement Selection_B4_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG_Location Movement Selection_B4_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="973536593" Language="SFX">
-							<ShortName>MG_Location Movement Selection_B3_Batch A.wav</ShortName>
-							<Path>SFX\MG_Location Movement Selection_B3_Batch A_10C4C929.wem</Path>
+						<File Id="605005457" Language="SFX">
+							<ShortName>MG_Location Movement Selection_B1_Batch A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG_Location Movement Selection_B1_Batch A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -320,31 +320,31 @@
 			<ShortName>Cows</ShortName>
 			<Path>Cows.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3838159985" Name="Cows" ObjectPath="\Events\Animals\Cows" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.848851" DurationMax="3.573957">
+				<Event Id="3838159985" Name="Cows" ObjectPath="\Events\Animals\Cows" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.848847" DurationMax="3.573947">
 					<IncludedMemoryFiles>
-						<File Id="145657906" Language="SFX">
-							<ShortName>MG1_Cow Moos_A1_Batch_A.wav</ShortName>
-							<Path>SFX\MG1_Cow Moos_A1_Batch_A_10C4C929.wem</Path>
+						<File Id="51198705" Language="SFX">
+							<ShortName>MG1_Cow Moos_A1_Batch_A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG1_Cow Moos_A1_Batch_A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="488649298" Language="SFX">
-							<ShortName>MG1_Cow Moos_A6_Batch_A.wav</ShortName>
-							<Path>SFX\MG1_Cow Moos_A6_Batch_A_10C4C929.wem</Path>
+						<File Id="60793812" Language="SFX">
+							<ShortName>MG1_Cow Moos_A5_Batch_A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG1_Cow Moos_A5_Batch_A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="523598433" Language="SFX">
-							<ShortName>MG1_Cow Moos_A2_Batch_A.wav</ShortName>
-							<Path>SFX\MG1_Cow Moos_A2_Batch_A_10C4C929.wem</Path>
+						<File Id="717391751" Language="SFX">
+							<ShortName>MG1_Cow Moos_A4_Batch_A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG1_Cow Moos_A4_Batch_A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="554654189" Language="SFX">
-							<ShortName>MG1_Cow Moos_A5_Batch_A.wav</ShortName>
-							<Path>SFX\MG1_Cow Moos_A5_Batch_A_10C4C929.wem</Path>
+						<File Id="740999200" Language="SFX">
+							<ShortName>MG1_Cow Moos_A6_Batch_A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG1_Cow Moos_A6_Batch_A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="625290867" Language="SFX">
-							<ShortName>MG1_Cow Moos_A3_Batch_A.wav</ShortName>
-							<Path>SFX\MG1_Cow Moos_A3_Batch_A_10C4C929.wem</Path>
+						<File Id="774638533" Language="SFX">
+							<ShortName>MG1_Cow Moos_A2_Batch_A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG1_Cow Moos_A2_Batch_A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
-						<File Id="1012553245" Language="SFX">
-							<ShortName>MG1_Cow Moos_A4_Batch_A.wav</ShortName>
-							<Path>SFX\MG1_Cow Moos_A4_Batch_A_10C4C929.wem</Path>
+						<File Id="828552107" Language="SFX">
+							<ShortName>MG1_Cow Moos_A3_Batch_A44.1kHz_16bit.wav</ShortName>
+							<Path>SFX\MG1_Cow Moos_A3_Batch_A44.1kHz_16bit_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -355,11 +355,11 @@
 			<ShortName>Structures</ShortName>
 			<Path>Structures.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2908201163" Name="Gates" ObjectPath="\Events\Environmental\Gates" DurationType="OneShot" DurationMin="2.888500" DurationMax="2.888500">
+				<Event Id="2908201163" Name="Gates" ObjectPath="\Events\Environmental\Gates" DurationType="OneShot" DurationMin="2.888503" DurationMax="2.888503">
 					<IncludedMemoryFiles>
-						<File Id="357693630" Language="SFX">
-							<ShortName>Wooden Gates_A1.wav</ShortName>
-							<Path>SFX\Wooden Gates_A1_10C4C929.wem</Path>
+						<File Id="68145262" Language="SFX">
+							<ShortName>Wooden Gates_A144.1kHz_16bit.wav</ShortName>
+							<Path>SFX\Wooden Gates_A144.1kHz_16bit_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

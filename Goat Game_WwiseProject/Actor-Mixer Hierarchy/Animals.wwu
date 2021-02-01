@@ -161,7 +161,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="MG1_Cow Moos_A1_Batch_A" ID="{0FE2D6C2-5C9C-4F36-B1AC-A98EF97BD69D}" ShortID="398023921">
+								<Sound Name="MG1_Cow Moos_A1_Batch_A44_1kHz_16bit" ID="{A8E887F7-AF4B-4D05-8321-C1F7931B8AA3}" ShortID="861575869">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -171,19 +171,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="MG1_Cow Moos_A1_Batch_A" ID="{6A652460-31E3-4515-94AC-FB6184E0A5C1}">
+										<AudioFileSource Name="MG1_Cow Moos_A1_Batch_A44_1kHz_16bit" ID="{224BAC2B-BE79-4DED-819C-718268FC16FB}">
 											<Language>SFX</Language>
-											<AudioFile>MG1_Cow Moos_A1_Batch_A.wav</AudioFile>
+											<AudioFile>MG1_Cow Moos_A1_Batch_A44.1kHz_16bit.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="145657906"/>
+												<MediaID ID="51198705"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="MG1_Cow Moos_A1_Batch_A" ID="{6A652460-31E3-4515-94AC-FB6184E0A5C1}" Platform="Linked"/>
+										<ActiveSource Name="MG1_Cow Moos_A1_Batch_A44_1kHz_16bit" ID="{224BAC2B-BE79-4DED-819C-718268FC16FB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="MG1_Cow Moos_A2_Batch_A" ID="{36D594D0-2721-4446-9CB7-BC091A46E609}" ShortID="444697330">
+								<Sound Name="MG1_Cow Moos_A2_Batch_A44_1kHz_16bit" ID="{C8110D3A-1443-47B8-AAA0-AF9C4111E38C}" ShortID="984509676">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -193,19 +193,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="MG1_Cow Moos_A2_Batch_A" ID="{3661A23B-A664-4EA1-B40F-C9FBA2A5E841}">
+										<AudioFileSource Name="MG1_Cow Moos_A2_Batch_A44_1kHz_16bit" ID="{A35C67F5-B948-47C9-A87E-96B0B643B1F4}">
 											<Language>SFX</Language>
-											<AudioFile>MG1_Cow Moos_A2_Batch_A.wav</AudioFile>
+											<AudioFile>MG1_Cow Moos_A2_Batch_A44.1kHz_16bit.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="523598433"/>
+												<MediaID ID="774638533"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="MG1_Cow Moos_A2_Batch_A" ID="{3661A23B-A664-4EA1-B40F-C9FBA2A5E841}" Platform="Linked"/>
+										<ActiveSource Name="MG1_Cow Moos_A2_Batch_A44_1kHz_16bit" ID="{A35C67F5-B948-47C9-A87E-96B0B643B1F4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="MG1_Cow Moos_A3_Batch_A" ID="{BFBF62DF-BAB4-4848-98FB-3B5093B2E202}" ShortID="985920784">
+								<Sound Name="MG1_Cow Moos_A3_Batch_A44_1kHz_16bit" ID="{C9D042A5-4EB6-437C-9164-504E9527135C}" ShortID="722320086">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -215,19 +215,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="MG1_Cow Moos_A3_Batch_A" ID="{158EDDC6-704F-498C-90EA-9B1BD6CD7CFB}">
+										<AudioFileSource Name="MG1_Cow Moos_A3_Batch_A44_1kHz_16bit" ID="{577332DC-145C-4F7C-8431-3C65D83DDC37}">
 											<Language>SFX</Language>
-											<AudioFile>MG1_Cow Moos_A3_Batch_A.wav</AudioFile>
+											<AudioFile>MG1_Cow Moos_A3_Batch_A44.1kHz_16bit.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="625290867"/>
+												<MediaID ID="828552107"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="MG1_Cow Moos_A3_Batch_A" ID="{158EDDC6-704F-498C-90EA-9B1BD6CD7CFB}" Platform="Linked"/>
+										<ActiveSource Name="MG1_Cow Moos_A3_Batch_A44_1kHz_16bit" ID="{577332DC-145C-4F7C-8431-3C65D83DDC37}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="MG1_Cow Moos_A4_Batch_A" ID="{BE1032DB-6EBA-4765-B8E6-9347E8B57698}" ShortID="576498764">
+								<Sound Name="MG1_Cow Moos_A4_Batch_A44_1kHz_16bit" ID="{E2482D30-A9BA-45F8-A73E-78BCE145AE46}" ShortID="830076410">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -237,19 +237,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="MG1_Cow Moos_A4_Batch_A" ID="{6BBD0E9F-A96B-4E25-AE81-2EA622934526}">
+										<AudioFileSource Name="MG1_Cow Moos_A4_Batch_A44_1kHz_16bit" ID="{673DC30F-D7EF-401F-A94F-991B10819D1B}">
 											<Language>SFX</Language>
-											<AudioFile>MG1_Cow Moos_A4_Batch_A.wav</AudioFile>
+											<AudioFile>MG1_Cow Moos_A4_Batch_A44.1kHz_16bit.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1012553245"/>
+												<MediaID ID="717391751"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="MG1_Cow Moos_A4_Batch_A" ID="{6BBD0E9F-A96B-4E25-AE81-2EA622934526}" Platform="Linked"/>
+										<ActiveSource Name="MG1_Cow Moos_A4_Batch_A44_1kHz_16bit" ID="{673DC30F-D7EF-401F-A94F-991B10819D1B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="MG1_Cow Moos_A5_Batch_A" ID="{A9F23923-BB4B-4FB1-938F-C228C68FC5E1}" ShortID="638773467">
+								<Sound Name="MG1_Cow Moos_A5_Batch_A44_1kHz_16bit" ID="{10FA7085-D973-4208-A6CF-6864672925AB}" ShortID="183665199">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -259,19 +259,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="MG1_Cow Moos_A5_Batch_A" ID="{D877628D-575A-43BF-B3F6-6D37828AC47F}">
+										<AudioFileSource Name="MG1_Cow Moos_A5_Batch_A44_1kHz_16bit" ID="{566039E7-8135-473F-AED6-9ED1D301FCA7}">
 											<Language>SFX</Language>
-											<AudioFile>MG1_Cow Moos_A5_Batch_A.wav</AudioFile>
+											<AudioFile>MG1_Cow Moos_A5_Batch_A44.1kHz_16bit.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="554654189"/>
+												<MediaID ID="60793812"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="MG1_Cow Moos_A5_Batch_A" ID="{D877628D-575A-43BF-B3F6-6D37828AC47F}" Platform="Linked"/>
+										<ActiveSource Name="MG1_Cow Moos_A5_Batch_A44_1kHz_16bit" ID="{566039E7-8135-473F-AED6-9ED1D301FCA7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="MG1_Cow Moos_A6_Batch_A" ID="{DD661248-5E3A-4802-B2AC-0F5DD7097F70}" ShortID="1063485032">
+								<Sound Name="MG1_Cow Moos_A6_Batch_A44_1kHz_16bit" ID="{67589460-2719-4A20-8F1E-8AC896C03E0B}" ShortID="521810726">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
@@ -281,16 +281,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="MG1_Cow Moos_A6_Batch_A" ID="{3F42D7FD-1BCF-489A-BE47-FC5D2AF161B7}">
+										<AudioFileSource Name="MG1_Cow Moos_A6_Batch_A44_1kHz_16bit" ID="{CEEAE71A-4EEE-4540-8601-EFA9CEADC9FF}">
 											<Language>SFX</Language>
-											<AudioFile>MG1_Cow Moos_A6_Batch_A.wav</AudioFile>
+											<AudioFile>MG1_Cow Moos_A6_Batch_A44.1kHz_16bit.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="488649298"/>
+												<MediaID ID="740999200"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="MG1_Cow Moos_A6_Batch_A" ID="{3F42D7FD-1BCF-489A-BE47-FC5D2AF161B7}" Platform="Linked"/>
+										<ActiveSource Name="MG1_Cow Moos_A6_Batch_A44_1kHz_16bit" ID="{CEEAE71A-4EEE-4540-8601-EFA9CEADC9FF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

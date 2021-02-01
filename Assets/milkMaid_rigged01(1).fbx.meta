@@ -1,0 +1,796 @@
+fileFormatVersion: 2
+guid: cbbf3c059619b15469ea3f9fd2e45d26
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: milkMaid01_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: milkMaid01_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: milkMaid_rigged01(1)(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: back1
+      parentName: milkMaid_rigged01(1)(Clone)
+      position: {x: 0.08920762, y: 0.77532274, z: -10.000999}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid_base2
+      parentName: milkMaid_rigged01(1)(Clone)
+      position: {x: -0, y: 0.7481377, z: -0.0077493284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid_body
+      parentName: milkMaid_base2
+      position: {x: -0, y: -0.7481377, z: 0.0077493284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid_hair01
+      parentName: milkMaid_base2
+      position: {x: -0.00006169319, y: 0.45941398, z: -0.0041040895}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid_shawl01
+      parentName: milkMaid_base2
+      position: {x: -0, y: 0.19029512, z: 0.0218777}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.836766, y: 0.836766, z: 0.836766}
+    - name: milkMaid_dress01
+      parentName: milkMaid_base2
+      position: {x: -0, y: -0.7481377, z: 0.0077493284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid_boots01
+      parentName: milkMaid_base2
+      position: {x: 0.0057395357, y: -0.66416526, z: 0.07065246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid_boot01Right
+      parentName: milkMaid_boots01
+      position: {x: 0.14308546, y: -0.10447783, z: -0.022791194}
+      rotation: {x: 0, y: -0.046628624, z: -0, w: 0.99891233}
+      scale: {x: 2.5664005, y: 2.3825278, z: 2.1107419}
+    - name: transform1
+      parentName: milkMaid_boot01Right
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid_boot01Left
+      parentName: milkMaid_boots01
+      position: {x: -0.09224606, y: 0, z: -0.000892148}
+      rotation: {x: 0, y: -0.046628624, z: -0, w: 0.99891233}
+      scale: {x: 2.5664005, y: 2.3825278, z: 2.1107419}
+    - name: polySurface10
+      parentName: milkMaid_boot01Left
+      position: {x: 0.090503484, y: -0.043851674, z: -0.02071609}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform2
+      parentName: polySurface10
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid_bodyBase
+      parentName: milkMaid_base2
+      position: {x: -0, y: -0.7481377, z: 0.0077493284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid_bodyBase1
+      parentName: milkMaid_base2
+      position: {x: -0, y: -0.7481377, z: 0.0077493284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid_bodyBase2
+      parentName: milkMaid_base2
+      position: {x: -0, y: -0.7481377, z: 0.0077493284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid_bodyBase3
+      parentName: milkMaid_base2
+      position: {x: -0, y: -0.7481377, z: 0.0077493284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Guides
+      parentName: milkMaid_rigged01(1)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: milkMaid01_Guides
+      position: {x: -0, y: 1.1016192, z: -0.0070373435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: milkMaid01_Guides
+      position: {x: -0, y: 0.6797908, z: -0.0076397704}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftArm
+      parentName: milkMaid01_Guides
+      position: {x: -0.104058266, y: 1.002194, z: -0.00932415}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftFoot
+      parentName: milkMaid01_Guides
+      position: {x: -0.07942399, y: 0.033519696, z: -0.009397366}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftForeArm
+      parentName: milkMaid01_Guides
+      position: {x: -0.24368212, y: 0.9547638, z: -0.010364841}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftHand
+      parentName: milkMaid01_Guides
+      position: {x: -0.37805203, y: 0.92050916, z: 0.0012148141}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftLeg
+      parentName: milkMaid01_Guides
+      position: {x: -0.067191154, y: 0.35663962, z: 0.0113328975}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftShoulder
+      parentName: milkMaid01_Guides
+      position: {x: -0.03331302, y: 1.0151211, z: -0.00932415}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftToeBase
+      parentName: milkMaid01_Guides
+      position: {x: -0.08675866, y: -0.013599116, z: 0.100847095}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftUpLeg
+      parentName: milkMaid01_Guides
+      position: {x: -0.05320354, y: 0.66726005, z: -0.005171776}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: milkMaid01_Guides
+      position: {x: -0, y: 1.0448085, z: -0.018470082}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Reference
+      parentName: milkMaid01_Guides
+      position: {x: -0, y: -0.029503902, z: 0.0036763572}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightArm
+      parentName: milkMaid01_Guides
+      position: {x: 0.104058266, y: 1.002194, z: -0.00932415}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightFoot
+      parentName: milkMaid01_Guides
+      position: {x: 0.07942399, y: 0.033519696, z: -0.009397366}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightForeArm
+      parentName: milkMaid01_Guides
+      position: {x: 0.24368212, y: 0.9547638, z: -0.010364841}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightHand
+      parentName: milkMaid01_Guides
+      position: {x: 0.37805203, y: 0.92050916, z: 0.0012148141}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightLeg
+      parentName: milkMaid01_Guides
+      position: {x: 0.067191154, y: 0.35663962, z: 0.0113328975}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightShoulder
+      parentName: milkMaid01_Guides
+      position: {x: 0.03331302, y: 1.0151211, z: -0.00932415}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightToeBase
+      parentName: milkMaid01_Guides
+      position: {x: 0.08675866, y: -0.013599116, z: 0.100847095}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightUpLeg
+      parentName: milkMaid01_Guides
+      position: {x: 0.05320354, y: 0.66726005, z: -0.005171776}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: milkMaid01_Guides
+      position: {x: -0, y: 0.7327175, z: 0.0043891454}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine1
+      parentName: milkMaid01_Guides
+      position: {x: -0, y: 0.78656524, z: 0.015983347}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine2
+      parentName: milkMaid01_Guides
+      position: {x: -0, y: 0.840413, z: 0.013363611}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Reference
+      parentName: milkMaid_rigged01(1)(Clone)
+      position: {x: -0, y: -0.029503902, z: 0.0036763572}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Hips
+      parentName: milkMaid01_Reference
+      position: {x: 0, y: 0.7441452, z: -0.011316127}
+      rotation: {x: 0.5526353, y: -0.44112834, z: -0.5526353, w: 0.44112834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_LeftUpLeg
+      parentName: milkMaid01_Hips
+      position: {x: 0.011672173, y: 0.0051837247, z: 0.05320354}
+      rotation: {x: -0.020175984, y: -0.0062152813, z: 0.99149615, w: -0.12841219}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_LeftLeg
+      parentName: milkMaid01_LeftUpLeg
+      position: {x: -0.3113733, y: -0.00000031356146, z: 0.000000030269845}
+      rotation: {x: -0.0143657, y: 0.0005895186, z: -0.040997792, w: 0.9990558}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_LeftFoot
+      parentName: milkMaid01_LeftLeg
+      position: {x: -0.32401538, y: 0.00000004695811, z: -0.000000087030756}
+      rotation: {x: -0.0132250395, y: -0.002633442, z: 0.56952876, w: 0.8218608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_LeftToeBase
+      parentName: milkMaid01_LeftFoot
+      position: {x: -0.12011608, y: -0.000000013216339, z: 0.000000071647385}
+      rotation: {x: -0.00000007172911, y: -0.00042374386, z: 0.0015310174, w: 0.99999875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_RightUpLeg
+      parentName: milkMaid01_Hips
+      position: {x: 0.011672173, y: 0.0051837247, z: -0.05320354}
+      rotation: {x: -0.006328627, y: 0.020160738, z: 0.12099871, w: 0.99242777}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_RightLeg
+      parentName: milkMaid01_RightUpLeg
+      position: {x: 0.3113732, y: -0.0000070724577, z: -0.0000003048305}
+      rotation: {x: -0.014201271, y: 0.00035709358, z: -0.02513762, w: 0.99958307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_RightFoot
+      parentName: milkMaid01_RightLeg
+      position: {x: 0.3240148, y: -0.000000018322682, z: -0.00000030676281}
+      rotation: {x: -0.01304954, y: -0.0025087919, z: 0.5632226, w: 0.82619834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_RightToeBase
+      parentName: milkMaid01_RightFoot
+      position: {x: 0.12011598, y: 0.000000029256006, z: 0.000000020636437}
+      rotation: {x: 0.00002543044, y: -0.000000068617474, z: 1.7449724e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Spine
+      parentName: milkMaid01_Hips
+      position: {x: -0.054276437, y: 0.0000000023820694, z: 0}
+      rotation: {x: 0, y: 0, z: 0.005700874, w: 0.9999838}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Spine1
+      parentName: milkMaid01_Spine
+      position: {x: -0.055081792, y: -0.0000000016804516, z: 0}
+      rotation: {x: 0, y: 0, z: 0.12997591, w: 0.9915172}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Spine2
+      parentName: milkMaid01_Spine1
+      position: {x: -0.053911418, y: -4.1546214e-11, z: 2.3913196e-17}
+      rotation: {x: 0, y: 0, z: 0.05292113, w: 0.9985987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_LeftShoulder
+      parentName: milkMaid01_Spine2
+      position: {x: -0.17611846, y: 0.004468379, z: 0.03331302}
+      rotation: {x: -0.40957484, y: 0.57641, z: 0.5065142, w: 0.49339983}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_LeftArm
+      parentName: milkMaid01_LeftShoulder
+      position: {x: -0.07191661, y: 0.000000017192352, z: -9.992007e-18}
+      rotation: {x: 0.7064014, y: -0.04017025, z: -0.036359753, w: 0.70573467}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_LeftForeArm
+      parentName: milkMaid01_LeftArm
+      position: {x: -0.14746372, y: -0.00000020755535, z: -0.00000013343798}
+      rotation: {x: 1.6616097e-12, y: -0.0000021680064, z: 0.0000007664229, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_LeftHand
+      parentName: milkMaid01_LeftForeArm
+      position: {x: -0.13915007, y: 0.000000017815518, z: 0.00000004742465}
+      rotation: {x: 0, y: 0, z: 0.00000083376455, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_RightShoulder
+      parentName: milkMaid01_Spine2
+      position: {x: -0.17611846, y: 0.004468379, z: -0.03331302}
+      rotation: {x: 0.57641, y: 0.40957484, z: -0.49339983, w: 0.5065142}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_RightArm
+      parentName: milkMaid01_RightShoulder
+      position: {x: 0.07191661, y: -0.000000017192352, z: 6.661338e-18}
+      rotation: {x: 0.7064011, y: -0.040171128, z: -0.036359593, w: 0.7057349}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_RightForeArm
+      parentName: milkMaid01_RightArm
+      position: {x: 0.14746366, y: -0.00000005317515, z: 0.000000004400932}
+      rotation: {x: 0, y: -0.0000022167483, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_RightHand
+      parentName: milkMaid01_RightForeArm
+      position: {x: 0.13915007, y: -0.000000049372616, z: -0.00000008640883}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Neck
+      parentName: milkMaid01_Spine2
+      position: {x: -0.20685972, y: -0.0000000017717644, z: 3.9443044e-33}
+      rotation: {x: 0, y: -0, z: -0.17563152, w: 0.984456}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Head
+      parentName: milkMaid01_Neck
+      position: {x: -0.057949644, y: 8.994262e-10, z: -3.9443044e-33}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_Reference
+      parentName: milkMaid_rigged01(1)(Clone)
+      position: {x: -0, y: -0.029503902, z: 0.0036763572}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_HipsEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: -0, y: 0.696764, z: -0.008848133}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftAnkleEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: -0.07940391, y: 0.06247006, z: -0.013858179}
+      rotation: {x: 0.0011287965, y: -0.028474974, z: -0.012069689, w: 0.999521}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightAnkleEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: 0.079423994, y: 0.063023455, z: -0.013073802}
+      rotation: {x: 0.0003979578, y: 0.028062105, z: 0.011967334, w: 0.9995345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftWristEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: -0.37805206, y: 0.95001304, z: -0.0024615359}
+      rotation: {x: -0.0078992285, y: 0.04844525, z: 0.14417753, w: 0.9883337}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightWristEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: 0.37805206, y: 0.9500131, z: -0.0024615324}
+      rotation: {x: -0.007899852, y: -0.048446413, z: -0.14417697, w: 0.98833376}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftKneeEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: -0.0661583, y: 0.3858398, z: 0.001714611}
+      rotation: {x: 0.023646794, y: -0.019143905, z: -0.020906711, w: 0.9993184}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightKneeEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: 0.066218294, y: 0.38610289, z: 0.0076936493}
+      rotation: {x: 0.031676505, y: 0.019008119, z: 0.020999253, w: 0.99909675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftElbowEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: -0.24534018, y: 0.98956305, z: -0.016103791}
+      rotation: {x: -0.00789923, y: 0.04844618, z: 0.1441775, w: 0.9883337}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightElbowEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: 0.24534011, y: 0.9895631, z: -0.016103934}
+      rotation: {x: -0.007899971, y: -0.048446596, z: -0.14417735, w: 0.9883337}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_ChestOriginEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: -0, y: 0.76222146, z: 0.0007127884}
+      rotation: {x: 1.3877788e-17, y: -6.162976e-33, z: -6.162976e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_ChestEndEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: -0, y: 1.044625, z: -0.013000507}
+      rotation: {x: -1.2490009e-16, y: 3.41705e-17, z: -2.645007e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftFootEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: -0.08683012, y: 0.01519167, z: 0.09631193}
+      rotation: {x: -0.0004015029, y: -0.028067065, z: -0.011946614, w: 0.99953455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightFootEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: 0.086758666, y: 0.015904665, z: 0.09717081}
+      rotation: {x: 0.00039795786, y: 0.028062105, z: 0.011967334, w: 0.9995345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftShoulderEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: -0.104058266, y: 1.031698, z: -0.013000507}
+      rotation: {x: 0.00070571894, y: -0.010532029, z: 0.14439385, w: 0.98946404}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightShoulderEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: 0.104058266, y: 1.031698, z: -0.013000507}
+      rotation: {x: 0.0007053055, y: 0.010531665, z: -0.14439406, w: 0.989464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_HeadEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: -0, y: 1.1311232, z: -0.010713701}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftHipEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: -0.05320354, y: 0.696764, z: -0.008848133}
+      rotation: {x: -0.017056903, y: -0.0039267032, z: -0.020743186, w: 0.99963164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightHipEffector
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: 0.05320354, y: 0.696764, z: -0.008848133}
+      rotation: {x: -0.026618136, y: 0.0036870248, z: 0.020813609, w: 0.9994222}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_Hips
+      parentName: milkMaid01_Ctrl_Reference
+      position: {x: -0, y: 0.70929474, z: -0.011316127}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftUpLeg
+      parentName: milkMaid01_Ctrl_Hips
+      position: {x: -0.05320354, y: -0.012530746, z: 0.0024679946}
+      rotation: {x: -0.017056903, y: -0.0039267032, z: -0.020743186, w: 0.99963164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftLeg
+      parentName: milkMaid01_Ctrl_LeftUpLeg
+      position: {x: -0, y: -0.31137294, z: 0}
+      rotation: {x: 0.04099837, y: -0.014365714, z: -0.0005893507, w: 0.9990558}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftFoot
+      parentName: milkMaid01_Ctrl_LeftLeg
+      position: {x: 8.881784e-18, y: -0.32401523, z: 1.110223e-18}
+      rotation: {x: -0.022143181, y: -0.00958264, z: 0.009486967, w: 0.9996639}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftToeBase
+      parentName: milkMaid01_Ctrl_LeftFoot
+      position: {x: -0.00000007152557, y: -0.047118817, z: 0.110488184}
+      rotation: {x: -0.0015310004, y: 0.00038976833, z: 0.00016629703, w: 0.99999875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightUpLeg
+      parentName: milkMaid01_Ctrl_Hips
+      position: {x: 0.05320354, y: -0.012530746, z: 0.0024679946}
+      rotation: {x: -0.026618136, y: 0.0036870248, z: 0.020813609, w: 0.9994222}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightLeg
+      parentName: milkMaid01_Ctrl_RightUpLeg
+      position: {x: 0.000000019073486, y: -0.31137294, z: 0.0000030457973}
+      rotation: {x: -8.6127316e-17, y: 1.110223e-16, z: 9.562054e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightFoot
+      parentName: milkMaid01_Ctrl_RightLeg
+      position: {x: -0.000000009536743, y: -0.32401523, z: -1.110223e-18}
+      rotation: {x: -2.7356592e-13, y: -5.37561e-17, z: 5.0821977e-21, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightToeBase
+      parentName: milkMaid01_Ctrl_RightFoot
+      position: {x: 0.000009260178, y: -0.047118817, z: 0.11048819}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_Spine
+      parentName: milkMaid01_Ctrl_Hips
+      position: {x: -0, y: 0.05292671, z: 0.012028916}
+      rotation: {x: 1.3877788e-17, y: -6.162976e-33, z: -6.162976e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_Spine1
+      parentName: milkMaid01_Ctrl_Spine
+      position: {x: -0, y: 0.05384773, z: 0.011594202}
+      rotation: {x: -5.551115e-17, y: 1.8281633e-17, z: -8.438594e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_Spine2
+      parentName: milkMaid01_Ctrl_Spine1
+      position: {x: -0, y: 0.05384773, z: -0.0026197361}
+      rotation: {x: -1.2490009e-16, y: 3.41705e-17, z: -2.645007e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftShoulder
+      parentName: milkMaid01_Ctrl_Spine2
+      position: {x: -0.03331302, y: 0.17470817, z: -0.022687761}
+      rotation: {x: 0, y: 0, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftArm
+      parentName: milkMaid01_Ctrl_LeftShoulder
+      position: {x: -0.070745245, y: -0.012927094, z: 0}
+      rotation: {x: 0.00070571894, y: -0.010532029, z: 0.14439385, w: 0.98946404}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftForeArm
+      parentName: milkMaid01_Ctrl_LeftArm
+      position: {x: -0.1474636, y: 0, z: 2.220446e-18}
+      rotation: {x: 0.00000043249983, y: -7.913385e-13, z: -0.0000018296851, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_LeftHand
+      parentName: milkMaid01_Ctrl_LeftForeArm
+      position: {x: -0.13915008, y: 0, z: 0}
+      rotation: {x: -0.00000013406932, y: -0.0000009156906, z: 0.00000003253316, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightShoulder
+      parentName: milkMaid01_Ctrl_Spine2
+      position: {x: 0.03331302, y: 0.17470817, z: -0.022687761}
+      rotation: {x: 0, y: -0, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightArm
+      parentName: milkMaid01_Ctrl_RightShoulder
+      position: {x: 0.070745245, y: -0.012927094, z: 0}
+      rotation: {x: 0.0007053055, y: 0.010531665, z: -0.14439406, w: 0.989464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightForeArm
+      parentName: milkMaid01_Ctrl_RightArm
+      position: {x: 0.1474636, y: 0, z: 2.220446e-18}
+      rotation: {x: 0.00000017608704, y: 2.899935e-13, z: 0.0000021951612, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_RightHand
+      parentName: milkMaid01_Ctrl_RightForeArm
+      position: {x: 0.13915008, y: -0.000000076293944, z: 0}
+      rotation: {x: 0.000000110605, y: 0.00000019420963, z: 0.00000036253581, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_Neck
+      parentName: milkMaid01_Ctrl_Spine2
+      position: {x: -0, y: 0.20439559, z: -0.031833693}
+      rotation: {x: -9.7144515e-17, y: -1.2325952e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: milkMaid01_Ctrl_Head
+      parentName: milkMaid01_Ctrl_Neck
+      position: {x: -0, y: 0.056810685, z: 0.011432739}
+      rotation: {x: 3.061617e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
