@@ -6959,7 +6959,7 @@ MonoBehaviour:
   - {fileID: 806722227}
   - {fileID: 1755073173}
   - {fileID: 1436230399}
-  AI_test: {fileID: 357742867}
+  AI_Actor: {fileID: 0}
   travelNodeScript: {fileID: 432071416}
   followNodes: 1
   resetCor: 0
@@ -14160,7 +14160,7 @@ MonoBehaviour:
   - {fileID: 970914166}
   - {fileID: 73788152}
   - {fileID: 1709937306}
-  AI_test: {fileID: 699468292}
+  AI_Actor: {fileID: 0}
   travelNodeScript: {fileID: 0}
   followNodes: 0
   resetCor: 0
@@ -29868,12 +29868,12 @@ PrefabInstance:
     - target: {fileID: 4983056470989327095, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4983056470989327095, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4983056470989327095, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
@@ -29883,27 +29883,27 @@ PrefabInstance:
     - target: {fileID: 4983056470989327095, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4983056470989327095, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 800
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4983056470989327095, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 413
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4983056470989327095, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4983056470989327095, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4983056471188716320, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
@@ -30020,6 +30020,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4983056471188716333, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4983056472037869641, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -30094,11 +30099,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 772379303}
+      objectReference: {fileID: 1413725314}
     - target: {fileID: 4983056472074360654, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: InventoryToggle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7, type: 3}
@@ -31105,7 +31110,7 @@ MonoBehaviour:
   - {fileID: 1235286461}
   - {fileID: 1535306869}
   - {fileID: 1388094596}
-  AI_test: {fileID: 1087299207}
+  AI_Actor: {fileID: 0}
   travelNodeScript: {fileID: 0}
   followNodes: 0
   resetCor: 0
@@ -50206,8 +50211,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559596190}
-  m_LocalRotation: {x: 0.26292372, y: -0.7166055, z: -0.34480742, w: -0.5463109}
-  m_LocalPosition: {x: -40.911613, y: -47.46356, z: -3.2769384}
+  m_LocalRotation: {x: 0.23294656, y: 0.5732193, z: 0.11717391, w: -0.77680486}
+  m_LocalPosition: {x: 104.559944, y: -36.145336, z: -39.729454}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 949129699}
@@ -53179,7 +53184,7 @@ MonoBehaviour:
   - {fileID: 1733375697}
   - {fileID: 839482850}
   - {fileID: 465886151}
-  AI_test: {fileID: 1715493940}
+  AI_Actor: {fileID: 0}
   travelNodeScript: {fileID: 0}
   followNodes: 0
   resetCor: 0
@@ -53955,7 +53960,7 @@ MonoBehaviour:
   - {fileID: 1756308567}
   - {fileID: 589074824}
   - {fileID: 2039089934}
-  AI_test: {fileID: 1742707105}
+  AI_Actor: {fileID: 0}
   travelNodeScript: {fileID: 0}
   followNodes: 0
   resetCor: 0

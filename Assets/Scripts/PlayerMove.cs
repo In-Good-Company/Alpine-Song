@@ -86,6 +86,12 @@ public class PlayerMove : MonoBehaviour
                 Ray clickRay = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hitInfo;
 
+                //check if click is over a UI element or not to prevent clicking through
+                if (EventSystem.current.IsPointerOverGameObject())
+                {
+                    return;
+                }
+
               // if (EventSystem.current.IsPointerOverGameObject())
               //     return;
 
