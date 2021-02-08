@@ -17,7 +17,7 @@ public class doorOpen : Interactable
             Inventory.instance.RemoveItem(Inventory.instance.activeItem);
         }
 
-        if (!isLocked)
+        if (isLocked == false)
             {
                 toggleOpen();
             }
