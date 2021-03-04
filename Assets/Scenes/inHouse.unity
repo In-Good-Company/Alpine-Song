@@ -150,9 +150,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1ba9a36167d3c540ad487176f902e1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInteractPos: {fileID: 0}
   radius: 3
   InteractableTransform: {fileID: 3818290}
+  playerInteractPos: {fileID: 0}
   camPos: {fileID: 0}
   playerTransitionPos: {fileID: 0}
   mainCam: {fileID: 0}
@@ -202,9 +202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20efffb675483a448aa8df1c803b465e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInteractPos: {fileID: 2016909847}
   radius: 3
   InteractableTransform: {fileID: 43939198}
+  playerInteractPos: {fileID: 2016909847}
   camPos: {fileID: 0}
   playerTransitionPos: {fileID: 0}
   mainCam: {fileID: 0}
@@ -465,27 +465,27 @@ PrefabInstance:
     - target: {fileID: 82070226856144024, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 82070226856144024, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 82070226856144024, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 82070226856144024, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 82070226856144024, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4983056470989327092, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
@@ -496,6 +496,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UI_Canvas_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983056471188716320, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4983056471188716332, guid: 21b6f0e533a94cd4b8dc35cae5c86bb7,
         type: 3}
@@ -1170,9 +1175,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa74a6c8ccfd8442bebd86ca7504791, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInteractPos: {fileID: 1397434156}
   radius: 3
   InteractableTransform: {fileID: 1009873952}
+  playerInteractPos: {fileID: 1397434156}
 --- !u!65 &1009873954
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1210,9 +1215,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa74a6c8ccfd8442bebd86ca7504791, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInteractPos: {fileID: 1665782140}
   radius: 3
   InteractableTransform: {fileID: 1097171864}
+  playerInteractPos: {fileID: 1665782140}
 --- !u!65 &1097171868
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1615,9 +1620,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20efffb675483a448aa8df1c803b465e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInteractPos: {fileID: 0}
   radius: 3
   InteractableTransform: {fileID: 0}
+  playerInteractPos: {fileID: 0}
   camPos: {fileID: 1711557663}
   playerTransitionPos: {fileID: 1665782140}
   mainCam: {fileID: 0}
@@ -1903,9 +1908,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20efffb675483a448aa8df1c803b465e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInteractPos: {fileID: 0}
   radius: 3
   InteractableTransform: {fileID: 1665782141}
+  playerInteractPos: {fileID: 0}
   camPos: {fileID: 864475952}
   playerTransitionPos: {fileID: 1397434156}
   mainCam: {fileID: 0}
@@ -2173,9 +2178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa74a6c8ccfd8442bebd86ca7504791, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInteractPos: {fileID: 2126337176}
   radius: 3
   InteractableTransform: {fileID: 2040133321}
+  playerInteractPos: {fileID: 2126337176}
 --- !u!1 &2067005022
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,14 +8,23 @@ public class AI_Actor_CharMove : MonoBehaviour
     public GameObject[] Points;
     public NavMeshAgent AI_Actor;
     public GameObject travelNodeScript;
+    private GameObject travelSwitchDest;
 
-    private bool arrayReverse;
+    
     public bool followNodes;
     public bool resetCor;
     public bool desReached;
+    public bool objReached;
+
+    private bool findOnce;
+    private bool addOnce;
+    private bool arrayReverse;
+
     private int pointNum;
     private int arrayEnd;
     public int AI_Case;
+
+    private float standTimer;
 
     [Header("Travel Loop")]
     [Tooltip("The character will loop through the startLoop and endLoop travel points starting from the first time the endLoop travel point is reached.")]
@@ -31,73 +40,120 @@ public class AI_Actor_CharMove : MonoBehaviour
     public bool isBackTracking;
     [Tooltip("The character will stop and stay at the end travel point")]
     public bool isStaying;
-
+   //
     private Vector3 charVectorPos;
     private Vector3 nodeVectorPos;
-    
+
+
     private void Awake()
     {
         AI_Actor = this.GetComponent<NavMeshAgent>();
         arrayReverse = false;
         followNodes = true;
-        AI_Case = 1;  
+        AI_Case = 1;
+        travelSwitchDest = travelNodeScript;
+        findOnce = true;
+        addOnce = true;
     }
+
     public IEnumerator Stand(float waitTime)
     {
 
         print("Fire");
         followNodes = false;
         
-        
+
         while (resetCor)
         {
             yield return new WaitForSeconds(waitTime);
+            addOnce = true;
+            resetCor = false;
+
+        }
+
+        AI_Case = 1;
+        followNodes = true;
+        
+
+    }
+
+    public IEnumerator Find(float waitTime, bool FireOnce)
+    {
+        if(objReached == true && FireOnce == true)
+        {
+            while (resetCor)
+            {
+                
+                yield return new WaitForSeconds(waitTime);
+                travelNodeScript.GetComponentInChildren<AI_Node_Action>().objDone = true;
+                AI_Case = 1;
+                print("fire corou");
+                findOnce = false;
+                resetCor = false;
+                
+                
+
+            }
+           
             
         }
         
-        AI_Case = 1;
-        followNodes = true;
     }
+
+    
     private void destSwitch()
     {
-
-        if (desReached == true && followNodes == true)
+        travelFind();
+        if (desReached == true && addOnce == true && charVectorPos == nodeVectorPos/* && followNodes == true*/)
         {
 
 
-            if (arrayReverse == false)
+            if (arrayReverse == false/* && travelNodeScript.GetComponentInChildren<AI_Node_Action>().objDone == true*/)
             {
                 pointNum += 1;
+                travelNodeScript.GetComponentInChildren<AI_Node_Action>().objDone = false;
             }
 
             if (arrayReverse == true)
             {
                 pointNum -= 1;
             }
+            addOnce = false;
         }
 
-        travelFind();
+        
 
     }
 
     public void nodeActions()
     {
-        AI_Case = travelNodeScript.GetComponentInChildren<AI_Node_Action>().AI_Case_Ref;
-        IEnumerator coroutine = Stand(5.0f);
+        
+        standTimer = travelNodeScript.GetComponentInChildren<AI_Node_Action>().StandTime;
+        IEnumerator findCoroutine = Find(standTimer, findOnce);
+        IEnumerator standCoroutine = Stand(standTimer);
+
         switch (AI_Case)
         {
             case 1:
+                print("case 1");
+                travelSwitchDest = travelNodeScript;
+                resetCor = true;
+                findOnce = true;
+                break;
+            case 2:
+                
+                
+                StartCoroutine(standCoroutine);
+                
+                break;
 
+            case 3:
+                print("case 3");
+                travelSwitchDest = travelNodeScript.GetComponentInChildren<AI_Node_Action>().objOfInterest;
+                StartCoroutine(findCoroutine);
                 
 
                 break;
-            case 2:
-
-                resetCor = true;
-                StartCoroutine(coroutine);
-                resetCor = false;
-                break;
-
         }
     }
     private void travelFind()
@@ -147,23 +203,26 @@ public class AI_Actor_CharMove : MonoBehaviour
     }
     void Update()
     {
-        //// this finds the position of the travel node and the AI_character
+      ////// this finds the position of the travel node and the AI_character
         charVectorPos = new Vector3(this.transform.position.x, 0, this.transform.position.z);
         nodeVectorPos = new Vector3(Points[pointNum].transform.position.x, 0, Points[pointNum].transform.position.z);
-        ///////////////////////////////////////////////
-        desReached = Points[pointNum].GetComponentInChildren<AI_Node_Action>().nodeReached;
+      /////////////////////////////////////////////////
+        AI_Case = travelNodeScript.GetComponentInChildren<AI_Node_Action>().AI_Case_Ref;
+        desReached = travelNodeScript.GetComponentInChildren<AI_Node_Action>().nodeReached;
+        objReached = travelNodeScript.GetComponentInChildren<AI_Node_Action>().objReached;
         travelNodeScript = Points[pointNum];
-        AI_Actor.SetDestination(travelNodeScript.transform.position);
+        
         nodeActions();
-       
+        AI_Actor.SetDestination(travelSwitchDest.transform.position);
+        
 
     }
     private void LateUpdate()
     {
-        if (followNodes == true)
+        if (followNodes == true && AI_Case == 1)
         {
             destSwitch();
-
+            
         }
     }
 }
