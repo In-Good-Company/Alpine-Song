@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Ambience_Cliff_A1" ID="{BB0294B7-A65B-4A86-8935-7773A8B54A92}">
+					<ChildrenList>
+						<Action Name="" ID="{F9725C8F-D19E-4094-AF3F-3D101EF1DDE6}" ShortID="794236779">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MG1_Ambience_Cliff1_A1_Batch A" ID="{55AF3C9F-936B-47F4-877C-2EE4495E7625}" WorkUnitID="{50C6ED20-A9F5-4586-90AD-6632AB58584F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

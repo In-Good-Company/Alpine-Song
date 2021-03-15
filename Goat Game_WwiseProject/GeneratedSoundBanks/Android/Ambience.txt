@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	127942577	Ambience_L1			\Ambience\Ambience_L1	
+	3771991675	Ambience_Cliff_A1			\Ambience\Ambience_Cliff_A1	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	29913665	MG 1_Ambience_A1_Batch A44_1kHz_16bit	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\SFX\MG 1_Ambience_A1_Batch A44.1kHz_16bit_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\Ambience\MG 1_Ambience_A1_Batch A44_1kHz_16bit		14879756
+	488373347	MG1_Ambience_Cliff1_A1_Batch A	E:\Azeray\Documents\Game Projects\Freelance Initiative\GitHub\Alpine-Song\Goat Game_WwiseProject\.cache\Android\SFX\MG1_Ambience_Cliff1_A1_Batch A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\Ambience\MG1_Ambience_Cliff1_A1_Batch A		3981376
 

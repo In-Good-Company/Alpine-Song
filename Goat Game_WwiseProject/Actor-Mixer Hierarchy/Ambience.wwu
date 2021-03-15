@@ -43,6 +43,36 @@
 								<ActiveSource Name="MG 1_Ambience_A1_Batch A44_1kHz_16bit" ID="{E28CF947-B942-4982-91E4-7FFF65AA862A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="MG1_Ambience_Cliff1_A1_Batch A" ID="{55AF3C9F-936B-47F4-877C-2EE4495E7625}" ShortID="669923288">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Cliff_A1" ID="{4F990E5C-A7A9-4549-8032-E3A6D741EC23}" WorkUnitID="{8939C709-2AB1-4DB4-84A4-08F8ED4A9DE3}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E15B4EF8-0B95-40CD-9E74-E6BB39522032}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{69000F15-8803-4473-85DD-67C1CC5ACA40}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MG1_Ambience_Cliff1_A1_Batch A" ID="{54A78AA3-BF2B-4675-AE64-4908A01D4C3C}">
+									<Language>SFX</Language>
+									<AudioFile>MG1_Ambience_Cliff1_A1_Batch A.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="488373347"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MG1_Ambience_Cliff1_A1_Batch A" ID="{54A78AA3-BF2B-4675-AE64-4908A01D4C3C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

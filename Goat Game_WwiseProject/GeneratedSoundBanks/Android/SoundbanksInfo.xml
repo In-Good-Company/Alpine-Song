@@ -16,6 +16,14 @@
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3771991675" Name="Ambience_Cliff_A1" ObjectPath="\Events\Ambience\Ambience_Cliff_A1" MaxAttenuation="35.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="488373347" Language="SFX">
+							<ShortName>MG1_Ambience_Cliff1_A1_Batch A.wav</ShortName>
+							<Path>SFX\MG1_Ambience_Cliff1_A1_Batch A_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="127942577" Name="Ambience_L1" ObjectPath="\Events\Ambience\Ambience_L1" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="29913665" Language="SFX">

@@ -6,6 +6,7 @@
 				<SoundBank Name="Ambience" ID="{E1DFCBCD-3EF9-411D-99D4-6FA2228F08A8}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Ambience_L1" ID="{15CE0039-2860-4549-8AA0-0036CF7A511A}" WorkUnitID="{41D2FBFB-B3F4-45E9-950D-779A3270E77C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambience_Cliff_A1" ID="{BB0294B7-A65B-4A86-8935-7773A8B54A92}" WorkUnitID="{41D2FBFB-B3F4-45E9-950D-779A3270E77C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
