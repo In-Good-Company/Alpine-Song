@@ -38,7 +38,7 @@ public class FaceExpressionController : MonoBehaviour
             case "sad":
                 material.mainTexture = Sad;
                 break;
-            case "suprise":
+            case "surprised":
                 material.mainTexture = Surprised;
                 break;
             case "sus":
