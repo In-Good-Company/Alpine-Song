@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Test Cube
   sentences:
-  - click on the key and stuff and then use it on the gate
+  - Just run around I guess, developments still a little early
   responses: []
+  expression: sus

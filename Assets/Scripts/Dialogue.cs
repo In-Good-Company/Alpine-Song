@@ -13,6 +13,8 @@ public class Dialogue : ScriptableObject {
 
     public Response[] responses;
 
+    public string expression;
+
 }
 
 [System.Serializable]

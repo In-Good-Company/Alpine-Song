@@ -10,6 +10,7 @@ public class ItemID : MonoBehaviour
     public void SetActiveItem()
     {
         Inventory.instance.activeItem = _item;
+        Inventory.instance.itemToDelete = this.gameObject;
         //Sprite _activeItemImage = Inventory.instance.activeItemImage.GetComponent<Sprite>();
         //_activeItemImage = _item.icon;
         Inventory.instance.SetActiveItemIcon(_item.icon);

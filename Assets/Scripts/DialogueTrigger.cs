@@ -16,7 +16,10 @@ public class DialogueTrigger : Interactable {
 
     public void TriggerDialogue()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        DialogueManager dialogueManager = FindObjectOfType<DialogueManager>();
+        dialogueManager.currentFaceExpressionController = GetComponent<FaceExpressionController>();
+        dialogueManager.StartDialogue(dialogue);
+
     }
 
 }

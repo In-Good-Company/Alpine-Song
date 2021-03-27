@@ -14,11 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Test Cube
   sentences:
-  - Good Morning!
-  - blah blah blah
-  - ask me a question or something
+  - Hello
+  - Blah blah
+  - ask me a question
   responses:
   - choiceText: What should I be doing?
     nextDialogue: {fileID: 11400000, guid: c7564345fd621f44884ce8e1bc856539, type: 2}
   - choiceText: I'm good
     nextDialogue: {fileID: 11400000, guid: 02fc2ff7e60f94d40a11e8ef41105cc9, type: 2}
+  expression: happy

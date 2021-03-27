@@ -25,6 +25,8 @@ public class Inventory : MonoBehaviour
 
     public Image activeItemIcon;
 
+    public GameObject itemToDelete;
+
     #region Singleton
     public static Inventory instance;
 
@@ -58,22 +60,6 @@ public class Inventory : MonoBehaviour
         inventoryPanel.SetActive(inventoryOpen);
     }
 
-    private void OpenInventory()
-    {
-        inventoryPanel.SetActive(true);
-        inventoryOpen = true;
-    }
-
-    private void CloseInventory()
-    {
-        inventoryPanel.SetActive(false);
-        inventoryOpen = false;
-    }
-
-
-    public delegate void OnGunChanged();
-    public OnGunChanged onGunChangedCallback;
-
 
     public List<Item> items = new List<Item>();
 
@@ -81,6 +67,7 @@ public class Inventory : MonoBehaviour
     {
         items.Add(item);
         GameObject newSlot = Instantiate(itemSlot, itemSlotParent.transform);
+        newSlot.name = item.name;
         Text textC = newSlot.GetComponentInChildren<Text>();
         textC.text = item.name;
         Debug.Log (item.name);
@@ -97,7 +84,10 @@ public class Inventory : MonoBehaviour
 
     public void RemoveItem(Item item)
     {
+        activeItemIcon.sprite = inventoryDefaultSprite;
+        Destroy(itemToDelete);
         items.Remove(item);
+        //activeItem = null;
 
         if (onItemChangedCallback != null)
         {

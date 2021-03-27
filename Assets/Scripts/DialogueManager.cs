@@ -12,6 +12,10 @@ public class DialogueManager : MonoBehaviour {
     public GameObject responsePrefab;
     public GameObject continueButton;
 
+    public string currentExpression = "default";
+
+    public FaceExpressionController currentFaceExpressionController;
+
     public Animator animator;
 
     private Queue<string> sentences;
@@ -45,11 +49,20 @@ public class DialogueManager : MonoBehaviour {
 
     public void DisplayNextSentence(Dialogue dialogue)
     {
+        if (dialogue.expression != null)
+        {
+            currentExpression = dialogue.expression;
+            currentFaceExpressionController.ChangeExpression(currentExpression);
+        }
+        else currentFaceExpressionController.ChangeExpression("default");
         //responses.Clear();
         if (sentences.Count == 1 && dialogue.responses.Length != 0)
         {
+            
             foreach (Response _responses in dialogue.responses)
             {
+                //Check if expression string has a value, if not set to default
+                
                 string _choiceText = "";
                 string choiceText = _responses.GetChoiceText(_choiceText);
                 GameObject responseObject = Instantiate<GameObject>(responsePrefab as GameObject, GameObject.Find("ResponseBox").transform);
@@ -70,6 +83,7 @@ public class DialogueManager : MonoBehaviour {
         }
         if (sentences.Count == 0 && dialogue.responses.Length == 0)
         {
+           
            //foreach(Response _responses in dialogue.responses)
            //{
            //    Instantiate<GameObject>(responsePrefab as GameObject);
@@ -96,6 +110,8 @@ public class DialogueManager : MonoBehaviour {
 
     public void EndDialogue()
     {
+        currentFaceExpressionController.ChangeExpression("default");
+        currentFaceExpressionController = null;
         animator.SetBool("IsOpen", false);
         Debug.Log("End Of Conversation");
     }
