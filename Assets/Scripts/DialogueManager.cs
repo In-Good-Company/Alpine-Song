@@ -18,6 +18,8 @@ public class DialogueManager : MonoBehaviour {
 
     public Animator animator;
 
+    public bool modifierFound = false;
+
     private Queue<string> sentences;
     //private Queue<string> responses;
 
@@ -49,16 +51,18 @@ public class DialogueManager : MonoBehaviour {
 
     public void DisplayNextSentence(Dialogue dialogue)
     {
-        if (dialogue.expression != null)
-        {
-            currentExpression = dialogue.expression;
-            currentFaceExpressionController.ChangeExpression(currentExpression);
-        }
-        else currentFaceExpressionController.ChangeExpression("default");
+        //if (dialogue.expression != null)
+        //{
+        //    //currentExpression = dialogue.expression;
+        //    //currentFaceExpressionController.ChangeExpression(currentExpression);
+        //}
+        //else currentFaceExpressionController.ChangeExpression("default");
         //responses.Clear();
         if (sentences.Count == 1 && dialogue.responses.Length != 0)
         {
+
             
+
             foreach (Response _responses in dialogue.responses)
             {
                 //Check if expression string has a value, if not set to default
@@ -103,7 +107,34 @@ public class DialogueManager : MonoBehaviour {
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
-            dialogueText.text += letter;
+            //Check for [ in sentence text to begin 
+            if (letter == char.Parse("["))
+            {
+
+                modifierFound = true;
+                currentExpression = string.Empty;
+                continue;
+                //put letters after [ to currentExpression
+                //currentExpression += letter;
+                //check for a ] to stop
+                
+            }
+            //Check for a space to go back to rendering text
+            if (letter == char.Parse("]"))
+            {
+                modifierFound = false;
+                continue;
+            }
+            if (modifierFound)
+            {
+                currentExpression += letter;
+                
+            }
+            if (!modifierFound)
+            {                
+                dialogueText.text += letter;
+                currentFaceExpressionController.ChangeExpression(currentExpression);
+            }
             yield return null;
         }
     }

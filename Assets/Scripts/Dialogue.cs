@@ -13,7 +13,7 @@ public class Dialogue : ScriptableObject {
 
     public Response[] responses;
 
-    public string expression;
+    //public string expression;
 
 }
 

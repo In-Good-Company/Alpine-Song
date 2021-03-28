@@ -28630,8 +28630,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963792155}
-  m_LocalRotation: {x: -0.1807911, y: 0.014163163, z: 0.0026000394, w: 0.9834162}
-  m_LocalPosition: {x: 134.37938, y: -35.97663, z: -63.146275}
+  m_LocalRotation: {x: -0.27504846, y: 0.06569831, z: 0.018839667, w: 0.958998}
+  m_LocalPosition: {x: 130.24133, y: -33.724438, z: -55.23491}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 949129699}
@@ -31215,7 +31215,7 @@ MonoBehaviour:
   radius: 3
   InteractableTransform: {fileID: 1053210539}
   playerInteractPos: {fileID: 1650900756}
-  dialogue: {fileID: 11400000, guid: 4cd49ee8c946ba5429c15bef87f589be, type: 2}
+  dialogue: {fileID: 11400000, guid: 4c22a6b36a3b4164382e44abc4ad4734, type: 2}
 --- !u!1001 &1061744146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42995,6 +42995,7 @@ MonoBehaviour:
   currentExpression: default
   currentFaceExpressionController: {fileID: 0}
   animator: {fileID: 628411453}
+  modifierFound: 0
 --- !u!114 &1413725318 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4427651561178187410, guid: 94a3aaaa92147b54ca489ca8172f9b16,
